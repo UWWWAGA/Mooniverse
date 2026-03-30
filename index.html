@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⭐ MooniРейтинг</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="img/art6.png" alt="MooniРейтинг" class="logo-icon">
+        <div>
+          <h1>MooniРейтинг</h1>
+          <p>Фильмы • Аниме • Игры</p>
+        </div>
+      </div>
+
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Поиск по названию...">
+      </div>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <aside class="sidebar">
+      <h2>Тип контента</h2>
+      <div class="filter-group">
+        <label class="filter-label">
+          <input type="checkbox" value="movie" class="type-check">
+          <span>🎬 Фильмы</span>
+        </label>
+        <label class="filter-label">
+          <input type="checkbox" value="anime" class="type-check">
+          <span>🌸 Аниме</span>
+        </label>
+        <label class="filter-label">
+          <input type="checkbox" value="game" class="type-check">
+          <span>🎮 Игры</span>
+        </label>
+      </div>
+
+      <h2>Минимальный рейтинг</h2>
+      <div id="rating-buttons" class="rating-buttons">
+        <!-- Заполняется через JavaScript -->
+      </div>
+    </aside>
+
+    <main class="content">
+      <div id="home-view">
+        <div class="view-header">
+          <h2>Все медиа <span id="count-badge" class="count">9</span></h2>
+          <select id="sort-select" onchange="renderCards()">
+            <option value="default">По умолчанию</option>
+            <option value="rating-desc">По рейтингу ↓</option>
+            <option value="rating-asc">По рейтингу ↑</option>
+          </select>
+        </div>
+
+        <div id="cards-grid" class="cards-grid">
+          <!-- Карточки генерируются JS -->
+        </div>
+      </div>
+
+      <div id="detail-view" class="detail-view hidden">
+        <button onclick="hideDetail()" class="back-btn">← Вернуться к списку</button>
+
+        <div class="detail-content">
+          <div class="detail-image-container">
+            <img id="detail-image" alt="Обложка">
+            <a id="detail-watch-link" target="_blank" class="watch-btn">
+              Смотреть на сервисе
+            </a>
+          </div>
+
+          <div class="detail-info">
+            <div id="detail-type-badge" class="type-badge"></div>
+            <h1 id="detail-title"></h1>
+
+            <div class="detail-meta">
+              <div id="detail-stars" class="stars"></div>
+              <span id="detail-rating-text" class="rating-number"></span>
+              <span id="detail-duration" class="duration"></span>
+            </div>
+
+            <div class="review-section">
+              <h3>Отзыв</h3>
+              <p id="detail-review"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
