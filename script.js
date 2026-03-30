@@ -241,6 +241,116 @@ let items = [
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/770f0987-02a9-43f4-9ec7-51550603b355",
     service: "Boosty"
+  },
+  {
+    id: 23,
+    title: "Константин: Повелитель тьмы",
+    type: "movie",
+    rating: 5,
+    duration: "2ч 1м",
+    image: "http://smotreshka.server-img.lfstrm.tv/image/aHR0cHM6Ly9jbXMuc21vdHJlc2hrYS50di9hcmNoaXZlLWltZy9zdGF0aWMvbWVkaWEvOTEvODcvOTE4N2M0NTA3NTM5ODI4MTM2Yjk1YWNiMGQxMjQ2MzIuanBn?width=1440&height=576&quality=93",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/b742ca30-b731-409b-ac0d-c3a4cff39bfe",
+    service: "Boosty"
+  },
+  {
+    id: 24,
+    title: "Пираты Карибского моря: Проклятие Черной жемчужины",
+    type: "movie",
+    rating: 5,
+    duration: "2ч 13м",
+    image: "https://static.okko.tv/images/v4/64702f76-879e-4afb-b66e-4019f436bf1c?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/29857ad8-972d-44fb-9489-e73702a4bfae",
+    service: "Boosty"
+  },
+  {
+    id: 25,
+    title: "Пираты Карибского моря: Сундук мертвеца",
+    type: "movie",
+    rating: 5,
+    duration: "2ч 31м",
+    image: "https://static.okko.tv/images/v4/1a3dd169-0fa7-4227-bc60-64b2069b469d?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/ca66a739-efbf-486d-a3dc-e7c04be4abf8",
+    service: "Boosty"
+  },
+  {
+    id: 26,
+    title: "Пираты Карибского моря: На краю света",
+    type: "movie",
+    rating: 5,
+    duration: "2ч 49м",
+    image: "https://static.okko.tv/images/v4/b6c0d02b-b059-497f-ab2f-c2fa92ad30d8?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/6235103a-7bbe-432f-b905-3c3456558f41",
+    service: "Boosty"
+  },
+  {
+    id: 27,
+    title: "Пираты Карибского моря: На странных берегах",
+    type: "movie",
+    rating: 3,
+    duration: "2ч 16м",
+    image: "https://static.okko.tv/images/v4/cb90bff6-b22e-45d9-ad05-1b32c8fe58b0?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/0d3756b6-e227-499b-b50e-41ed76f7c41e",
+    service: "Boosty"
+  },
+  {
+    id: 28,
+    title: "Пираты Карибского моря: Мертвецы не рассказывают сказки",
+    type: "movie",
+    rating: 3,
+    duration: "2ч 9м",
+    image: "https://static.okko.tv/images/v4/0b397beb-1817-43e9-8254-56b3976120cc?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/34ccf910-8add-4426-9be2-8bb246b5e700",
+    service: "Boosty"
+  },
+  {
+    id: 29,
+    title: "Баллада Бастера Скраггса",
+    type: "movie",
+    rating: 3,
+    duration: "2ч 13м",
+    image: "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/5/2/2/8355225/850b75c792f3c58f242ad63ee00cba58.jpeg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/9f3c1c2b-3805-4b41-8266-55efb2c2406d",
+    service: "Boosty"
+  },
+  {
+    id: 30,
+    title: "Дюна (2021)",
+    type: "movie",
+    rating: 5,
+    duration: "2ч 35м",
+    image: "https://static3.go3.tv/scale/go3/imagesVOD/148605454.jpg?dsth=1080&dstw=1920&srcmode=0&quality=80&srcx=0&srcy=0&srcw=1/1&srch=1/1&type=2",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/5c5ee36c-a1fa-40da-8f5e-77351d8fd0a4",
+    service: "Boosty"
+  },
+  {
+    id: 31,
+    title: "Власть",
+    type: "movie",
+    rating: 3,
+    duration: "2ч 12м",
+    image: "https://static.okko.tv/images/v4/87d592f8-6b93-4a13-be2c-56dd1dc34899?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/2bc86285-2cd8-4eea-9f44-5e8213be1f29",
+    service: "Boosty"
+  },
+  {
+    id: 32,
+    title: "Зодиак",
+    type: "movie",
+    rating: 4,
+    duration: "2ч 38м",
+    image: "https://avatars.mds.yandex.net/i?id=da8b393878f74a2346b8fcd8f9f2fb44_l-12753090-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/74fe4bce-ff56-4bcd-b672-22eda1a0f3b4",
+    service: "Boosty"
   }
 ];
 
@@ -374,6 +484,12 @@ function showDetail(id) {
 
   document.getElementById('home-view').classList.add('hidden');
   document.getElementById('detail-view').classList.remove('hidden');
+
+  // прокрутка к началу, чтобы кнопка "Вернуться к списку" всегда была видна
+  window.scrollTo({
+    top: 0,
+    behavior: 'instant' in window ? 'instant' : 'smooth'
+  });
 }
 
 function hideDetail() {
