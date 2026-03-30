@@ -769,6 +769,182 @@ let items = [
     review: "10/10, на мой взгляд этот фильм экранизация правильного экшн-хоррора, который наполнен отличными, живыми персонажами, за которых ты переживаешь на протяжении всего фильма. Главная героиня, второстепенные персонажи, все подобраны изумительно! Редко ставлю фильмам такую оценку, но здесь прям всё идеально.",
     watchUrl: "https://boosty.to/mooniverse/posts/4e756788-742a-4010-b2c6-91a09e5591b4?share=post_link",
     service: "Boosty"
+  },
+  {
+    id: 71,
+    title: "Психопаспорт",
+    type: "anime",
+    rating: 1,
+    duration: "1д 14ч 5м",
+    image: "https://avatars.mds.yandex.net/i?id=427fa727028aa224287d63c1661cc524e7385d23-4557823-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/31083621-51ed-4310-b164-a2b075b63ba2",
+    service: "Boosty"
+  },
+  {
+    id: 72,
+    title: "Киберпанк: Бегущие по краю",
+    type: "anime",
+    rating: 5,
+    duration: "4ч",
+    image: "https://media.kg-portal.ru/anime/c/cyberpunkedgerunners/posters/cyberpunkedgerunners_2.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/8785f47b-982a-492d-b1d8-3b7538a1c1ae",
+    service: "Boosty"
+  },
+  {
+    id: 73,
+    title: "Атака Титанов",
+    type: "anime",
+    rating: 5,
+    duration: "1д 14ч",
+    image: "https://avatars.mds.yandex.net/i?id=c0d30da10f59a2342e4619a664f99605_l-5859250-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом... А запись удалена",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 74,
+    title: "Совершенно новый зверь",
+    type: "anime",
+    rating: 1,
+    duration: "4ч 24ч",
+    image: "https://avatars.mds.yandex.net/i?id=028a13cd3e5dc70a158cccc274678bf6_l-8496372-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/85c54026-d777-4145-87f2-e74828211c32",
+    service: "Boosty"
+  },
+  {
+    id: 75,
+    title: "Блич",
+    type: "anime",
+    rating: 4,
+    duration: "134ч",
+    image: "https://images-s.kinorium.com/movie/poster/330650/w1500_51911028.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/17d1b692-5ffb-4fef-8488-47ce079a04d7",
+    service: "Boosty"
+  },
+  {
+    id: 76,
+    title: "Гуррен-Лаганн",
+    type: "anime",
+    rating: 4,
+    duration: "1ч 58м",
+    image: "https://static.okko.tv/images/v4/60e772c6-ea31-4bfb-8c34-40121d27f05c?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/e49c66e3-c646-48b7-a0f5-ef778d150a19",
+    service: "Boosty"
+  },
+  {
+    id: 77,
+    title: "Выдающиеся звери",
+    type: "anime",
+    rating: 1,
+    duration: "18ч 37м",
+    image: "https://avatars.mds.yandex.net/i?id=9934bdacd38ffc989f5b5df9d9dbcb49_l-4469558-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/17d1b692-5ffb-4fef-8488-47ce079a04d7",
+    service: "Boosty"
+  },
+  {
+    id: 78,
+    title: "Триган",
+    type: "anime",
+    rating: 2,
+    duration: "12ч 24м",
+    image: "https://i4.imageban.ru/out/2012/05/07/ee86069e238b2d23423aec9fe15be51e.png",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/bf9393c9-55b5-4f9b-acea-f957cee2493e?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 79,
+    title: "Унесённые призраками",
+    type: "anime",
+    rating: 5,
+    duration: "2ч 4м",
+    image: "https://avatars.mds.yandex.net/i?id=d93ba5f99b4d1622e616f87ce6f18c4b_l-10025596-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/8d042eb5-4907-4789-bee5-0a254df8c3f0?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 80,
+    title: "Ходячий замок",
+    type: "anime",
+    rating: 5,
+    duration: "2ч",
+    image: "https://avatars.mds.yandex.net/i?id=db78ccc00ddfc8c05a2d3c822dbaa9a83d6dd932-5231671-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом... А запись удалена",
+    watchUrl: "https://boosty.to/mooniverse/posts/57d0afb7-9f94-485d-8e55-8801e84a974c?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 81,
+    title: "Принцесса Мононоке",
+    type: "anime",
+    rating: 5,
+    duration: "2ч 13м",
+    image: "https://static.okko.tv/images/v4/193b5f8b-2638-4d3a-ac50-a5b03f2c29ed?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/d9277c34-de61-4e1c-8da4-2af19fc7fdbe?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 82,
+    title: "Ведьмина служба доставки",
+    type: "anime",
+    rating: 3,
+    duration: "1ч 43м",
+    image: "https://avatars.mds.yandex.net/i?id=33b1dd38e0509143e30d9b64b03663fa_l-12532507-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/df41fe6a-c654-4330-bd52-05c88d85026d?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 83,
+    title: "Ветер крепчает",
+    type: "anime",
+    rating: 3,
+    duration: "2ч 6м",
+    image: "https://avatars.mds.yandex.net/i?id=33202ccbf0f9d7d7858af950de6666efd61ae958-3525596-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/4c8e814a-c06c-4723-9a56-5bd5a7068982?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 84,
+    title: "Навсикая из долины ветров",
+    type: "anime",
+    rating: 3,
+    duration: "1ч 57м",
+    image: "https://avatars.mds.yandex.net/i?id=12b4d85bc6bcb42e8fdbbd0c9367da12_l-7051380-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/4801b7e1-ed6f-4f4a-a0b2-4bf225a823c7?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 85,
+    title: "Человек - Бензопила",
+    type: "anime",
+    rating: 4,
+    duration: "4ч 48м",
+    image: "https://cdn.mos.cms.futurecdn.net/sTxkUy4Qcuw4NK4R6kNoEo-1920-80.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/1c9b7220-6860-4363-b556-ffcf796ad982?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 86,
+    title: "Пираты Чёрной лагуны",
+    type: "anime",
+    rating: 3,
+    duration: "9ч 36м",
+    image: "https://avatars.mds.yandex.net/i?id=d93ba5f99b4d1622e616f87ce6f18c4b_l-10025596-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/91fbe8ae-55d0-4612-9d9c-6e3ab55bcf22?share=post_link",
+    service: "Boosty"
   }
 ];
 
@@ -912,7 +1088,11 @@ function showDetail(id) {
   // Кнопка смотреть
   const watchBtn = document.getElementById('detail-watch-link');
   watchBtn.href = item.watchUrl;
-  watchBtn.textContent = `Смотреть на ${item.service}`;
+  if (item.title === "Атака Титанов") {
+    watchBtn.textContent = "Записи нет";
+  } else {
+    watchBtn.textContent = `Смотреть на ${item.service}`;
+  }
 
   document.getElementById('home-view').classList.add('hidden');
   document.getElementById('detail-view').classList.remove('hidden');
