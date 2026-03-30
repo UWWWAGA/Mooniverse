@@ -485,11 +485,24 @@ function showDetail(id) {
   document.getElementById('home-view').classList.add('hidden');
   document.getElementById('detail-view').classList.remove('hidden');
 
-  // прокрутка к началу, чтобы кнопка "Вернуться к списку" всегда была видна
-  window.scrollTo({
-    top: 0,
-    behavior: 'instant' in window ? 'instant' : 'smooth'
-  });
+  // прокрутка так, чтобы кнопка "Вернуться к списку" была сразу видна
+  if (window.innerWidth >= 768) {
+    // десктоп — просто к началу страницы
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  } else {
+    // мобильная версия — прокручиваем к кнопке с учётом sticky-header
+    const backBtn = document.querySelector('.back-btn');
+    if (backBtn) {
+      const header = document.querySelector('.header');
+      const headerOffset = header ? header.getBoundingClientRect().height : 0;
+      const btnTop = backBtn.getBoundingClientRect().top + window.pageYOffset;
+      const targetTop = Math.max(0, btnTop - headerOffset - 12);
+      window.scrollTo({ top: targetTop, behavior: 'smooth' });
+    }
+  }
 }
 
 function hideDetail() {
