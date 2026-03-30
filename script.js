@@ -351,6 +351,39 @@ let items = [
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/74fe4bce-ff56-4bcd-b672-22eda1a0f3b4",
     service: "Boosty"
+  },
+  {
+    id: 33,
+    title: "Голый пистолет",
+    type: "movie",
+    rating: 5,
+    duration: "1ч 25м",
+    image: "https://static.okko.tv/images/v4/54156cd8-499d-45be-aaa7-fafe805fd887?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/80ee161f-103f-46eb-9677-339216ee29c0",
+    service: "Boosty"
+  },
+  {
+    id: 34,
+    title: "Маяк",
+    type: "movie",
+    rating: 1,
+    duration: "1ч 49м",
+    image: "https://wallpapercat.com/w/full/c/b/8/2034838-1920x1080-desktop-1080p-the-lighthouse-2019-background.jpg",
+    review: "Моё новое животное - дроп, Маяк - пиздец",
+    watchUrl: "https://boosty.to/mooniverse/posts/85c54026-d777-4145-87f2-e74828211c32",
+    service: "Boosty"
+  },
+  {
+    id: 35,
+    title: "Тайлер Рэйк: Операция по спасению",
+    type: "movie",
+    rating: 2,
+    duration: "1ч 56м",
+    image: "https://avatars.mds.yandex.net/i?id=32ff6cc879f06a3ab8d59871e2bfed5e_l-4797777-images-thumbs&n=13",
+    review: "Фильм вызвал у меня смешанные чувства,  весьма дефолтный сюжет с историей о спасении заложника уже много раз использовалась в кино и вау эффекта не случилось.  Неразвитые персонажи, абсолютно мало информации, чтобы как-то ими проникнуться, линейный сюжет с читаемыми поворотами, пресно, но на разок пойдет",
+    watchUrl: "https://boosty.to/mooniverse/posts/04b6b799-60e9-49c5-8263-3fc5ab582619",
+    service: "Boosty"
   }
 ];
 
@@ -367,6 +400,19 @@ function updateSortVisibility() {
   const sortSelect = document.getElementById('sort-select');
   if (!sortSelect) return;
   sortSelect.style.display = currentMinRating === 0 ? '' : 'none';
+}
+
+function updateHeaderOffsetVar() {
+  const header = document.querySelector('.header');
+  const headerHeight = header ? header.getBoundingClientRect().height : 0;
+  // небольшой зазор, чтобы sidebar не прилипал вплотную к хедеру
+  document.documentElement.style.setProperty('--header-offset', `${headerHeight + 16}px`);
+}
+
+function updateSidebarRounded() {
+  const sidebar = document.querySelector('.sidebar');
+  if (!sidebar) return;
+  sidebar.classList.toggle('sidebar--rounded', window.scrollY > 100);
 }
 
 // Генерация звёзд
@@ -404,6 +450,7 @@ function createRatingButtons() {
       btn.classList.add('active');
       updateSortVisibility();
       renderCards();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   });
 }
@@ -539,7 +586,21 @@ function init() {
     cb.addEventListener('change', renderCards);
   });
 
+  window.addEventListener('resize', updateHeaderOffsetVar, { passive: true });
+
+  let sidebarTicking = false;
+  window.addEventListener('scroll', () => {
+    if (sidebarTicking) return;
+    sidebarTicking = true;
+    window.requestAnimationFrame(() => {
+      updateSidebarRounded();
+      sidebarTicking = false;
+    });
+  }, { passive: true });
+
+  updateHeaderOffsetVar();
   updateSortVisibility();
+  updateSidebarRounded();
   renderCards();
 }
 
