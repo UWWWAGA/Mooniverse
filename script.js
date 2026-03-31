@@ -945,13 +945,157 @@ let items = [
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/91fbe8ae-55d0-4612-9d9c-6e3ab55bcf22?share=post_link",
     service: "Boosty"
+  },
+  {
+    id: 87,
+    title: "Аркейн 1 сезон",
+    type: "serial",
+    rating: 5,
+    duration: "6ч 45м",
+    image: "https://avatars.mds.yandex.net/i?id=f8e91a2091b45a8d3b4a9f5b7a5e4883d5216045-4016775-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/8559f0ba-0e29-4c64-80a3-afb41ce38563",
+    service: "Boosty"
+  },
+  {
+    id: 88,
+    title: "Пацаны",
+    type: "serial",
+    rating: 5,
+    duration: "33ч",
+    image: "https://4kwallpapers.com/images/wallpapers/karl-urban-the-boys-1920x1080-15635.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/d77f6982-ca90-4828-bad5-3ed35fe32589",
+    service: "Boosty"
+  },
+  {
+    id: 89,
+    title: "Пространство",
+    type: "serial",
+    rating: 2,
+    duration: "1д 23ч 47м",
+    image: "https://get.wallhere.com/photo/the-expanse-space-science-fiction-tv-series-TV-Steven-Strait-wes-chatham-Cas-Anvar-Dominique-Tipper-Amos-Burton-Jim-Holden-Naomi-Nagata-Alex-Kamal-1730959.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/258e7718-80ad-4535-b444-96042ad8ccb1",
+    service: "Boosty"
+  },
+  {
+    id: 90,
+    title: "Острые Козырьки",
+    type: "serial",
+    rating: 3,
+    duration: "36ч",
+    image: "https://static.okko.tv/images/v4/39f44555-bc17-4ed0-8e09-e8479022816c?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/530f00bb-9c62-4565-81dd-a6af9dd8d077",
+    service: "Boosty"
+  },
+  {
+    id: 91,
+    title: "Король Талсы",
+    type: "serial",
+    rating: 4,
+    duration: "19ч 21м",
+    image: "https://avatars.mds.yandex.net/i?id=502e3b50675aa2a92fb063cefb2f8112_l-5450106-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/c904e5a6-b935-4594-b419-4e905c4d1ff9",
+    service: "Boosty"
+  },
+  {
+    id: 92,
+    title: "Клан Сопрано",
+    type: "serial",
+    rating: 2,
+    duration: "86ч",
+    image: "https://avatars.mds.yandex.net/i?id=e9978fa6854b2de2890e3316b63db416b4b3c980-5224518-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/28445ff8-9040-42ba-8c5b-e301e4f1498f",
+    service: "Boosty"
+  },
+  {
+    id: 93,
+    title: "Светлячок",
+    type: "serial",
+    rating: 1,
+    duration: "11ч 43м",
+    image: "https://static.okko.tv/images/v4/c14ba8ec-0501-43c2-801e-b7da12378b72?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/f70a5c72-670a-4a89-9e67-bdbd8dd26751",
+    service: "Boosty"
+  },
+  {
+    id: 94,
+    title: "Черные паруса",
+    type: "serial",
+    rating: 3,
+    duration: "14ч 11м",
+    image: "https://avatars.mds.yandex.net/i?id=b583ed69e6b4edc9784b786a743eaf125d643e14-4825287-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/0f1ab7f7-2432-4e5a-b411-6be7cbceaac0",
+    service: "Boosty"
+  },
+  {
+    id: 95,
+    title: "Игра Престолов",
+    type: "serial",
+    rating: 5,
+    duration: "69ч 23м",
+    image: "https://avatars.mds.yandex.net/i?id=5738ab0ad0e2e11372b2b73481603934_l-5878191-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/5cc7952d-3929-456e-974a-6249f28fb1a2?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 96,
+    title: "Сёгун",
+    type: "serial",
+    rating: 4,
+    duration: "9ч 50м",
+    image: "https://avatars.mds.yandex.net/i?id=013fbec87cfb3879f72571410cdc813d_l-5370628-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/3ea08f2d-409d-4d36-ad1a-0677e5cedcd2?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 97,
+    title: "Полиция Токио",
+    type: "serial",
+    rating: 4,
+    duration: "17ч 6м",
+    image: "https://avatars.mds.yandex.net/i?id=b173b6bbd50c70620b4c02b6ee3992e1b928350e-5112049-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/311bba13-efbf-4ee4-82a6-723ff8834029?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 98,
+    title: "Аркейн 2 сезон",
+    type: "serial",
+    rating: 5,
+    duration: "6ч 45м",
+    image: "https://prod.assets.earlygamecdn.com/images/ArcaneFull.jpg?mtime=1666009984",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/0a4cfacd-a76a-491c-a637-9c2e940e451d?share=post_link",
+    service: "Boosty"
+  },
+  {
+    id: 99,
+    title: "Дом Дракона",
+    type: "serial",
+    rating: 4,
+    duration: "21ч",
+    image: "https://static.okko.tv/images/v4/7a85fa1c-2888-46a8-a96c-636ccc4199c9?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/posts/aff005a4-4f3d-4a74-b384-2bfe2deb82fd?share=post_link",
+    service: "Boosty"
   }
 ];
 
 const typeMap = {
   movie: { label: "Фильм", emoji: "🎬", color: "#f15f2c" },
   anime: { label: "Аниме", emoji: "🌸", color: "#c026d3" },
-  game: { label: "Игра", emoji: "🎮", color: "#10b981" }
+  game: { label: "Игра", emoji: "🎮", color: "#10b981" },
+  serial: { label: "Сериал", emoji: "🎥", color: "#103db9" }
 };
 
 let currentMinRating = 0;
