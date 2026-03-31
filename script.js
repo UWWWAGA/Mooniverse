@@ -1088,6 +1088,622 @@ let items = [
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/aff005a4-4f3d-4a74-b384-2bfe2deb82fd?share=post_link",
     service: "Boosty"
+  },
+  {
+    id: 100,
+    title: "To the Moon",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://i.ytimg.com/vi/Wp9jpTOvmG4/maxresdefault.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=vUPAcitUAuE&list=PLQHOyNho0DjJkEE1Tts4gyGFyVy3gA11x",
+    service: "YouTube"
+  },
+  {
+    id: 101,
+    title: "Punch Club",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=4e15b23737d587717baa211ec5402012_l-5268512-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=iYVAY1_-IyI&list=PLQHOyNho0DjKr7CG9ZG4beHlZvxJrFGjg",
+    service: "YouTube"
+  },
+  {
+    id: 102,
+    title: "Dragon Age: Origins",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://assets.altarofgaming.com/wp-content/uploads/2022/03/dragon-age-origins-cover-altar-of-gaming.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=VgrhaDb-_bA&list=PLQHOyNho0DjLD0HdCvEcW9mc4zilB9N8k",
+    service: "YouTube"
+  },
+  {
+    id: 103,
+    title: "M&B II: Bannerlord",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/get-mpic/12277996/2a0000018f6e4acf3694e63e13efd20f8d2c/orig",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=fN9dqrZcvD8&list=PLQHOyNho0DjLIo2aBT-gCyiuIbaf6bJaO",
+    service: "YouTube"
+  },
+  {
+    id: 104,
+    title: "Visage",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://cdn.wccftech.com/wp-content/uploads/2020/11/WCCFvisage1.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=wNXr8pUFVJE&list=PLQHOyNho0DjK97qyTuD_s09-mXTze9H0P",
+    service: "YouTube"
+  },
+  {
+    id: 105,
+    title: "Frostpunk",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=e34ee89c50972376413fd27c4b69efe8_l-5336269-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=xldGmk2urQ4&list=PLQHOyNho0DjIROqXmyZgT8IItHc7ZkC9J",
+    service: "YouTube"
+  },
+  {
+    id: 106,
+    title: "The Wolf Among Us",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=b4f2c2bac48ab64827b954da0ab4574d_l-5235083-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=9FTHS4yqDNc&list=PLQHOyNho0DjKgHTrlkvrN4u-ePuT1_ecI",
+    service: "YouTube"
+  },
+  {
+    id: 107,
+    title: "Battle Brothers",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://sun9-22.userapi.com/impg/bqEAY4jCJCak8TgoF_JX_igAvPnE85tjlhOzhQ/lGFMjlSW8QQ.jpg?quality=90&proxy=1&sign=6860468a5d7ddccb240c907af4faacb4&type=video_thumb",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=Elll4XwP3bI&list=PLQHOyNho0DjLelz6fFU8geruAP07epqoy",
+    service: "YouTube"
+  },
+  {
+    id: 108,
+    title: "Granny",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=c47863e0c8715ad82dc3318917b00a71_l-5344756-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=kjm_Wu_X9D0&list=PLQHOyNho0DjJmY5UPPtwjjTPnrzb8qMlG",
+    service: "YouTube"
+  },
+  {
+    id: 109,
+    title: "MARVEL Человек-Паук: Майлз Моралес",
+    type: "game",
+    rating: 2,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=a59dbef96e4d9b425f88fdd89671d990_l-7464698-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=asIiKXTBLck&list=PLQHOyNho0DjL49nzzVeDtZgwkFK3nN55N&index=2",
+    service: "YouTube"
+  },
+  {
+    id: 110,
+    title: "Little Nightmares 2",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/get-mpic/12631449/2a0000019538b9177d81e0ead16501bb5288/orig",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=N25hSUemmu8&list=PLQHOyNho0DjL5KJSw-E14QgsnbpPyA7sL",
+    service: "YouTube"
+  },
+  {
+    id: 111,
+    title: "Boshy",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "https://free2play.my1.ru/_ld/0/15.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=Xmhx6U6DCVg&list=PLQHOyNho0DjKwk6kQFErzA0qvCTg6sObj",
+    service: "YouTube"
+  },
+  {
+    id: 112,
+    title: "Demon Souls",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=15cfcf9a1a54d41980a2a799cb542fb5f3fc6db3-8906189-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=UWrMvoytYJE&list=PLQHOyNho0DjLUjVJDxSxCMX82RR-MmQnC",
+    service: "YouTube"
+  },
+  {
+    id: 113,
+    title: "The Long Dark",
+    type: "game",
+    rating: 3,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/get-mpic/1715213/2a000001954d55751ec4bffdad16a217fd0c/orig",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=DWJ2Y-7qbx4&list=PLQHOyNho0DjL9Qbohq7ZyA95dcHJXoztK",
+    service: "YouTube"
+  },
+  {
+    id: 114,
+    title: "Fallout: New Vegas",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://cs2.modgames.net/images/873dcb3e27175630a5dd71739fe022387e7bb80547153ac1f92611a89809ff10.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=cc9yx8ffQDw&list=PLQHOyNho0DjL6qFStj-WFmMfveOtkW9jj&index=1",
+    service: "YouTube"
+  },
+  {
+    id: 115,
+    title: "Rimworld",
+    type: "game",
+    rating: 3,
+    duration: "",
+    image: "https://gfn.am/en/games/media/images/wide_art_image-rimworld-e7b04fb9.original.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=pw-7f3XisTw&list=PLQHOyNho0DjL4PCPzH0TB4FsJE4xSr28-",
+    service: "YouTube"
+  },
+  {
+    id: 116,
+    title: "Detroit: Become Human",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://i.pinimg.com/originals/f6/e2/8c/f6e28c8604e814964c938da4d7c85a79.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=bDwVELXGEm0&list=PLQHOyNho0DjIcieveivE04ROFnpIn_dEZ",
+    service: "YouTube"
+  },
+  {
+    id: 117,
+    title: "The Mortuary Assistant",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=4188d08fe05ca4145d282a4031f03b1f_l-5287716-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=AkIk0JnmhJw&list=PLQHOyNho0DjKjZG6eT7YEsZrFVyAIS_nQ",
+    service: "YouTube"
+  },
+  {
+    id: 118,
+    title: "MADiSON",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://pic.rutubelist.ru/video/ab/5e/ab5eb3012a75ad798ae4c47d5de034fd.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=4TJrbvTxckI&list=PLQHOyNho0DjJVaqAubBh7ioaVSHqPc5K9",
+    service: "YouTube"
+  },
+  {
+    id: 119,
+    title: "Hogwarts LEGACY",
+    type: "game",
+    rating: 3,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=534e3309fec83bb49b9029e1f8aca54e_l-9228595-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=1MlTB0a0KZ4&list=PLQHOyNho0DjIsFyXLQbrGzZHwU7DdJVYc",
+    service: "YouTube"
+  },
+  {
+    id: 120,
+    title: "Hotline Miami",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://get.wallhere.com/photo/1920x1080-px-Hotline-Miami-Hotline-Miami-2-pink-1346993.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=dzAmBmNuoho&list=PLQHOyNho0DjKM-15WI06sOQqWHw7INJHc",
+    service: "YouTube"
+  },
+  {
+    id: 121,
+    title: "Atomic Heart",
+    type: "game",
+    rating: 3,
+    duration: "",
+    image: "https://gfn.am/en/games/media/images/wide_art_image-atomic-heart-ad72f6af.original.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=3gRJi8awqGo&list=PLQHOyNho0DjJUuNCqXAw3QYwtJYbhJwNw",
+    service: "YouTube"
+  },
+  {
+    id: 122,
+    title: "Black Mesa",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://images.steamusercontent.com/ugc/17983119669175064212/4F631948D855EFB726C396F69D26453731C85494/",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=u9JABPLKZmo&list=PLQHOyNho0DjKYZNROmzwibwNiBjuLJuDL",
+    service: "YouTube"
+  },
+  {
+    id: 123,
+    title: "StarCraft II",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=32bdf19c6fba7bbbcbcd09d354b80d56dd656bd2-16478218-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=q0LMRjbRH6A&list=PLQHOyNho0DjJjovI0tZiquQOGM8fPnF5j",
+    service: "YouTube"
+  },
+  {
+    id: 124,
+    title: "Undertale",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/get-mpic/932277/2a000001954d4ae33a544dffa34fd46b2fb0/orig",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=UbSt7KTaKh0&list=PLQHOyNho0DjISKILsVWK6Fv-xf4vqJy0c",
+    service: "YouTube"
+  },
+  {
+    id: 125,
+    title: "Cyberpunk 2077",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://cdn.mos.cms.futurecdn.net/9XTE4gQDGx9G7647oeYU2o-1920-80.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://youtu.be/ADhRUw-zoVc?list=PLQHOyNho0DjJC58YsEySPrAhg3BxVclb_",
+    service: "YouTube"
+  },
+  {
+    id: 126,
+    title: "S.T.A.L.K.E.R.: Anomaly GAMMA",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://cdn.discordapp.com/discovery-splashes/912320241713958912/6ecd93bf121706ca888d344ea144af40.jpg?size=2048",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=GOM5wqAP2-8&list=PLQHOyNho0DjJlUzGJKoaIAU3oeR3ZZk_T",
+    service: "YouTube"
+  },
+  {
+    id: 127,
+    title: "The Life and Suffering of Sir Brante",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=cc1d3a3196243e0c2ab9d103a4c3a91f_l-8207704-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://youtu.be/gvZt3qg0qqs?list=PLQHOyNho0DjJLAI1B5hIDxYbWAqiqSVEe",
+    service: "YouTube"
+  },
+  {
+    id: 128,
+    title: "FlatOut 2",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=4f4ad3f9a52efa73c76b68cb0f883789_l-4120924-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 129,
+    title: "Mordhau",
+    type: "game",
+    rating: 3,
+    duration: "",
+    image: "https://gfn.am/en/games/media/images/wide_art_image-mordhau-46109847.original.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 130,
+    title: "Бесконечное лето",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://images.steamusercontent.com/ugc/992366568853166242/C54DCFB944AC8939A3CD8C58530A2E63E9AB1B3B/",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=uL6tQQaOd40&list=PLQHOyNho0DjKtfBch5noaUAPbN1qIF9kj",
+    service: "YouTube"
+  },
+  {
+    id: 131,
+    title: "Outer Wilds",
+    type: "game",
+    rating: 2,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=cb1e94ceb4013af80955001a121af4b4_l-4715391-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 132,
+    title: "SOMA",
+    type: "game",
+    rating: 2,
+    duration: "",
+    image: "https://store-images.s-microsoft.com/image/apps.59054.65760911830429861.7b27281f-47aa-4d50-936b-ec0d2edf2e0a.a38df78d-981b-42cc-8f04-71c79b6a919f",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://youtu.be/MXvIQOpHfPg?list=PLQHOyNho0DjKVss4hIFPhoC8bEltPabnQ",
+    service: "YouTube"
+  },
+  {
+    id: 133,
+    title: "Homeworld: Tactical Fleet Simulator",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=b3a247db3f2c6d0c00c4009d461989217a93f641-9147982-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 134,
+    title: "House of the Dying Sun",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=c7dcf9086f3f5e1bf5770d51208be06e_l-9908477-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 135,
+    title: "Spooky's Jump Scare Mansion: HD Renovation",
+    type: "game",
+    rating: 2,
+    duration: "",
+    image: "https://images.igdb.com/igdb/image/upload/t_1080p/fpj4udzfr4ba68ldzrni.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 136,
+    title: "Warhammer 40,000: Space Marine",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "https://coop-land.ru/uploads/posts/2025-06/1749279410_ss_7b7d8325d148bc217fb90cf4b26242294a24f3b3.1920x1080.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 137,
+    title: "Gothic II",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=7cb92b16cc87929d487d1482a076a3c8e5d8d296-10639889-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 138,
+    title: "Hotline Miami 2",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://digiseller.mycdn.ink/imgwebp.ashx?idp=6830179&amp;dc=777905373&amp;w=576",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=Nhsb3ZuCY5U&list=PLQHOyNho0DjJoHIxhEeYH7RGC_s3OLGPG",
+    service: "YouTube"
+  },
+  {
+    id: 139,
+    title: "Shadow Warrior",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=87d613772287046607453f2580149d4d_l-4944831-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 140,
+    title: "Lobotomy Corporation",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "https://i.warosu.org/data/vt/img/0636/34/1701375458768401.png",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 141,
+    title: "Kingdom Come: Deliverance",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=f9de63d0ea372424e2e0b599c29f459a_l-10932557-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/watch?v=PrbxcJ8WTXc&list=PLQHOyNho0DjImDf5ghhfOKkIv_jCFvZaD",
+    service: "YouTube"
+  },
+  {
+    id: 142,
+    title: "Neon White",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=1a811cca35318fd90bf3a94829b9827a_l-4079353-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 143,
+    title: "Death Stranding",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://i.playground.ru/e/lIZpnzJJ3zTmoeK2fIV9jg.png",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 144,
+    title: "Disco Elysium",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://iwant.games/wp-content/uploads/disco-elysium-cover-1.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/playlist?list=PLQHOyNho0DjKkDEQnHHA0w__SdEeexHqf",
+    service: "YouTube"
+  },
+  {
+    id: 145,
+    title: "XCOM 2",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=3240d650563ac219041c4db20807bd00_l-5221287-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://www.youtube.com/playlist?list=PLQHOyNho0DjIQLaDq5CPqGj_6ZK5UW--K",
+    service: "YouTube"
+  },
+  {
+    id: 146,
+    title: "World in Conflict",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=c95c17a438054b6bcc2cdf6a9e265869_l-5275190-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://youtube.com/playlist?list=PLQHOyNho0DjLEHzT6nVVmNWJ0RelAyHkg&si=YeRJ6TR5o2CrlIgw",
+    service: "YouTube"
+  },
+  {
+    id: 147,
+    title: "Альтушка для скуфа",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=b795aff6b337e09eb12e9c356dc705de_l-4078555-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://youtu.be/Ovw2ULOXp70?si=Q1sXC7ClNwMbyVCk",
+    service: "YouTube"
+  },
+  {
+    id: 148,
+    title: "INDIKA",
+    type: "game",
+    rating: 2,
+    duration: "",
+    image: "https://storage.yandexcloud.net/s3-metaratings-storage/images/ea/d0/ead02e5be9615c16348965559f8a2bc8.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://youtu.be/SoY2aPThiN0?si=7iYlqT92r48O-q35",
+    service: "YouTube"
+  },
+  {
+    id: 149,
+    title: "Metro 2033",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://pic.rutubelist.ru/video/2025-02-08/ba/08/ba08fa563ab8146a52a053a2d69b8ebb.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://youtube.com/playlist?list=PLQHOyNho0DjK6PE3k08WiYaK-oQAnJS2J&si=BnT7cucVdaW1OHD4",
+    service: "YouTube"
+  },
+  {
+    id: 150,
+    title: "Fallout 4",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=b218a1de3a8a3932901749443a752704_l-5147471-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://youtube.com/playlist?list=PLQHOyNho0DjIPRTGt067TeYzHyiEkY7jr&si=xAl54ImmZ4rh8ZDf",
+    service: "YouTube"
+  },
+  {
+    id: 151,
+    title: "Metro: Last light",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://pic.rutubelist.ru/video/2f/ee/2fee5efc57b7d7bc0c981884302166ca.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://youtube.com/playlist?list=PLQHOyNho0DjLBTl2FjnqRDyjfq6zhMrgv&si=_h7JCPx1RTMHaFlm",
+    service: "YouTube"
+  },
+  {
+    id: 152,
+    title: "Doki Doki Literature Club!",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=4c74adc8c022fc49ddc80a5cebe45831_l-5350403-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
+  },
+  {
+    id: 153,
+    title: "Dead Space Remastered",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=d40da7c959370189a5f9f1987bdfc886_l-8878159-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://youtube.com/playlist?list=PLQHOyNho0DjIxlV42ldBVFiYXFn-hs7q-&si=ukLMr1uz65eLCTWx",
+    service: "YouTube"
+  },
+  {
+    id: 154,
+    title: "Metro Exodus",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://i.pinimg.com/originals/9e/6e/14/9e6e14f5163cfa1e22be35d2affa3ccb.jpg",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "https://youtube.com/playlist?list=PLQHOyNho0DjKoLa2FenUoxu7HelDbhijA&si=JPUm98zu3PZBZk90",
+    service: "YouTube"
+  },
+  {
+    id: 155,
+    title: "Spec Ops: the line",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=02550ea655e8d209d8181d2635868c84_l-8975349-images-thumbs&n=13",
+    review: "Отзыв был утерян в прошлом...",
+    watchUrl: "#",
+    service: "увы"
   }
 ];
 
@@ -1230,13 +1846,14 @@ function showDetail(id) {
   typeBadge.style.color = type.color;
 
   // Кнопка смотреть
-  const watchBtn = document.getElementById('detail-watch-link');
-  watchBtn.href = item.watchUrl;
-  if (item.title === "Атака Титанов") {
-    watchBtn.textContent = "Записи нет";
-  } else {
-    watchBtn.textContent = `Смотреть на ${item.service}`;
-  }
+const watchBtn = document.getElementById('detail-watch-link');
+watchBtn.href = item.watchUrl;
+
+if (item.service === "увы") {
+  watchBtn.textContent = "Записи нет";
+} else {
+  watchBtn.textContent = `Смотреть на ${item.service}`;
+}
 
   document.getElementById('home-view').classList.add('hidden');
   document.getElementById('detail-view').classList.remove('hidden');
