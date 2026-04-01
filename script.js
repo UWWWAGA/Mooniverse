@@ -1704,6 +1704,17 @@ let items = [
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "#",
     service: "увы"
+  },
+    {
+    id: 156,
+    title: "Devil May Cry",
+    type: "anime",
+    rating: 5,
+    duration: "3ч 53м",
+    image: "https://m.media-amazon.com/images/S/pv-target-images/e90119e044a451a28a14d4ced033fa6a447d5c104e8dde6ba3e578a5e308396a.jpg",
+    review: "Годно, 9/10, сюжета бы побольше",
+    watchUrl: "https://boosty.to/mooniverse/posts/0063b045-c5e8-40c0-995b-b3dbcddb7b5b",
+    service: "Boosty"
   }
 ];
 
