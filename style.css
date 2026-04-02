@@ -495,7 +495,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 16px;
+  padding: 5px 16px;
   border-radius: 9999px;
   font-weight: 600;
   color: #ff4d4f;
