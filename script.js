@@ -9,7 +9,7 @@ let items = [
     image: "https://static.okko.tv/images/v4/10df492e-d5cd-4c20-8029-7e656dcbf056?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/b09bbe2b-fbbf-4b28-af3c-1a0f8ca22c21",
-    service: "Boosty"
+    service: "Boosty",
   },
   {
     id: 2,
@@ -779,7 +779,8 @@ let items = [
     image: "https://avatars.mds.yandex.net/i?id=427fa727028aa224287d63c1661cc524e7385d23-4557823-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/31083621-51ed-4310-b164-a2b075b63ba2",
-    service: "Boosty"
+    service: "Boosty",
+    isDrop: true
   },
   {
     id: 72,
@@ -801,7 +802,8 @@ let items = [
     image: "https://avatars.mds.yandex.net/i?id=c0d30da10f59a2342e4619a664f99605_l-5859250-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом... А запись удалена",
     watchUrl: "#",
-    service: "увы"
+    service: "увы",
+    isDrop: true
   },
   {
     id: 74,
@@ -812,7 +814,8 @@ let items = [
     image: "https://avatars.mds.yandex.net/i?id=028a13cd3e5dc70a158cccc274678bf6_l-8496372-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/85c54026-d777-4145-87f2-e74828211c32",
-    service: "Boosty"
+    service: "Boosty",
+    isDrop: true
   },
   {
     id: 75,
@@ -845,7 +848,8 @@ let items = [
     image: "https://avatars.mds.yandex.net/i?id=9934bdacd38ffc989f5b5df9d9dbcb49_l-4469558-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/17d1b692-5ffb-4fef-8488-47ce079a04d7",
-    service: "Boosty"
+    service: "Boosty",
+    isDrop: true
   },
   {
     id: 78,
@@ -1021,7 +1025,8 @@ let items = [
     image: "https://static.okko.tv/images/v4/c14ba8ec-0501-43c2-801e-b7da12378b72?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/f70a5c72-670a-4a89-9e67-bdbd8dd26751",
-    service: "Boosty"
+    service: "Boosty",
+    isDrop: true
   },
   {
     id: 94,
@@ -1219,7 +1224,8 @@ let items = [
     image: "https://free2play.my1.ru/_ld/0/15.jpg",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://www.youtube.com/watch?v=Xmhx6U6DCVg&list=PLQHOyNho0DjKwk6kQFErzA0qvCTg6sObj",
-    service: "YouTube"
+    service: "YouTube",
+    isDrop: true
   },
   {
     id: 112,
@@ -1230,7 +1236,8 @@ let items = [
     image: "https://avatars.mds.yandex.net/i?id=15cfcf9a1a54d41980a2a799cb542fb5f3fc6db3-8906189-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://www.youtube.com/watch?v=UWrMvoytYJE&list=PLQHOyNho0DjLUjVJDxSxCMX82RR-MmQnC",
-    service: "YouTube"
+    service: "YouTube",
+    isDrop: true
   },
   {
     id: 113,
@@ -1439,7 +1446,8 @@ let items = [
     image: "https://avatars.mds.yandex.net/i?id=cb1e94ceb4013af80955001a121af4b4_l-4715391-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "#",
-    service: "увы"
+    service: "увы",
+    isDrop: true
   },
   {
     id: 132,
@@ -1483,7 +1491,8 @@ let items = [
     image: "https://images.igdb.com/igdb/image/upload/t_1080p/fpj4udzfr4ba68ldzrni.jpg",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "#",
-    service: "увы"
+    service: "увы",
+    isDrop: true
   },
   {
     id: 136,
@@ -1494,7 +1503,8 @@ let items = [
     image: "https://coop-land.ru/uploads/posts/2025-06/1749279410_ss_7b7d8325d148bc217fb90cf4b26242294a24f3b3.1920x1080.jpg",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "#",
-    service: "увы"
+    service: "увы",
+    isDrop: true
   },
   {
     id: 137,
@@ -1505,7 +1515,8 @@ let items = [
     image: "https://avatars.mds.yandex.net/i?id=7cb92b16cc87929d487d1482a076a3c8e5d8d296-10639889-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "#",
-    service: "увы"
+    service: "увы",
+    isDrop: true
   },
   {
     id: 138,
@@ -1527,7 +1538,8 @@ let items = [
     image: "https://avatars.mds.yandex.net/i?id=87d613772287046607453f2580149d4d_l-4944831-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "#",
-    service: "увы"
+    service: "увы",
+    isDrop: true
   },
   {
     id: 140,
@@ -1538,7 +1550,8 @@ let items = [
     image: "https://i.warosu.org/data/vt/img/0636/34/1701375458768401.png",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "#",
-    service: "увы"
+    service: "увы",
+    isDrop: true
   },
   {
     id: 141,
@@ -1560,7 +1573,8 @@ let items = [
     image: "https://avatars.mds.yandex.net/i?id=1a811cca35318fd90bf3a94829b9827a_l-4079353-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "#",
-    service: "увы"
+    service: "увы",
+    isDrop: true
   },
   {
     id: 143,
@@ -1705,7 +1719,7 @@ let items = [
     watchUrl: "#",
     service: "увы"
   },
-    {
+  {
     id: 156,
     title: "Devil May Cry",
     type: "anime",
@@ -1754,6 +1768,16 @@ function getStarHTML(rating) {
     html += `<span class="${i <= rating ? 'star-filled' : 'star-empty'}">★</span>`;
   }
   return html;
+}
+
+function getDropBadgeHTML(item) {
+  if (!item.isDrop) return '';
+  return `
+    <div class="drop-badge">
+      <span class="drop-badge-icon">✕</span>
+      <span>Дроп</span>
+    </div>
+  `;
 }
 
 // Создание кнопок рейтинга
@@ -1820,8 +1844,11 @@ function renderCards() {
                 <div class="card" onclick="showDetail(${item.id})">
                     <img src="${item.image}" alt="${item.title}">
                     <div class="card-body">
-                        <div class="type-badge" style="background-color: ${type.color}20; color: ${type.color}">
-                            ${type.emoji} ${type.label}
+                        <div class="badge-row">
+                          <div class="type-badge" style="background-color: ${type.color}20; color: ${type.color}">
+                              ${type.emoji} ${type.label}
+                          </div>
+                          ${getDropBadgeHTML(item)}
                         </div>
                         <div class="card-title">${item.title}</div>
                         <div class="stars">${getStarHTML(item.rating)}</div>
@@ -1855,6 +1882,10 @@ function showDetail(id) {
   typeBadge.textContent = `${type.emoji} ${type.label}`;
   typeBadge.style.backgroundColor = type.color + '20';
   typeBadge.style.color = type.color;
+  const detailDropBadge = document.getElementById('detail-drop-badge');
+  if (detailDropBadge) {
+    detailDropBadge.classList.toggle('hidden', !item.isDrop);
+  }
 
   // Кнопка смотреть
 const watchBtn = document.getElementById('detail-watch-link');
