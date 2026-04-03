@@ -1749,8 +1749,8 @@ let items = [
     duration: "1ч 29м",
     image: "https://static.okko.tv/images/v4/5cc2ff32-8001-4e3d-bec5-2ec0348a7d3a?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
     review: "Отзыв утерян в настоящем...",
-    watchUrl: "Увы",
-    service: "Boosty"
+    watchUrl: "#",
+    service: "увы"
   },
   {
     id: 159,
@@ -1761,7 +1761,7 @@ let items = [
     image: "https://static.okko.tv/images/v4/f9b03662-037e-4c97-8c6e-75d5d4dd0361",
     review: "Отзыв утерян в настоящем...",
     watchUrl: "#",
-    service: "Увы"
+    service: "увы"
   }
 ];
 
