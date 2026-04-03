@@ -1729,6 +1729,17 @@ let items = [
     review: "Годно, 9/10, сюжета бы побольше",
     watchUrl: "https://boosty.to/mooniverse/posts/0063b045-c5e8-40c0-995b-b3dbcddb7b5b",
     service: "Boosty"
+  },
+  {
+    id: 157,
+    title: "Sicario (Убийца)",
+    type: "movie",
+    rating: 5,
+    duration: "2ч 1м",
+    image: "https://cdn.splay.uz/media/contents_meta/ubijtsa2015/images/bg_image.jpg",
+    review: "Шикарный фильм, от лучшего режиссёра Дениса Вильнёва!",
+    watchUrl: "https://boosty.to/mooniverse/posts/ea5d8eda-dfd2-421c-a04d-6851dd844896",
+    service: "Boosty"
   }
 ];
 
