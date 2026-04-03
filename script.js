@@ -1740,6 +1740,28 @@ let items = [
     review: "Шикарный фильм, от лучшего режиссёра Дениса Вильнёва!",
     watchUrl: "https://boosty.to/mooniverse/posts/ea5d8eda-dfd2-421c-a04d-6851dd844896",
     service: "Boosty"
+  },
+  {
+    id: 158,
+    title: "Такси",
+    type: "movie",
+    rating: 5,
+    duration: "1ч 29м",
+    image: "https://static.okko.tv/images/v4/5cc2ff32-8001-4e3d-bec5-2ec0348a7d3a?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв утерян в настоящем...",
+    watchUrl: "Увы",
+    service: "Boosty"
+  },
+  {
+    id: 159,
+    title: "Реквием по мечте",
+    type: "movie",
+    rating: 5,
+    duration: "1ч 41м",
+    image: "https://static.okko.tv/images/v4/f9b03662-037e-4c97-8c6e-75d5d4dd0361",
+    review: "Отзыв утерян в настоящем...",
+    watchUrl: "#",
+    service: "Увы"
   }
 ];
 
@@ -1899,14 +1921,14 @@ function showDetail(id) {
   }
 
   // Кнопка смотреть
-const watchBtn = document.getElementById('detail-watch-link');
-watchBtn.href = item.watchUrl;
+  const watchBtn = document.getElementById('detail-watch-link');
+  watchBtn.href = item.watchUrl;
 
-if (item.service === "увы") {
-  watchBtn.textContent = "Записи нет";
-} else {
-  watchBtn.textContent = `Смотреть на ${item.service}`;
-}
+  if (item.service === "увы") {
+    watchBtn.textContent = "Записи нет";
+  } else {
+    watchBtn.textContent = `Смотреть на ${item.service}`;
+  }
 
   document.getElementById('home-view').classList.add('hidden');
   document.getElementById('detail-view').classList.remove('hidden');
