@@ -1874,6 +1874,7 @@ function renderCards() {
   const sortMode = document.getElementById('sort-select').value;
 
   let sorted = [...filtered];
+  if (sortMode === 'id-desc') sorted.sort((a, b) => b.id - a.id);
   if (sortMode === 'rating-desc') sorted.sort((a, b) => b.rating - a.rating);
   if (sortMode === 'rating-asc') sorted.sort((a, b) => a.rating - b.rating);
 
