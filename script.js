@@ -1762,6 +1762,17 @@ let items = [
     review: "Отзыв утерян в настоящем...",
     watchUrl: "#",
     service: "увы"
+  },
+  {
+    id: 160,
+    title: "Такси 2",
+    type: "movie",
+    rating: 5,
+    duration: "1ч 28м",
+    image: "https://avatars.mds.yandex.net/i?id=3c211354752d5b12c6485b0142fae997e9ed397f-12569748-images-thumbs&n=13",
+    review: "Ну имба, просто имба",
+    watchUrl: "https://boosty.to/mooniverse/posts/e9d6214c-3992-401a-8a0a-e273fdf12c7e?isFromFeed=true",
+    service: "Boosty"
   }
 ];
 
