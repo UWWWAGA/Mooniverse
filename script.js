@@ -1773,6 +1773,17 @@ let items = [
     review: "Ну имба, просто имба",
     watchUrl: "https://boosty.to/mooniverse/posts/e9d6214c-3992-401a-8a0a-e273fdf12c7e?isFromFeed=true",
     service: "Boosty"
+  },
+  {
+    id: 161,
+    title: "Ди: Охотник на Вампиров",
+    type: "movie",
+    rating: 3,
+    duration: "1ч 20м",
+    image: "https://i.pinimg.com/originals/8e/84/62/8e846255ea3ce9c679669f73c181a97c.jpg",
+    review: "Средняк. Старое, очень старое, но забавное",
+    watchUrl: "https://boosty.to/mooniverse/posts/ef6f11ab-fad0-4947-8ff7-770d68f5ca5d",
+    service: "Boosty"
   }
 ];
 
