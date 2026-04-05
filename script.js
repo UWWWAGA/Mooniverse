@@ -1777,7 +1777,7 @@ let items = [
   {
     id: 161,
     title: "Ди: Охотник на Вампиров",
-    type: "movie",
+    type: "anime",
     rating: 3,
     duration: "1ч 20м",
     image: "https://i.pinimg.com/originals/8e/84/62/8e846255ea3ce9c679669f73c181a97c.jpg",
