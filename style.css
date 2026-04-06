@@ -337,6 +337,11 @@ body {
   border-color: var(--accent);
 }
 
+.card--service-themed:hover {
+  border-color: var(--svc-accent);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 28px var(--svc-glow);
+}
+
 .card img {
   width: 100%;
   height: 200px;
@@ -423,6 +428,14 @@ body {
 .watch-btn:hover {
   background-color: var(--accent-dark);
   transform: translateY(-2px);
+}
+
+.watch-btn.watch-btn--service-themed {
+  background-color: var(--svc-accent);
+}
+
+.watch-btn.watch-btn--service-themed:hover {
+  background-color: var(--svc-accent-hover);
 }
 
 .detail-info h1 {
