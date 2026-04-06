@@ -1776,13 +1776,24 @@ let items = [
   },
   {
     id: 161,
-    title: "Ди: Охотник на Вампиров",
+    title: "Ди: Охотник на Вампиров (1985)",
     type: "anime",
     rating: 3,
     duration: "1ч 20м",
     image: "https://i.pinimg.com/originals/8e/84/62/8e846255ea3ce9c679669f73c181a97c.jpg",
     review: "Средняк. Старое, очень старое, но забавное",
     watchUrl: "https://boosty.to/mooniverse/posts/ef6f11ab-fad0-4947-8ff7-770d68f5ca5d",
+    service: "Boosty"
+  },
+  {
+    id: 161,
+    title: "Ди: Охотник на Вампиров (2001)",
+    type: "anime",
+    rating: 4,
+    duration: "1ч 42м",
+    image: "https://cloud.filmfed.com/movies/images/l_ce96c913-0baa-4f55-9fc7-be2a6b64ae57.jpg",
+    review: "Супер, ребята, супер",
+    watchUrl: "https://boosty.to/mooniverse/posts/24a2b132-f855-4cd3-a4eb-1359f9560cea",
     service: "Boosty"
   }
 ];
