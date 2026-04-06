@@ -1798,6 +1798,25 @@ let items = [
   }
 ];
 
+const SERVICE_THEMES = {
+  YouTube: {
+    accent: "#ff0000",
+    accentHover: "#cc0000",
+    glow: "rgba(255, 0, 0, 0.35)",
+  },
+};
+
+function getServiceTheme(service) {
+  return SERVICE_THEMES[service];
+}
+
+function cardMarkupForService(item) {
+  const t = getServiceTheme(item.service);
+  if (!t) return { classes: "card", attrs: "" };
+  const style = `--svc-accent: ${t.accent}; --svc-accent-hover: ${t.accentHover}; --svc-glow: ${t.glow}`;
+  return { classes: "card card--service-themed", attrs: ` style="${style}"` };
+}
+
 const typeMap = {
   movie: { label: "Фильм", emoji: "🎬", color: "#f15f2c" },
   anime: { label: "Аниме", emoji: "🌸", color: "#c026d3" },
@@ -1907,8 +1926,9 @@ function renderCards() {
   } else {
     sorted.forEach(item => {
       const type = typeMap[item.type];
+      const cardUI = cardMarkupForService(item);
       html += `
-                <div class="card" onclick="showDetail(${item.id})">
+                <div class="${cardUI.classes}"${cardUI.attrs} onclick="showDetail(${item.id})">
                     <img src="${item.image}" alt="${item.title}">
                     <div class="card-body">
                         <div class="badge-row">
@@ -1957,6 +1977,15 @@ function showDetail(id) {
   // Кнопка смотреть
   const watchBtn = document.getElementById('detail-watch-link');
   watchBtn.href = item.watchUrl;
+  const svcTheme = getServiceTheme(item.service);
+  watchBtn.classList.toggle('watch-btn--service-themed', !!svcTheme);
+  if (svcTheme) {
+    watchBtn.style.setProperty("--svc-accent", svcTheme.accent);
+    watchBtn.style.setProperty("--svc-accent-hover", svcTheme.accentHover);
+  } else {
+    watchBtn.style.removeProperty("--svc-accent");
+    watchBtn.style.removeProperty("--svc-accent-hover");
+  }
 
   if (item.service === "увы") {
     watchBtn.textContent = "Записи нет";
