@@ -1786,7 +1786,7 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 161,
+    id: 162,
     title: "Ди: Охотник на Вампиров (2001)",
     type: "anime",
     rating: 4,
