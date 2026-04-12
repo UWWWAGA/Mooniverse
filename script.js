@@ -1795,6 +1795,17 @@ let items = [
     review: "Супер, ребята, супер",
     watchUrl: "https://boosty.to/mooniverse/posts/24a2b132-f855-4cd3-a4eb-1359f9560cea",
     service: "Boosty"
+  },
+    {
+    id: 163,
+    title: "Гангста",
+    type: "anime",
+    rating: 3,
+    duration: "5ч 25м",
+    image: "https://avatars.mds.yandex.net/i?id=9041f8d6e85f009db2ec2b3675a61c9f_l-13266420-images-thumbs&n=13",
+    review: "Аниме нормальное, смотрибельное, прикольный лор, но такая концовка 1 сезона - это ужасно",
+    watchUrl: "https://boosty.to/mooniverse/posts/f7f639da-bf07-46b3-a39f-58cbdebd0aa7",
+    service: "Boosty"
   }
 ];
 
