@@ -1806,6 +1806,17 @@ let items = [
     review: "Аниме нормальное, смотрибельное, прикольный лор, но такая концовка 1 сезона - это ужасно",
     watchUrl: "https://boosty.to/mooniverse/posts/f7f639da-bf07-46b3-a39f-58cbdebd0aa7",
     service: "Boosty"
+  },
+    {
+    id: 164,
+    title: "Страсти Христовы",
+    type: "movie",
+    rating: 5,
+    duration: "2ч 7м",
+    image: "https://pic.uma.media/pic/cardimage/da/ca/daca96694e36a14ac683d45190a37112.jpg?size=1920&quality=90",
+    review: "Отличный фильм, показывающий всю жестокость человеческую",
+    watchUrl: "https://boosty.to/mooniverse/posts/1989d035-d761-4a30-aea0-7d13d9653eea",
+    service: "Boosty"
   }
 ];
 
