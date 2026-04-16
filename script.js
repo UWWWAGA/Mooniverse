@@ -1817,6 +1817,28 @@ let items = [
     review: "Отличный фильм, показывающий всю жестокость человеческую",
     watchUrl: "https://boosty.to/mooniverse/posts/1989d035-d761-4a30-aea0-7d13d9653eea",
     service: "Boosty"
+  },
+    {
+    id: 165,
+    title: "Код Да Винчи",
+    type: "movie",
+    rating: 5,
+    duration: "2ч 29м",
+    image: "https://static.okko.tv/images/v4/bfd1283a-d782-4f48-9c8d-02bebc960adb?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Я в шоке, вот это кино! Я прям в восторге",
+    watchUrl: "https://boosty.to/mooniverse/posts/f8ef95ff-8254-4b00-ae2e-30cf62a26e72?isFromFeed=true",
+    service: "Boosty"
+  },
+  {
+    id: 166,
+    title: "Ангелы и Демоны",
+    type: "movie",
+    rating: 4,
+    duration: "2ч 26м",
+    image: "https://www.film.ru/sites/default/files/trailers_frame/angels-and-demons_1.jpg",
+    review: "Хороший фильм",
+    watchUrl: "https://boosty.to/mooniverse/posts/9b80b723-f4e7-42c1-af65-14c456071d01?isFromFeed=true",
+    service: "Boosty"
   }
 ];
 
