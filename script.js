@@ -1839,6 +1839,17 @@ let items = [
     review: "Хороший фильм",
     watchUrl: "https://boosty.to/mooniverse/posts/9b80b723-f4e7-42c1-af65-14c456071d01?isFromFeed=true",
     service: "Boosty"
+  },
+    {
+    id: 167,
+    title: "13 часов: Тайные солдаты Бенгази",
+    type: "movie",
+    rating: 3,
+    duration: "2ч 24м",
+    image: "https://static.okko.tv/images/v4/fbec0e44-3864-4a7b-9824-8ff61e2cb4b5?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв утерян в настоящем...",
+    watchUrl: "#",
+    service: "увы"
   }
 ];
 
