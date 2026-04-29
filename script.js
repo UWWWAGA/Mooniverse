@@ -1850,6 +1850,17 @@ let items = [
     review: "Отзыв утерян в настоящем...",
     watchUrl: "#",
     service: "увы"
+  },
+  {
+    id: 168,
+    title: "Clair Obscur: Expedition 33",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=c03ad2d9d118329a15ba7c95c2f5e504_l-4078046-images-thumbs&n=13",
+    review: "Синема, но на 1 раз. Это очень хорошая игра, богатая игра. Минус - боевка, все остальное это сплошные плюсы",
+    watchUrl: "https://www.youtube.com/watch?v=xRwj8qGTtgA",
+    service: "YouTube"
   }
 ];
 
