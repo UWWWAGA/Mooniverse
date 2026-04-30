@@ -1,7 +1,6 @@
 // Данные
 let items = [
   {
-    id: 1,
     title: "Бегущий по лезвию (1982)",
     type: "movie",
     rating: 3,
@@ -12,7 +11,6 @@ let items = [
     service: "Boosty",
   },
   {
-    id: 2,
     title: "Гарри Поттер и Философский камень",
     type: "movie",
     rating: 5,
@@ -23,7 +21,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 3,
     title: "Гарри Поттер и Тайная комната",
     type: "movie",
     rating: 5,
@@ -34,7 +31,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 4,
     title: "Гарри Поттер и узник Азкабана",
     type: "movie",
     rating: 5,
@@ -45,7 +41,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 5,
     title: "Гарри Поттер и Кубок огня",
     type: "movie",
     rating: 5,
@@ -56,7 +51,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 6,
     title: "Гарри Поттер и Орден Феникса",
     type: "movie",
     rating: 5,
@@ -67,7 +61,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 7,
     title: "Гарри Поттер и Принц-Полукровка",
     type: "movie",
     rating: 5,
@@ -78,7 +71,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 8,
     title: "Гарри Поттер и Дары Смерти. Часть 1",
     type: "movie",
     rating: 5,
@@ -89,7 +81,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 9,
     title: "Гарри Поттер и Дары Смерти. Часть 2",
     type: "movie",
     rating: 5,
@@ -100,7 +91,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 10,
     title: "Образцовый самец",
     type: "movie",
     rating: 1,
@@ -111,7 +101,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 11,
     title: "Хоббит: Нежданное путешествие",
     type: "movie",
     rating: 5,
@@ -122,7 +111,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 12,
     title: "Хоббит: Пустошь Смауга",
     type: "movie",
     rating: 5,
@@ -133,7 +121,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 13,
     title: "Хоббит: Битва пяти воинств",
     type: "movie",
     rating: 5,
@@ -144,7 +131,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 14,
     title: "Властелин колец: Братство Кольца",
     type: "movie",
     rating: 5,
@@ -155,7 +141,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 15,
     title: "Властелин колец: Две крепости",
     type: "movie",
     rating: 5,
@@ -166,7 +151,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 16,
     title: "Властелин колец: Возвращение короля",
     type: "movie",
     rating: 5,
@@ -177,7 +161,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 17,
     title: "Звездные войны: Скрытая угроза",
     type: "movie",
     rating: 3,
@@ -188,7 +171,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 18,
     title: "Звездные войны: Атака клонов",
     type: "movie",
     rating: 3,
@@ -199,7 +181,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 19,
     title: "Звездные войны: Месть ситхов",
     type: "movie",
     rating: 3,
@@ -210,7 +191,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 20,
     title: "Рататуй",
     type: "movie",
     rating: 5,
@@ -221,7 +201,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 21,
     title: "Изгой-один",
     type: "movie",
     rating: 5,
@@ -232,7 +211,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 22,
     title: "Хан Соло",
     type: "movie",
     rating: 4,
@@ -243,7 +221,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 23,
     title: "Константин: Повелитель тьмы",
     type: "movie",
     rating: 5,
@@ -254,7 +231,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 24,
     title: "Пираты Карибского моря: Проклятие Черной жемчужины",
     type: "movie",
     rating: 5,
@@ -265,7 +241,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 25,
     title: "Пираты Карибского моря: Сундук мертвеца",
     type: "movie",
     rating: 5,
@@ -276,7 +251,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 26,
     title: "Пираты Карибского моря: На краю света",
     type: "movie",
     rating: 5,
@@ -287,7 +261,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 27,
     title: "Пираты Карибского моря: На странных берегах",
     type: "movie",
     rating: 3,
@@ -298,7 +271,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 28,
     title: "Пираты Карибского моря: Мертвецы не рассказывают сказки",
     type: "movie",
     rating: 3,
@@ -309,7 +281,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 29,
     title: "Баллада Бастера Скраггса",
     type: "movie",
     rating: 3,
@@ -320,7 +291,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 30,
     title: "Дюна (2021)",
     type: "movie",
     rating: 5,
@@ -331,7 +301,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 31,
     title: "Власть",
     type: "movie",
     rating: 3,
@@ -342,7 +311,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 32,
     title: "Зодиак",
     type: "movie",
     rating: 4,
@@ -353,7 +321,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 33,
     title: "Голый пистолет",
     type: "movie",
     rating: 5,
@@ -364,7 +331,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 34,
     title: "Маяк",
     type: "movie",
     rating: 1,
@@ -375,7 +341,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 35,
     title: "Тайлер Рэйк: Операция по спасению",
     type: "movie",
     rating: 2,
@@ -386,7 +351,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 36,
     title: "Скиф",
     type: "movie",
     rating: 2,
@@ -397,7 +361,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 37,
     title: "Пиджак",
     type: "movie",
     rating: 5,
@@ -408,7 +371,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 38,
     title: "Однажды в Ирландии",
     type: "movie",
     rating: 5,
@@ -419,7 +381,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 39,
     title: "Быстрее пули",
     type: "movie",
     rating: 5,
@@ -430,7 +391,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 40,
     title: "Человек Паук: Через Вселенные",
     type: "movie",
     rating: 2,
@@ -441,7 +401,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 41,
     title: "Братья из Гримсби",
     type: "movie",
     rating: 5,
@@ -452,7 +411,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 42,
     title: "Удар",
     type: "movie",
     rating: 5,
@@ -463,7 +421,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 43,
     title: "Голоса",
     type: "movie",
     rating: 4,
@@ -474,7 +431,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 44,
     title: "Джентельмены",
     type: "movie",
     rating: 4,
@@ -485,7 +441,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 45,
     title: "Оружейный барон",
     type: "movie",
     rating: 4,
@@ -496,7 +451,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 46,
     title: "Типа крутые легавые",
     type: "movie",
     rating: 4,
@@ -507,7 +461,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 47,
     title: "Брюс Всемогущий",
     type: "movie",
     rating: 4,
@@ -518,7 +471,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 48,
     title: "Меч Короля Артура",
     type: "movie",
     rating: 4,
@@ -529,7 +481,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 49,
     title: "Оппенгеймер",
     type: "movie",
     rating: 5,
@@ -540,7 +491,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 50,
     title: "Зомби по имени Шон",
     type: "movie",
     rating: 4,
@@ -551,7 +501,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 51,
     title: "Области тьмы",
     type: "movie",
     rating: 5,
@@ -562,7 +511,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 52,
     title: "Апгрейд",
     type: "movie",
     rating: 4,
@@ -573,7 +521,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 53,
     title: "Армагеддец",
     type: "movie",
     rating: 3,
@@ -584,7 +531,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 54,
     title: "Царство небесное",
     type: "movie",
     rating: 5,
@@ -595,7 +541,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 55,
     title: "Гладиатор",
     type: "movie",
     rating: 5,
@@ -606,7 +551,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 56,
     title: "Грязь",
     type: "movie",
     rating: 3,
@@ -617,7 +561,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 57,
     title: "Аватар",
     type: "movie",
     rating: 4,
@@ -628,7 +571,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 58,
     title: "Аватар: Путь воды",
     type: "movie",
     rating: 3,
@@ -639,7 +581,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 59,
     title: "Ипман",
     type: "movie",
     rating: 3,
@@ -650,7 +591,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 60,
     title: "Варяг",
     type: "movie",
     rating: 3,
@@ -661,7 +601,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 61,
     title: "Чужой (1979)",
     type: "movie",
     rating: 5,
@@ -672,7 +611,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 62,
     title: "Чужой 2 (1986)",
     type: "movie",
     rating: 5,
@@ -683,7 +621,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 63,
     title: "Микки-17",
     type: "movie",
     rating: 4,
@@ -694,7 +631,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 64,
     title: "Чародеи (1982)",
     type: "movie",
     rating: 3,
@@ -705,7 +641,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 65,
     title: "Человек Швейцарский Нож",
     type: "movie",
     rating: 3,
@@ -716,7 +651,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 66,
     title: "Подземелья и Драконы",
     type: "movie",
     rating: 3,
@@ -727,7 +661,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 67,
     title: "Довод (2020)",
     type: "movie",
     rating: 3,
@@ -738,7 +671,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 68,
     title: "Новый Порядок",
     type: "movie",
     rating: 3,
@@ -749,7 +681,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 69,
     title: "Реальные Упыри",
     type: "movie",
     rating: 5,
@@ -760,7 +691,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 70,
     title: "Загадочная История Бенджамина Баттона",
     type: "movie",
     rating: 5,
@@ -771,7 +701,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 71,
     title: "Психопаспорт",
     type: "anime",
     rating: 1,
@@ -783,7 +712,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 72,
     title: "Киберпанк: Бегущие по краю",
     type: "anime",
     rating: 5,
@@ -794,7 +722,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 73,
     title: "Атака Титанов",
     type: "anime",
     rating: 5,
@@ -806,7 +733,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 74,
     title: "Совершенно новый зверь",
     type: "anime",
     rating: 1,
@@ -818,7 +744,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 75,
     title: "Блич",
     type: "anime",
     rating: 4,
@@ -829,7 +754,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 76,
     title: "Гуррен-Лаганн",
     type: "anime",
     rating: 4,
@@ -840,7 +764,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 77,
     title: "Выдающиеся звери",
     type: "anime",
     rating: 1,
@@ -852,7 +775,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 78,
     title: "Триган",
     type: "anime",
     rating: 2,
@@ -863,7 +785,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 79,
     title: "Унесённые призраками",
     type: "anime",
     rating: 5,
@@ -874,7 +795,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 80,
     title: "Ходячий замок",
     type: "anime",
     rating: 5,
@@ -885,7 +805,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 81,
     title: "Принцесса Мононоке",
     type: "anime",
     rating: 5,
@@ -896,7 +815,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 82,
     title: "Ведьмина служба доставки",
     type: "anime",
     rating: 5,
@@ -907,7 +825,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 83,
     title: "Ветер крепчает",
     type: "anime",
     rating: 5,
@@ -918,7 +835,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 84,
     title: "Навсикая из долины ветров",
     type: "anime",
     rating: 5,
@@ -929,7 +845,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 85,
     title: "Человек - Бензопила",
     type: "anime",
     rating: 5,
@@ -940,7 +855,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 86,
     title: "Пираты Чёрной лагуны",
     type: "anime",
     rating: 3,
@@ -951,7 +865,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 87,
     title: "Аркейн 1 сезон",
     type: "serial",
     rating: 5,
@@ -962,7 +875,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 88,
     title: "Пацаны",
     type: "serial",
     rating: 5,
@@ -973,7 +885,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 89,
     title: "Пространство",
     type: "serial",
     rating: 2,
@@ -984,7 +895,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 90,
     title: "Острые Козырьки",
     type: "serial",
     rating: 3,
@@ -995,7 +905,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 91,
     title: "Король Талсы",
     type: "serial",
     rating: 4,
@@ -1006,7 +915,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 92,
     title: "Клан Сопрано",
     type: "serial",
     rating: 2,
@@ -1017,7 +925,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 93,
     title: "Светлячок",
     type: "serial",
     rating: 1,
@@ -1029,7 +936,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 94,
     title: "Черные паруса",
     type: "serial",
     rating: 3,
@@ -1040,7 +946,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 95,
     title: "Игра Престолов",
     type: "serial",
     rating: 5,
@@ -1051,7 +956,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 96,
     title: "Сёгун",
     type: "serial",
     rating: 4,
@@ -1062,7 +966,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 97,
     title: "Полиция Токио",
     type: "serial",
     rating: 4,
@@ -1073,7 +976,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 98,
     title: "Аркейн 2 сезон",
     type: "serial",
     rating: 5,
@@ -1084,7 +986,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 99,
     title: "Дом Дракона",
     type: "serial",
     rating: 4,
@@ -1095,7 +996,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 100,
     title: "To the Moon",
     type: "game",
     rating: 5,
@@ -1106,7 +1006,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 101,
     title: "Punch Club",
     type: "game",
     rating: 5,
@@ -1117,7 +1016,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 102,
     title: "Dragon Age: Origins",
     type: "game",
     rating: 5,
@@ -1128,7 +1026,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 103,
     title: "M&B II: Bannerlord",
     type: "game",
     rating: 5,
@@ -1139,7 +1036,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 104,
     title: "Visage",
     type: "game",
     rating: 4,
@@ -1150,7 +1046,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 105,
     title: "Frostpunk",
     type: "game",
     rating: 5,
@@ -1161,7 +1056,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 106,
     title: "The Wolf Among Us",
     type: "game",
     rating: 5,
@@ -1172,7 +1066,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 107,
     title: "Battle Brothers",
     type: "game",
     rating: 5,
@@ -1183,7 +1076,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 108,
     title: "Granny",
     type: "game",
     rating: 5,
@@ -1194,7 +1086,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 109,
     title: "MARVEL Человек-Паук: Майлз Моралес",
     type: "game",
     rating: 2,
@@ -1205,7 +1096,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 110,
     title: "Little Nightmares 2",
     type: "game",
     rating: 5,
@@ -1216,7 +1106,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 111,
     title: "Boshy",
     type: "game",
     rating: 1,
@@ -1228,7 +1117,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 112,
     title: "Demon Souls",
     type: "game",
     rating: 1,
@@ -1240,7 +1128,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 113,
     title: "The Long Dark",
     type: "game",
     rating: 3,
@@ -1251,7 +1138,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 114,
     title: "Fallout: New Vegas",
     type: "game",
     rating: 5,
@@ -1262,7 +1148,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 115,
     title: "Rimworld",
     type: "game",
     rating: 3,
@@ -1273,7 +1158,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 116,
     title: "Detroit: Become Human",
     type: "game",
     rating: 5,
@@ -1284,7 +1168,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 117,
     title: "The Mortuary Assistant",
     type: "game",
     rating: 5,
@@ -1295,7 +1178,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 118,
     title: "MADiSON",
     type: "game",
     rating: 5,
@@ -1306,7 +1188,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 119,
     title: "Hogwarts LEGACY",
     type: "game",
     rating: 3,
@@ -1317,7 +1198,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 120,
     title: "Hotline Miami",
     type: "game",
     rating: 5,
@@ -1328,7 +1208,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 121,
     title: "Atomic Heart",
     type: "game",
     rating: 3,
@@ -1339,7 +1218,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 122,
     title: "Black Mesa",
     type: "game",
     rating: 4,
@@ -1350,7 +1228,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 123,
     title: "StarCraft II",
     type: "game",
     rating: 4,
@@ -1361,7 +1238,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 124,
     title: "Undertale",
     type: "game",
     rating: 4,
@@ -1372,7 +1248,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 125,
     title: "Cyberpunk 2077",
     type: "game",
     rating: 5,
@@ -1383,7 +1258,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 126,
     title: "S.T.A.L.K.E.R.: Anomaly GAMMA",
     type: "game",
     rating: 5,
@@ -1394,7 +1268,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 127,
     title: "The Life and Suffering of Sir Brante",
     type: "game",
     rating: 5,
@@ -1405,7 +1278,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 128,
     title: "FlatOut 2",
     type: "game",
     rating: 5,
@@ -1416,7 +1288,6 @@ let items = [
     service: "увы"
   },
   {
-    id: 129,
     title: "Mordhau",
     type: "game",
     rating: 3,
@@ -1427,7 +1298,6 @@ let items = [
     service: "увы"
   },
   {
-    id: 130,
     title: "Бесконечное лето",
     type: "game",
     rating: 4,
@@ -1438,7 +1308,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 131,
     title: "Outer Wilds",
     type: "game",
     rating: 2,
@@ -1450,7 +1319,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 132,
     title: "SOMA",
     type: "game",
     rating: 2,
@@ -1461,7 +1329,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 133,
     title: "Homeworld: Tactical Fleet Simulator",
     type: "game",
     rating: 1,
@@ -1472,7 +1339,6 @@ let items = [
     service: "увы"
   },
   {
-    id: 134,
     title: "House of the Dying Sun",
     type: "game",
     rating: 1,
@@ -1483,7 +1349,6 @@ let items = [
     service: "увы"
   },
   {
-    id: 135,
     title: "Spooky's Jump Scare Mansion: HD Renovation",
     type: "game",
     rating: 2,
@@ -1495,7 +1360,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 136,
     title: "Warhammer 40,000: Space Marine",
     type: "game",
     rating: 1,
@@ -1507,7 +1371,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 137,
     title: "Gothic II",
     type: "game",
     rating: 1,
@@ -1519,7 +1382,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 138,
     title: "Hotline Miami 2",
     type: "game",
     rating: 5,
@@ -1530,7 +1392,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 139,
     title: "Shadow Warrior",
     type: "game",
     rating: 1,
@@ -1542,7 +1403,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 140,
     title: "Lobotomy Corporation",
     type: "game",
     rating: 1,
@@ -1554,7 +1414,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 141,
     title: "Kingdom Come: Deliverance",
     type: "game",
     rating: 4,
@@ -1565,7 +1424,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 142,
     title: "Neon White",
     type: "game",
     rating: 1,
@@ -1577,7 +1435,6 @@ let items = [
     isDrop: true
   },
   {
-    id: 143,
     title: "Death Stranding",
     type: "game",
     rating: 5,
@@ -1588,7 +1445,6 @@ let items = [
     service: "увы"
   },
   {
-    id: 144,
     title: "Disco Elysium",
     type: "game",
     rating: 5,
@@ -1599,7 +1455,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 145,
     title: "XCOM 2",
     type: "game",
     rating: 4,
@@ -1610,7 +1465,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 146,
     title: "World in Conflict",
     type: "game",
     rating: 5,
@@ -1621,7 +1475,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 147,
     title: "Альтушка для скуфа",
     type: "game",
     rating: 5,
@@ -1632,7 +1485,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 148,
     title: "INDIKA",
     type: "game",
     rating: 2,
@@ -1643,7 +1495,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 149,
     title: "Metro 2033",
     type: "game",
     rating: 5,
@@ -1654,7 +1505,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 150,
     title: "Fallout 4",
     type: "game",
     rating: 4,
@@ -1665,7 +1515,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 151,
     title: "Metro: Last light",
     type: "game",
     rating: 5,
@@ -1676,7 +1525,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 152,
     title: "Doki Doki Literature Club!",
     type: "game",
     rating: 1,
@@ -1687,7 +1535,6 @@ let items = [
     service: "увы"
   },
   {
-    id: 153,
     title: "Dead Space Remastered",
     type: "game",
     rating: 4,
@@ -1698,7 +1545,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 154,
     title: "Metro Exodus",
     type: "game",
     rating: 5,
@@ -1709,7 +1555,6 @@ let items = [
     service: "YouTube"
   },
   {
-    id: 155,
     title: "Spec Ops: the line",
     type: "game",
     rating: 5,
@@ -1720,7 +1565,6 @@ let items = [
     service: "увы"
   },
   {
-    id: 156,
     title: "Devil May Cry",
     type: "anime",
     rating: 5,
@@ -1731,7 +1575,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 157,
     title: "Sicario (Убийца)",
     type: "movie",
     rating: 5,
@@ -1742,7 +1585,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 158,
     title: "Такси",
     type: "movie",
     rating: 5,
@@ -1753,7 +1595,6 @@ let items = [
     service: "увы"
   },
   {
-    id: 159,
     title: "Реквием по мечте",
     type: "movie",
     rating: 5,
@@ -1764,7 +1605,6 @@ let items = [
     service: "увы"
   },
   {
-    id: 160,
     title: "Такси 2",
     type: "movie",
     rating: 5,
@@ -1775,7 +1615,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 161,
     title: "Ди: Охотник на Вампиров (1985)",
     type: "anime",
     rating: 3,
@@ -1786,7 +1625,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 162,
     title: "Ди: Охотник на Вампиров (2001)",
     type: "anime",
     rating: 4,
@@ -1796,8 +1634,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/24a2b132-f855-4cd3-a4eb-1359f9560cea",
     service: "Boosty"
   },
-    {
-    id: 163,
+  {
     title: "Гангста",
     type: "anime",
     rating: 3,
@@ -1807,8 +1644,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/f7f639da-bf07-46b3-a39f-58cbdebd0aa7",
     service: "Boosty"
   },
-    {
-    id: 164,
+  {
     title: "Страсти Христовы",
     type: "movie",
     rating: 5,
@@ -1818,8 +1654,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/1989d035-d761-4a30-aea0-7d13d9653eea",
     service: "Boosty"
   },
-    {
-    id: 165,
+  {
     title: "Код Да Винчи",
     type: "movie",
     rating: 5,
@@ -1830,7 +1665,6 @@ let items = [
     service: "Boosty"
   },
   {
-    id: 166,
     title: "Ангелы и Демоны",
     type: "movie",
     rating: 4,
@@ -1840,8 +1674,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/9b80b723-f4e7-42c1-af65-14c456071d01?isFromFeed=true",
     service: "Boosty"
   },
-    {
-    id: 167,
+  {
     title: "13 часов: Тайные солдаты Бенгази",
     type: "movie",
     rating: 3,
@@ -1852,7 +1685,6 @@ let items = [
     service: "увы"
   },
   {
-    id: 168,
     title: "Clair Obscur: Expedition 33",
     type: "game",
     rating: 5,
@@ -1863,6 +1695,12 @@ let items = [
     service: "YouTube"
   }
 ];
+
+// Автогенерация id по порядку
+items = items.map((item, index) => ({
+  ...item,
+  id: index + 1
+}));
 
 const SERVICE_THEMES = {
   YouTube: {
