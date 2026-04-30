@@ -889,7 +889,7 @@ let items = [
     type: "serial",
     rating: 2,
     duration: "1д 23ч 47м",
-    image: "https://get.wallhere.com/photo/the-expanse-space-science-fiction-tv-series-TV-Steven-Strait-wes-chatham-Cas-Anvar-Dominique-Tipper-Amos-Burton-Jim-Holden-Naomi-Nagata-Alex-Kamal-1730959.jpg",
+    image: "https://avatars.mds.yandex.net/i?id=4f0da5e44b3cc5916e4e910ed83fb5cd_l-4552311-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/258e7718-80ad-4535-b444-96042ad8ccb1",
     service: "Boosty"
@@ -1202,7 +1202,7 @@ let items = [
     type: "game",
     rating: 5,
     duration: "",
-    image: "https://get.wallhere.com/photo/1920x1080-px-Hotline-Miami-Hotline-Miami-2-pink-1346993.jpg",
+    image: "https://avatars.mds.yandex.net/i?id=bbbc71357f3732672606c460b56c6bdb_l-4297797-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://www.youtube.com/watch?v=dzAmBmNuoho&list=PLQHOyNho0DjKM-15WI06sOQqWHw7INJHc",
     service: "YouTube"
