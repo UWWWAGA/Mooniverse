@@ -185,7 +185,7 @@ let items = [
     type: "movie",
     rating: 3,
     duration: "2ч 20м",
-    image: "http://kt.server-img.lfstrm.tv/image/aHR0cHM6Ly9rdC1pbWFnZXMuc2VydmVyLWNtcy5sZnN0cm0udHYvYXJjaGl2ZS1pbWcvbWVkaWEvMjkvMWEvMjkxYTY3ZDUzNzM0NTBkY2UyMWRmNjRkZThhYzFiNTQ=?width=1440&height=576&quality=93",
+    image: "https://static.okko.tv/images/v4/51852498-fd96-486a-b562-df1ec596dda6?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/6a468516-18ed-4b07-b135-56e504235d17",
     service: "Boosty"
@@ -225,7 +225,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 1м",
-    image: "http://smotreshka.server-img.lfstrm.tv/image/aHR0cHM6Ly9jbXMuc21vdHJlc2hrYS50di9hcmNoaXZlLWltZy9zdGF0aWMvbWVkaWEvOTEvODcvOTE4N2M0NTA3NTM5ODI4MTM2Yjk1YWNiMGQxMjQ2MzIuanBn?width=1440&height=576&quality=93",
+    image: "https://static.okko.tv/images/v4/207ee851-bc57-4bc5-9816-07f6ba41da94?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/b742ca30-b731-409b-ac0d-c3a4cff39bfe",
     service: "Boosty"
@@ -425,7 +425,7 @@ let items = [
     type: "movie",
     rating: 4,
     duration: "1ч 43м",
-    image: "http://akado.server-img.lfstrm.tv/image/aHR0cHM6Ly9ha2Fkby5zZXJ2ZXItY21zLmxmc3RybS50di9hcmNoaXZlLWltZy9zdGF0aWMvbWVkaWEvNmMvMzIvNmMzMjg3Mjk1MTBiMTllNjE3OTQ4ZGMxYjhiMjA0YmM=",
+    image: "https://static.okko.tv/images/v4/cfb1ac4a-5a49-4140-a624-d670f8c4eecb?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
     review: "Что-то странное, что-то непонятное, что-то неприятное и что-то про психов, но весело 7 шиз из 10",
     watchUrl: "https://boosty.to/mooniverse/posts/215d1fd4-d100-42ae-a130-e91f205a846a",
     service: "Boosty"
@@ -1693,6 +1693,16 @@ let items = [
     review: "Синема, но на 1 раз. Это очень хорошая игра, богатая игра. Минус - боевка, все остальное это сплошные плюсы",
     watchUrl: "https://www.youtube.com/watch?v=xRwj8qGTtgA",
     service: "YouTube"
+  },
+  {
+    title: "Пленницы",
+    type: "movie",
+    rating: 5,
+    duration: "2ч 33м",
+    image: "https://static.okko.tv/images/v4/3754df76-dfc1-4c59-b9c1-fdcfcdeb38d8?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Отзыв утерян в настоящем...",
+    watchUrl: "#",
+    service: "Boosty"
   }
 ];
 
