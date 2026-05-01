@@ -1700,8 +1700,8 @@ let items = [
     rating: 5,
     duration: "2ч 33м",
     image: "https://static.okko.tv/images/v4/3754df76-dfc1-4c59-b9c1-fdcfcdeb38d8?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
-    review: "Отзыв утерян в настоящем...",
-    watchUrl: "#",
+    review: "Шедевр, ну Дени Вильнев. Все, что он снял за последние 10 лет - это шедевр",
+    watchUrl: "https://boosty.to/mooniverse/posts/2dd3fe8c-8416-4794-884e-2a6ed49ef36e",
     service: "Boosty"
   }
 ];
