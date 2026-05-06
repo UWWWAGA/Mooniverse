@@ -750,7 +750,7 @@ let items = [
     duration: "134ч",
     image: "https://images-s.kinorium.com/movie/poster/330650/w1500_51911028.jpg",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/17d1b692-5ffb-4fef-8488-47ce079a04d7",
+    watchUrl: "https://boosty.to/mooniverse/bundle/7464223e-7a36-46ad-bb0b-e2f1eaaf4a83?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -760,7 +760,7 @@ let items = [
     duration: "1ч 58м",
     image: "https://static.okko.tv/images/v4/60e772c6-ea31-4bfb-8c34-40121d27f05c?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/e49c66e3-c646-48b7-a0f5-ef778d150a19",
+    watchUrl: "https://boosty.to/mooniverse/bundle/89dc6979-8df1-412e-8565-c7431262010c?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -781,7 +781,7 @@ let items = [
     duration: "12ч 24м",
     image: "https://i4.imageban.ru/out/2012/05/07/ee86069e238b2d23423aec9fe15be51e.png",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/bf9393c9-55b5-4f9b-acea-f957cee2493e?share=post_link",
+    watchUrl: "https://boosty.to/mooniverse/bundle/a10d43d0-31bd-48bb-a59f-e9d814cd18c1?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -791,7 +791,7 @@ let items = [
     duration: "2ч 4м",
     image: "https://avatars.mds.yandex.net/i?id=d93ba5f99b4d1622e616f87ce6f18c4b_l-10025596-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/8d042eb5-4907-4789-bee5-0a254df8c3f0?share=post_link",
+    watchUrl: "https://boosty.to/mooniverse/bundle/2d5770d6-2888-49b2-860b-fb5209a67616?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -801,7 +801,7 @@ let items = [
     duration: "2ч",
     image: "https://avatars.mds.yandex.net/i?id=db78ccc00ddfc8c05a2d3c822dbaa9a83d6dd932-5231671-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом... А запись удалена",
-    watchUrl: "https://boosty.to/mooniverse/posts/57d0afb7-9f94-485d-8e55-8801e84a974c?share=post_link",
+    watchUrl: "https://boosty.to/mooniverse/bundle/2d5770d6-2888-49b2-860b-fb5209a67616?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -811,7 +811,7 @@ let items = [
     duration: "2ч 13м",
     image: "https://static.okko.tv/images/v4/193b5f8b-2638-4d3a-ac50-a5b03f2c29ed?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/d9277c34-de61-4e1c-8da4-2af19fc7fdbe?share=post_link",
+    watchUrl: "https://boosty.to/mooniverse/bundle/2d5770d6-2888-49b2-860b-fb5209a67616?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -821,7 +821,7 @@ let items = [
     duration: "1ч 43м",
     image: "https://avatars.mds.yandex.net/i?id=33b1dd38e0509143e30d9b64b03663fa_l-12532507-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/df41fe6a-c654-4330-bd52-05c88d85026d?share=post_link",
+    watchUrl: "https://boosty.to/mooniverse/bundle/2d5770d6-2888-49b2-860b-fb5209a67616?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -831,7 +831,7 @@ let items = [
     duration: "2ч 6м",
     image: "https://avatars.mds.yandex.net/i?id=33202ccbf0f9d7d7858af950de6666efd61ae958-3525596-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/4c8e814a-c06c-4723-9a56-5bd5a7068982?share=post_link",
+    watchUrl: "https://boosty.to/mooniverse/bundle/2d5770d6-2888-49b2-860b-fb5209a67616?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -841,7 +841,7 @@ let items = [
     duration: "1ч 57м",
     image: "https://avatars.mds.yandex.net/i?id=12b4d85bc6bcb42e8fdbbd0c9367da12_l-7051380-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/4801b7e1-ed6f-4f4a-a0b2-4bf225a823c7?share=post_link",
+    watchUrl: "https://boosty.to/mooniverse/bundle/2d5770d6-2888-49b2-860b-fb5209a67616?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -851,7 +851,7 @@ let items = [
     duration: "4ч 48м",
     image: "https://cdn.mos.cms.futurecdn.net/sTxkUy4Qcuw4NK4R6kNoEo-1920-80.jpg",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/1c9b7220-6860-4363-b556-ffcf796ad982?share=post_link",
+    watchUrl: "https://boosty.to/mooniverse/bundle/36b73afc-d5f1-4fe5-bd49-9d7332188567?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -861,7 +861,7 @@ let items = [
     duration: "9ч 36м",
     image: "https://avatars.mds.yandex.net/i?id=52a8b75c9cd4ba629db11d77a6a262d6_l-12422585-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/91fbe8ae-55d0-4612-9d9c-6e3ab55bcf22?share=post_link",
+    watchUrl: "https://boosty.to/mooniverse/bundle/195a5239-4fae-4b37-8154-2834c04ddc13?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -871,7 +871,7 @@ let items = [
     duration: "6ч 45м",
     image: "https://avatars.mds.yandex.net/i?id=f8e91a2091b45a8d3b4a9f5b7a5e4883d5216045-4016775-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/8559f0ba-0e29-4c64-80a3-afb41ce38563",
+    watchUrl: "https://boosty.to/mooniverse/bundle/1b64d513-7e69-4a25-91a5-efdb2398af56?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -881,7 +881,7 @@ let items = [
     duration: "33ч",
     image: "https://4kwallpapers.com/images/wallpapers/karl-urban-the-boys-1920x1080-15635.jpg",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/d77f6982-ca90-4828-bad5-3ed35fe32589",
+    watchUrl: "https://boosty.to/mooniverse/bundle/5535b0bd-28f8-4b6e-8c30-eae542a5f7b8?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -952,7 +952,7 @@ let items = [
     duration: "69ч 23м",
     image: "https://avatars.mds.yandex.net/i?id=5738ab0ad0e2e11372b2b73481603934_l-5878191-images-thumbs&n=13",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/5cc7952d-3929-456e-974a-6249f28fb1a2?share=post_link",
+    watchUrl: "https://boosty.to/mooniverse/bundle/a5becc4c-131b-466e-a8ef-73ddeee4f99e?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -982,7 +982,7 @@ let items = [
     duration: "6ч 45м",
     image: "https://prod.assets.earlygamecdn.com/images/ArcaneFull.jpg?mtime=1666009984",
     review: "Отзыв был утерян в прошлом...",
-    watchUrl: "https://boosty.to/mooniverse/posts/0a4cfacd-a76a-491c-a637-9c2e940e451d?share=post_link",
+    watchUrl: "https://boosty.to/mooniverse/bundle/1b64d513-7e69-4a25-91a5-efdb2398af56?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -1571,7 +1571,7 @@ let items = [
     duration: "3ч 53м",
     image: "https://m.media-amazon.com/images/S/pv-target-images/e90119e044a451a28a14d4ced033fa6a447d5c104e8dde6ba3e578a5e308396a.jpg",
     review: "Годно, 9/10, сюжета бы побольше",
-    watchUrl: "https://boosty.to/mooniverse/posts/0063b045-c5e8-40c0-995b-b3dbcddb7b5b",
+    watchUrl: "https://boosty.to/mooniverse/bundle/e09d1683-c295-47aa-9f29-856ced1dc832?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -1621,7 +1621,7 @@ let items = [
     duration: "1ч 20м",
     image: "https://i.pinimg.com/originals/8e/84/62/8e846255ea3ce9c679669f73c181a97c.jpg",
     review: "Средняк. Старое, очень старое, но забавное",
-    watchUrl: "https://boosty.to/mooniverse/posts/ef6f11ab-fad0-4947-8ff7-770d68f5ca5d",
+    watchUrl: "https://boosty.to/mooniverse/bundle/efb30244-f014-44f9-a356-f8c67946a1e4?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -1631,7 +1631,7 @@ let items = [
     duration: "1ч 42м",
     image: "https://cloud.filmfed.com/movies/images/l_ce96c913-0baa-4f55-9fc7-be2a6b64ae57.jpg",
     review: "Супер, ребята, супер",
-    watchUrl: "https://boosty.to/mooniverse/posts/24a2b132-f855-4cd3-a4eb-1359f9560cea",
+    watchUrl: "https://boosty.to/mooniverse/bundle/efb30244-f014-44f9-a356-f8c67946a1e4?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -1641,7 +1641,7 @@ let items = [
     duration: "5ч 25м",
     image: "https://avatars.mds.yandex.net/i?id=9041f8d6e85f009db2ec2b3675a61c9f_l-13266420-images-thumbs&n=13",
     review: "Аниме нормальное, смотрибельное, прикольный лор, но такая концовка 1 сезона - это ужасно",
-    watchUrl: "https://boosty.to/mooniverse/posts/f7f639da-bf07-46b3-a39f-58cbdebd0aa7",
+    watchUrl: "https://boosty.to/mooniverse/bundle/f8b2dabd-9c4a-4c26-8dd4-8a7c56e4de9e?isFromShowcase=true",
     service: "Boosty"
   },
   {
@@ -1703,6 +1703,67 @@ let items = [
     review: "Шедевр, ну Дени Вильнев. Все, что он снял за последние 10 лет - это шедевр",
     watchUrl: "https://boosty.to/mooniverse/posts/2dd3fe8c-8416-4794-884e-2a6ed49ef36e",
     service: "Boosty"
+  },
+  {
+    title: "Магическая битва",
+    type: "anime",
+    rating: 4,
+    duration: "31ч 49м",
+    image: "https://s.cq.ru/img/f/e/2024/4/07/230248.jpg",
+    review: "Отзыв утерян в настоящем...",
+    watchUrl: "https://boosty.to/mooniverse/bundle/88d39eb7-845b-4318-91b1-a7b7aae03473?isFromShowcase=true",
+    service: "Boosty"
+  },
+  {
+    title: "Кайдзю № 8 (2024 - 2025)",
+    type: "anime",
+    rating: 3,
+    duration: "12ч 45м",
+    image: "https://boomzappow.com/wp-content/uploads/2024/08/Kaiju-no.-8-S2-COVER.webp",
+    review: "Отзыв утерян в прошлом...",
+    watchUrl: "https://boosty.to/mooniverse/bundle/154707e6-8ee6-43a6-9021-d41083d58fb3?isFromShowcase=true",
+    service: "Boosty"
+  },
+  {
+    title: "Легенда о Vox Machina (2022 - 2024)",
+    type: "anime",
+    rating: 2,
+    duration: "20ч 3м",
+    image: "https://i0.wp.com/assets-prd.ignimgs.com/2023/01/13/voxmachina-se02-blogroll-1673570202654.jpg?ssl=1",
+    review: "1 сезон хорош, а дальше - залупа",
+    watchUrl: "https://boosty.to/mooniverse/bundle/e43e80c5-0526-4e26-bf11-e8b76e989345?isFromShowcase=true",
+    service: "Boosty",
+    isDrop: true
+  },
+  {
+    title: "Во все тяжкие",
+    type: "serial",
+    rating: 5,
+    duration: "50ч 38м",
+    image: "https://avatars.mds.yandex.net/i?id=cecb0532f7d583dd0c6e5a9ae360abff_l-5131680-images-thumbs&n=13",
+    review: "Легенда",
+    watchUrl: "https://boosty.to/mooniverse/bundle/e77d37c6-7f91-44f8-a449-480d59886140?isFromShowcase=true",
+    service: "Boosty",
+  },
+  {
+    title: "Андор",
+    type: "serial",
+    rating: 5,
+    duration: "19ч 10м",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/e51a4bc6-0fb1-44f0-a771-79efd8df3842/1920x",
+    review: "Отзыв потерялся во времени",
+    watchUrl: "https://boosty.to/mooniverse/bundle/b992056f-7947-4836-b915-04c33cfed6aa?isFromShowcase=true",
+    service: "Boosty",
+  },
+  {
+    title: "Берсерк",
+    type: "anime",
+    rating: 5,
+    duration: "10ч 25м",
+    image: "https://avatars.mds.yandex.net/i?id=d992ccccf3bf0b261405eb4ff3c709e9_l-4034271-images-thumbs&n=13",
+    review: "Легенда",
+    watchUrl: "https://boosty.to/mooniverse/bundle/398489bf-98c1-43ad-9d46-71b8c76de6df?isFromShowcase=true",
+    service: "Boosty",
   }
 ];
 
