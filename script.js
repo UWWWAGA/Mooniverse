@@ -1779,6 +1779,11 @@ const SERVICE_THEMES = {
     accentHover: "#cc0000",
     glow: "rgba(255, 0, 0, 0.35)",
   },
+  Boosty: {
+    accent: "#f15f2c",
+    accentHover: "#c94a1a",
+    glow: "rgba(241, 95, 44, 0.35)",
+  },
 };
 
 function getServiceTheme(service) {
@@ -1897,32 +1902,78 @@ function renderCards() {
   let html = '';
 
   if (sorted.length === 0) {
-    html = `<p style="grid-column: 1/-1; text-align: center; padding: 4rem; color: #666;">Ничего не найдено</p>`;
+    html = `
+      <div class="empty-state">
+        <span class="empty-icon">🔍</span>
+        <p>Ничего не найдено</p>
+      </div>`;
   } else {
     sorted.forEach(item => {
       const type = typeMap[item.type];
       const cardUI = cardMarkupForService(item);
       html += `
-                <div class="${cardUI.classes}"${cardUI.attrs} onclick="showDetail(${item.id})">
-                    <img src="${item.image}" alt="${item.title}">
-                    <div class="card-body">
-                        <div class="badge-row">
-                          <div class="type-badge" style="background-color: ${type.color}20; color: ${type.color}">
-                              ${type.emoji} ${type.label}
-                          </div>
-                          ${getDropBadgeHTML(item)}
-                        </div>
-                        <div class="card-title">${item.title}</div>
-                        <div class="stars">${getStarHTML(item.rating)}</div>
-                        <div class="card-duration">${item.duration}</div>
-                    </div>
-                </div>
-            `;
+        <div class="${cardUI.classes}"${cardUI.attrs} onclick="showDetail(${item.id})">
+          <div class="card-img-wrap">
+            <img data-src="${item.image}" alt="${item.title}" onload="this.classList.add('loaded'); this.closest('.card-img-wrap').classList.add('img-ready')">
+          </div>
+          <div class="card-body">
+            <div class="badge-row">
+              <div class="type-badge" style="background-color: ${type.color}20; color: ${type.color}">
+                ${type.emoji} ${type.label}
+              </div>
+              ${getDropBadgeHTML(item)}
+            </div>
+            <div class="card-title">${item.title}</div>
+            <div class="stars">${getStarHTML(item.rating)}</div>
+            <div class="card-duration">${item.duration}</div>
+          </div>
+        </div>
+      `;
     });
   }
 
   grid.innerHTML = html;
   document.getElementById('count-badge').textContent = sorted.length;
+
+  // Lazy-load images with IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          if (img.dataset.src) {
+            img.src = img.dataset.src;
+            delete img.dataset.src;
+          }
+          observer.unobserve(img);
+        }
+      });
+    }, { rootMargin: '200px' });
+
+    grid.querySelectorAll('img[data-src]').forEach(img => observer.observe(img));
+  } else {
+    grid.querySelectorAll('img[data-src]').forEach(img => {
+      img.src = img.dataset.src;
+    });
+  }
+
+  // Update type counts in sidebar
+  updateTypeCounts();
+}
+
+// Обновление счётчиков типов в сайдбаре
+function updateTypeCounts() {
+  const checkedTypes = Array.from(document.querySelectorAll('.type-check:checked')).map(el => el.value);
+  ['movie', 'anime', 'game', 'serial'].forEach(type => {
+    const el = document.querySelector(`.type-count[data-type="${type}"]`);
+    if (!el) return;
+    const count = items.filter(item => {
+      const matchSearch = !searchTerm || item.title.toLowerCase().includes(searchTerm.toLowerCase());
+      const matchRating = currentMinRating === 0 ? true : item.rating === currentMinRating;
+      return item.type === type && matchSearch && matchRating;
+    }).length;
+    el.textContent = count;
+  });
 }
 
 // Показать детальную информацию
@@ -1957,9 +2008,11 @@ function showDetail(id) {
   if (svcTheme) {
     watchBtn.style.setProperty("--svc-accent", svcTheme.accent);
     watchBtn.style.setProperty("--svc-accent-hover", svcTheme.accentHover);
+    watchBtn.style.setProperty("--svc-glow", svcTheme.glow);
   } else {
     watchBtn.style.removeProperty("--svc-accent");
     watchBtn.style.removeProperty("--svc-accent-hover");
+    watchBtn.style.removeProperty("--svc-glow");
   }
 
   if (item.service === "увы") {
@@ -2027,13 +2080,23 @@ function init() {
 
   window.addEventListener('resize', updateHeaderOffsetVar, { passive: true });
 
-  let sidebarTicking = false;
+  const scrollTopBtn = document.getElementById('scroll-top-btn');
+  const header = document.querySelector('.header');
+
+  let ticking = false;
   window.addEventListener('scroll', () => {
-    if (sidebarTicking) return;
-    sidebarTicking = true;
+    if (ticking) return;
+    ticking = true;
     window.requestAnimationFrame(() => {
       updateSidebarRounded();
-      sidebarTicking = false;
+
+      // Header shadow
+      if (header) header.classList.toggle('scrolled', window.scrollY > 10);
+
+      // Scroll-to-top button
+      if (scrollTopBtn) scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+
+      ticking = false;
     });
   }, { passive: true });
 
