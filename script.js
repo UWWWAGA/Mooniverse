@@ -1764,6 +1764,16 @@ let items = [
     review: "Легенда",
     watchUrl: "https://boosty.to/mooniverse/bundle/398489bf-98c1-43ad-9d46-71b8c76de6df?isFromShowcase=true",
     service: "Boosty",
+  },
+  {
+    title: "Assassin's Creed Unity",
+    type: "game",
+    rating: 2,
+    duration: "",
+    image: "https://storage.yandexcloud.net/donate.stream/images/kyc1/mq9x/e4be46679bb07451f0538996ed61312a.jpg",
+    review: "3/10, даже писать ничего не хочу, просто плохо))))",
+    watchUrl: "https://www.youtube.com/watch?v=0ikxwKZ38os",
+    service: "YouTube",
   }
 ];
 
