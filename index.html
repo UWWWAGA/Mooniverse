@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="site-header">
     <div class="container">
       <a href="https://uwwwaga.github.io/Mooniverse/">
         <div class="logo">
@@ -25,6 +25,7 @@
       </a>
 
       <div class="search-container">
+        <span class="search-icon">🔍</span>
         <input type="text" id="search-input" placeholder="Поиск по названию...">
       </div>
     </div>
@@ -36,19 +37,31 @@
       <div class="filter-group">
         <label class="filter-label">
           <input type="checkbox" value="movie" class="type-check">
-          <span>🎬 Фильмы</span>
+          <div class="filter-label-text">
+            <span>🎬 Фильмы</span>
+            <span class="type-count" data-type="movie">–</span>
+          </div>
         </label>
         <label class="filter-label">
           <input type="checkbox" value="anime" class="type-check">
-          <span>🌸 Аниме</span>
+          <div class="filter-label-text">
+            <span>🌸 Аниме</span>
+            <span class="type-count" data-type="anime">–</span>
+          </div>
         </label>
         <label class="filter-label">
           <input type="checkbox" value="game" class="type-check">
-          <span>🎮 Игры</span>
+          <div class="filter-label-text">
+            <span>🎮 Игры</span>
+            <span class="type-count" data-type="game">–</span>
+          </div>
         </label>
         <label class="filter-label">
           <input type="checkbox" value="serial" class="type-check">
-          <span>🎥 Сериалы</span>
+          <div class="filter-label-text">
+            <span>🎥 Сериалы</span>
+            <span class="type-count" data-type="serial">–</span>
+          </div>
         </label>
       </div>
 
@@ -56,12 +69,14 @@
       <div id="rating-buttons" class="rating-buttons">
         <!-- Заполняется через JavaScript -->
       </div>
+
+      <button class="reset-btn" onclick="resetFilters()">↺ Сбросить фильтры</button>
     </aside>
 
     <main class="content">
       <div id="home-view">
         <div class="view-header">
-          <h2>Все медиа <span id="count-badge" class="count">9</span></h2>
+          <h2>Все медиа <span id="count-badge" class="count">0</span></h2>
           <select id="sort-select" onchange="renderCards()">
             <option value="default">По умолчанию</option>
             <option value="id-desc">Недавние</option>
@@ -111,6 +126,9 @@
       </div>
     </main>
   </div>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top-btn" id="scroll-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Наверх">↑</button>
 
   <script src="./script.js"></script>
 </body>
