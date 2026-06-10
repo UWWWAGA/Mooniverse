@@ -1774,6 +1774,26 @@ let items = [
     review: "3/10, даже писать ничего не хочу, просто плохо))))",
     watchUrl: "https://www.youtube.com/watch?v=0ikxwKZ38os",
     service: "YouTube",
+  },
+  {
+    title: "Аватар: Легенда об Аанге (2004 - 2008)",
+    type: "anime",
+    rating: 5,
+    duration: "22ч 22м",
+    image: "https://static.okko.tv/images/v4/3024d072-dc9c-4639-9271-8a73d962e37b",
+    review: "Хорошо, добротно с душой! Приятное было путешествие, 10/10 ",
+    watchUrl: "https://boosty.to/mooniverse/bundle/c06e6809-1e35-4639-b24a-f4f4f5c5da3f?isFromShowcasePreview=true",
+    service: "Boosty",
+  },
+  {
+    title: "Акира",
+    type: "anime",
+    rating: 3,
+    duration: "2ч 5м",
+    image: "https://static.okko.tv/images/v4/c3e1dd01-df66-4c1e-ad65-519f804ece2b?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Среднячок, 5/10",
+    watchUrl: "https://boosty.to/mooniverse/bundle/c06e6809-1e35-4639-b24a-f4f4f5c5da3f?isFromShowcasePreview=true",
+    service: "Boosty",
   }
 ];
 
