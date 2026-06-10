@@ -1792,7 +1792,7 @@ let items = [
     duration: "2ч 5м",
     image: "https://static.okko.tv/images/v4/c3e1dd01-df66-4c1e-ad65-519f804ece2b?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
     review: "Среднячок, 5/10",
-    watchUrl: "https://boosty.to/mooniverse/bundle/c06e6809-1e35-4639-b24a-f4f4f5c5da3f?isFromShowcasePreview=true",
+    watchUrl: "https://boosty.to/mooniverse/posts/90d08c4c-818b-4133-b213-200d2be42a45",
     service: "Boosty",
   }
 ];
