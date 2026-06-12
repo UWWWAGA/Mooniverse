@@ -1804,6 +1804,16 @@ let items = [
     review: "В общем, игра душнее Культ-Сима х10, визуалом красивее, очень много лора и ответов на интересующие вопросы,  крайне атмосферное  погружение. Обратная же сторона, что я рот разраба ебал)))  такое количество душнейших механик это ещё надо постараться придумать. 7/10 - культсим был лучше!",
     watchUrl: "https://www.youtube.com/watch?v=D6O8uSeTZTA",
     service: "YouTube",
+  },
+    {
+    title: "Metal Gear Rising: Revengeance",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://img.ixbt.site/live/topics/preview/00/01/70/06/ff84fc5e81.jpg",
+    review: "Это было хорошо, очень хорошо!",
+    watchUrl: "#",
+    service: "увы",
   }
 ];
 
