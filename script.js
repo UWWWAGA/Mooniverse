@@ -1794,6 +1794,16 @@ let items = [
     review: "Среднячок, 5/10",
     watchUrl: "https://boosty.to/mooniverse/posts/90d08c4c-818b-4133-b213-200d2be42a45",
     service: "Boosty",
+  },
+    {
+    title: "BOOK OF HOURS",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://get.wallhere.com/photo/Book-of-Hours-women-Weather-Factory-2294702.jpg",
+    review: "В общем, игра душнее Культ-Сима х10, визуалом красивее, очень много лора и ответов на интересующие вопросы,  крайне атмосферное  погружение. Обратная же сторона, что я рот разраба ебал)))  такое количество душнейших механик это ещё надо постараться придумать. 7/10 - культсим был лучше!",
+    watchUrl: "https://www.youtube.com/watch?v=D6O8uSeTZTA",
+    service: "YouTube",
   }
 ];
 
