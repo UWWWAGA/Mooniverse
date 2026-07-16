@@ -1824,6 +1824,26 @@ let items = [
     review: "Про ДА2 многое не скажешь, до выхода вейлгарда, она считалась самой слабой игрой в серии, однако я всегда относился к второй части, как к прологу третьей, хотя по сути, так оно и есть. Теперь по существу, игру сделали за 14-16 месяцев и я считаю, вышло очень, очень даже неплохо, не буду расписывать все за и против этой игры, она сделана во времена, когда ещё геймдев дышал и честно заслуживает твердейшую 7 из 10!",
     watchUrl: "https://www.youtube.com/watch?v=hQBmsW2rsTA",
     service: "YouTube",
+  },
+    {
+    title: "Космическая Одиссея",
+    type: "movie",
+    rating: 3,
+    duration: "2ч 29м",
+    image: "https://avatars.mds.yandex.net/i?id=2a0c1d6a859467e77fff645bd3fb14e2_l-5291580-images-thumbs&n=13",
+    review: "Отзыв потерялся во времени",
+    watchUrl: "https://boosty.to/mooniverse/posts/e3d6f56c-b2e2-4da0-b05e-ec19c9a4dcc8",
+    service: "Boosty",
+  },
+    {
+    title: "Вскрытие Демона",
+    type: "movie",
+    rating: 2,
+    duration: "1ч 31м",
+    image: "https://newcdn.igromania.ru/editor/images/49/3c97b5e3-9506-4057-a1f4-d2b1bc39b108.jpg",
+    review: "Отзыв потерялся во времени",
+    watchUrl: "https://boosty.to/mooniverse/posts/e3d6f56c-b2e2-4da0-b05e-ec19c9a4dcc8",
+    service: "Boosty",
   }
 ];
 
