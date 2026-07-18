@@ -1844,6 +1844,16 @@ let items = [
     review: "Отзыв потерялся во времени",
     watchUrl: "https://boosty.to/mooniverse/posts/e3d6f56c-b2e2-4da0-b05e-ec19c9a4dcc8",
     service: "Boosty",
+  },
+    {
+    title: "Олдбой 2003",
+    type: "movie",
+    rating: 2,
+    duration: "1ч 56м",
+    image: "https://static.okko.tv/images/v4/6336ed9d-01da-47dc-8038-1cb6f8159772",
+    review: "Не люблю корейские фильмы. Задумка сюжета норм, реализация ужасна",
+    watchUrl: "#",
+    service: "Увы",
   }
 ];
 
