@@ -1854,6 +1854,26 @@ let items = [
     review: "Не люблю корейские фильмы. Задумка сюжета норм, реализация ужасна",
     watchUrl: "#",
     service: "Увы",
+  },
+    {
+    title: "Обсессия",
+    type: "movie",
+    rating: 4,
+    duration: "1ч 49м",
+    image: "https://static.okko.tv/images/v4/ed717a85-a526-4b79-92e5-b52d69177209",
+    review: "Супер, тверная 8. 8,5 из 10",
+    watchUrl: "https://boosty.to/mooniverse/posts/81e5430a-9956-460e-9024-ca55a7e32ce5",
+    service: "Boosty",
+  },
+    {
+    title: "Сияние",
+    type: "movie",
+    rating: 3,
+    duration: "2ч 23м",
+    image: "https://static.okko.tv/images/v4/92e951d4-abde-4ce3-b074-cd551db815ee?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Культовый фильм, культовый. Но я оцениваю на 6, очень тяжело понять",
+    watchUrl: "https://boosty.to/mooniverse/posts/45c05b3a-4b01-4852-82dd-b72f331a8a7a",
+    service: "Boosty",
   }
 ];
 
