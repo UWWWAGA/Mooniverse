@@ -71,10 +71,19 @@ body {
   font-size: 1.35rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  background: linear-gradient(130deg, #fff 50%, #f15f2c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #ffffff;            
+  display: inline-flex;   
+  align-items: center;
+  gap: 2px;
+}
+
+.logo h1 span {
+  background-color: #ff9900;
+  color: #000000; 
+  padding: 2px 6px;  
+  border-radius: 4px;  
+  margin-left: 3px;  
+  line-height: 1; 
 }
 
 .logo p { font-size: 0.7rem; color: var(--text-muted); margin-top: -2px; letter-spacing: 0.04em; }
