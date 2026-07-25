@@ -1874,6 +1874,16 @@ let items = [
     review: "Культовый фильм, культовый. Но я оцениваю на 6, очень тяжело понять",
     watchUrl: "https://boosty.to/mooniverse/posts/45c05b3a-4b01-4852-82dd-b72f331a8a7a",
     service: "Boosty",
+  },
+    {
+    title: "Семейка Крудс",
+    type: "movie",
+    rating: 4,
+    duration: "1ч 38м",
+    image: "https://static.okko.tv/images/v4/76bc67f2-ce61-4a3e-a622-15fa8871ff25?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Круто, прям имбулька-красотулька. Мне очень понравилось. Ваще прям кайф, супер мультфильм. Зарядка позитива",
+    watchUrl: "https://boosty.to/mooniverse/posts/055bf9b6-8c00-406b-adfc-be73833ee450",
+    service: "Boosty",
   }
 ];
 
