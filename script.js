@@ -1891,7 +1891,7 @@ let items = [
     rating: 2,
     duration: "1ч 30м",
     image: "https://static.okko.tv/images/v4/05317bc3-7720-49ff-a323-96e93ac1192b",
-    review: "Четсно - трешатина. Жесткий артхаус",
+    review: "Честно - трешатина. Жесткий артхаус",
     watchUrl: "https://boosty.to/mooniverse/posts/fc9cd27e-32d5-4d53-afe8-be8a9109ef5d",
     service: "Boosty",
   }
