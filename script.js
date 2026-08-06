@@ -1888,7 +1888,7 @@ let items = [
     {
     title: "Груз 200",
     type: "movie",
-    rating: 3,
+    rating: 2,
     duration: "1ч 30м",
     image: "https://static.okko.tv/images/v4/05317bc3-7720-49ff-a323-96e93ac1192b",
     review: "Четсно - трешатина. Жесткий артхаус",
