@@ -1884,6 +1884,16 @@ let items = [
     review: "Круто, прям имбулька-красотулька. Мне очень понравилось. Ваще прям кайф, супер мультфильм. Зарядка позитива",
     watchUrl: "https://boosty.to/mooniverse/posts/055bf9b6-8c00-406b-adfc-be73833ee450",
     service: "Boosty",
+  },
+    {
+    title: "Груз 200",
+    type: "movie",
+    rating: 3,
+    duration: "1ч 30м",
+    image: "https://static.okko.tv/images/v4/05317bc3-7720-49ff-a323-96e93ac1192b",
+    review: "Четсно - трешатина. Жесткий артхаус",
+    watchUrl: "https://boosty.to/mooniverse/posts/fc9cd27e-32d5-4d53-afe8-be8a9109ef5d",
+    service: "Boosty",
   }
 ];
 
