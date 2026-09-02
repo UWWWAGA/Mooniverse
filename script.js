@@ -1919,7 +1919,6 @@ let items = [
   {
     title: "Валли",
     type: "movie",
-    isDrop: true,
     rating: 5,
     duration: "1ч 38м",
     image: "https://pic.rtbcdn.ru/video/2025-02-16/42/e9/42e9dfe913a0bd0d500c47e927c22391.jpg",
