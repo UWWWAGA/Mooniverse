@@ -1927,7 +1927,8 @@ let items = [
     review: "Круто, очень хорошо, прям ваще. 10/10",
     watchUrl: "https://boosty.to/mooniverse/posts/3e800025-6c37-41fe-b121-1b3d47964a42?isFromFeed=true",
     service: "Boosty",
-  };
+  }
+  ];
 
 // Автогенерация id по порядку
 items = items.map((item, index) => ({
