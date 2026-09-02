@@ -1907,13 +1907,25 @@ let items = [
   },
   {
     title: "Лучше звоните Солу",
-    type: "movie",
+    type: "serial",
     isDrop: true,
     rating: 3,
     duration: "",
     image: "https://static.okko.tv/images/v4/4caf88ae-1a0b-4ca9-8a7e-dc805d1ba9be?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
     review: "Три сезона скучной, непонятной херни, где истории второстепенных персонажей куда интереснее чем история главного героя. Давайте попробую сериал одной фразой описать: ребёнок что навсегда останется в тени своего отца. Сколько бы мы не пытались его смотреть, прибегали тру фаны этого сериала и умоляли досмотреть до конца третьего сезона, обещая невероятный движ, вот я досмотрел до конца третьего сезона,  заскучал и дропнул))) Почему я должен ждать до 4-го сезона, если шоураннеры не смогли привлечь моё внимание по истечению 30-ти эпизодов? Бредик",
     watchUrl: "https://boosty.to/mooniverse/bundle/163066f5-23ae-4293-a341-43bf46eb33df?isFromShowcasePreview=true",
+    service: "Boosty",
+  }
+  },
+  {
+    title: "Валли",
+    type: "movie",
+    isDrop: true,
+    rating: 5,
+    duration: "1ч 38м",
+    image: "https://pic.rtbcdn.ru/video/2025-02-16/42/e9/42e9dfe913a0bd0d500c47e927c22391.jpg",
+    review: "Круто, очень хорошо, прям ваще. 10/10",
+    watchUrl: "https://boosty.to/mooniverse/posts/3e800025-6c37-41fe-b121-1b3d47964a42?isFromFeed=true",
     service: "Boosty",
   }
 ];
