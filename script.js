@@ -1925,7 +1925,6 @@ let items = [
     review: "Круто, очень хорошо, прям ваще. 10/10",
     watchUrl: "https://boosty.to/mooniverse/posts/3e800025-6c37-41fe-b121-1b3d47964a42?isFromFeed=true",
     service: "Boosty",
-  }
   },
   {
     title: "Ради всего человечества",
@@ -1936,7 +1935,6 @@ let items = [
     review: "Сериал не для всех, диалоги тягомотные, но под конец стало неплохо. 1 Сезон 5.5/10. Много всякой разной шляпы, но, в целом, концовка хорошая",
     watchUrl: "https://boosty.to/mooniverse/bundle/be2a0a9e-ab99-4ac3-9317-49a01be6eca3?isFromShowcasePreview=true",
     service: "Boosty",
-  }
   },
   {
     title: "Мегамозг",
