@@ -1945,6 +1945,16 @@ let items = [
     review: "Хорошо. Хорошо, ребят. Отлично",
     watchUrl: "https://boosty.to/mooniverse/posts/9750aeb1-30f4-492b-a7f0-c3cc908b724d",
     service: "Boosty",
+  },
+  {
+    title: "Warhammer 40,000: Space Marine 2",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "https://avatars.mds.yandex.net/i?id=be005852ff0da943340e72b7fdf670ad_l-5446078-images-thumbs&n=13",
+    review: "Хорошая игра, отличная",
+    watchUrl: "https://www.youtube.com/watch?v=cPheGn7laEY",
+    service: "YouTube",
   }
   ];
 
