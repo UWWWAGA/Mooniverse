@@ -1926,6 +1926,28 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/3e800025-6c37-41fe-b121-1b3d47964a42?isFromFeed=true",
     service: "Boosty",
   }
+  },
+  {
+    title: "Ради всего человечества",
+    type: "serial",
+    rating: 3,
+    duration: "10ч",
+    image: "https://avatars.mds.yandex.net/i?id=d5a3ad41d15251fc80161ca5594e9c9b_l-10766029-images-thumbs&n=13",
+    review: "Сериал не для всех, диалоги тягомотные, но под конец стало неплохо. 1 Сезон 5.5/10. Много всякой разной шляпы, но, в целом, концовка хорошая",
+    watchUrl: "https://boosty.to/mooniverse/bundle/be2a0a9e-ab99-4ac3-9317-49a01be6eca3?isFromShowcasePreview=true",
+    service: "Boosty",
+  }
+  },
+  {
+    title: "Мегамозг",
+    type: "movie",
+    rating: 5,
+    duration: "1ч 36м",
+    image: "https://static.okko.tv/images/v4/d7bc3bab-4f17-4feb-9c2e-0368a0512653?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    review: "Хорошо. Хорошо, ребят. Отлично",
+    watchUrl: "https://boosty.to/mooniverse/posts/9750aeb1-30f4-492b-a7f0-c3cc908b724d",
+    service: "Boosty",
+  }
   ];
 
 // Автогенерация id по порядку
