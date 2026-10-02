@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&family=Inter:wght@400;500;600;700&display=swap');
-
 a { text-decoration: none; color: inherit; }
 a:link, a:visited, a:hover, a:active, a:focus { text-decoration: none; }
 
@@ -413,7 +411,6 @@ body {
   display: block;
   position: relative;
   z-index: 1;
-  transition: transform 0.5s ease;
   opacity: 0;
   transition: transform 0.5s ease, opacity 0.4s ease;
 }
@@ -421,8 +418,6 @@ body {
 .card img.loaded {
   opacity: 1;
 }
-
-.card img.loaded ~ * {  }
 
 .card-img-wrap.img-ready::after { display: none; }
 
@@ -441,6 +436,10 @@ body {
   margin-bottom: 9px;
   line-height: 1.3;
   color: #eee;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .stars { font-size: 1.2rem; margin-bottom: 5px; letter-spacing: 1px; }
@@ -542,7 +541,7 @@ body {
   flex-wrap: wrap;
 }
 
-.stars { font-size: 1.9rem; letter-spacing: 2px; }
+.detail-meta .stars { font-size: 1.9rem; letter-spacing: 2px; margin-bottom: 0; }
 
 .rating-number {
   font-size: 1.7rem;
@@ -661,7 +660,7 @@ body {
   .view-header h2 { font-size: 1.25rem; }
   .cards-grid { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1rem; }
   .detail-info h1 { font-size: 1.5rem; }
-  .stars { font-size: 1.5rem; }
+  .detail-meta .stars { font-size: 1.5rem; }
   .rating-number { font-size: 1.35rem; }
   .filter-group { grid-template-columns: 1fr 1fr; }
   .scroll-top-btn { bottom: 1.2rem; right: 1.2rem; width: 38px; height: 38px; }
@@ -670,4 +669,37 @@ body {
 @media (max-width: 420px) {
   .cards-grid { grid-template-columns: 1fr; }
   .filter-group { grid-template-columns: 1fr; }
+}
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.card:focus-visible { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+.search-container input:focus-visible { outline: none; }
+
+.card-img-wrap.img-failed::before {
+  content: '🖼️';
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  font-size: 2.5rem;
+  opacity: 0.25;
+}
+
+.watch-btn--disabled,
+.watch-btn--disabled:hover {
+  background-color: var(--surface2);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+@media (hover: none) {
+  .card:hover { transform: none; }
+  .card:hover img { transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
