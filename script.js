@@ -1,4 +1,3 @@
-// Данные
 let items = [
   {
     title: "Бегущий по лезвию (1982)",
@@ -1955,7 +1954,48 @@ let items = [
     review: "Хорошая игра, отличная",
     watchUrl: "https://www.youtube.com/watch?v=cPheGn7laEY",
     service: "YouTube",
-  }
+  },
+  {
+    title: "Манчестер у моря",
+    type: "movie",
+    rating: 1,
+    duration: "2ч 17м",
+    image: "https://static.kion.ru/content/mts/movie/70004867/posters/HORIZONTAL_1bf50d97c1edf43b462b2dbfd99c97b5.webp",
+    review: "Что за хуйню мы только что посмотрели... Фильм не стоит внимания",
+    watchUrl: "https://boosty.to/mooniverse/posts/a60f37cd-2204-4228-bcef-ea2277c893fa",
+    service: "Boosty",
+  },
+   {
+    title: "Пятый Элемент",
+    type: "movie",
+    rating: 5,
+    duration: "2ч 6м",
+    image: "https://static.okko.tv/images/v4/d1795ddd-a728-496a-bf25-e084fa01b3bb",
+    review: "Синема",
+    watchUrl: "https://boosty.to/mooniverse/posts/8e94659c-31a1-4fdd-8b57-4ad6841e5f12",
+    service: "Boosty",
+  },
+   {
+    title: "Ёрмунганд",
+    type: "anime",
+    isDrop: true,
+    rating: 1,
+    duration: "2ч 6м",
+    image: "https://wallpapercave.com/wp/wp3093153.jpg",
+    review: "К сожалению не зашло, не моё, всё не нравится",
+    watchUrl: "https://boosty.to/mooniverse/posts/f596e6eb-0696-492b-8679-8491b7171427",
+    service: "Boosty",
+  },
+   {
+    title: "Need For Speed: Most Wanted",
+    type: "game",
+    rating: 4,
+    duration: "",
+    image: "https://wallpapercave.com/wp/wp3093153.jpg",
+    review: "",
+    watchUrl: "https://www.youtube.com/watch?v=yedQjhOa_O0",
+    service: "YouTube",
+  },
   ];
 
 // Автогенерация id по порядку
@@ -2007,7 +2047,6 @@ function updateSortVisibility() {
 function updateHeaderOffsetVar() {
   const header = document.querySelector('.header');
   const headerHeight = header ? header.getBoundingClientRect().height : 0;
-  // небольшой зазор, чтобы sidebar не прилипал вплотную к хедеру
   document.documentElement.style.setProperty('--header-offset', `${headerHeight + 16}px`);
 }
 
@@ -2036,7 +2075,6 @@ function getDropBadgeHTML(item) {
   `;
 }
 
-// Создание кнопок рейтинга
 function createRatingButtons() {
   const container = document.getElementById('rating-buttons');
   const ratings = [
@@ -2079,7 +2117,6 @@ function getFilteredItems() {
   });
 }
 
-// Рендер карточек
 function renderCards() {
   const filtered = getFilteredItems();
   const grid = document.getElementById('cards-grid');
@@ -2126,7 +2163,6 @@ function renderCards() {
   grid.innerHTML = html;
   document.getElementById('count-badge').textContent = sorted.length;
 
-  // Lazy-load images with IntersectionObserver
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -2147,12 +2183,9 @@ function renderCards() {
       img.src = img.dataset.src;
     });
   }
-
-  // Update type counts in sidebar
   updateTypeCounts();
 }
 
-// Обновление счётчиков типов в сайдбаре
 function updateTypeCounts() {
   const checkedTypes = Array.from(document.querySelectorAll('.type-check:checked')).map(el => el.value);
   ['movie', 'anime', 'game', 'serial'].forEach(type => {
@@ -2167,7 +2200,6 @@ function updateTypeCounts() {
   });
 }
 
-// Показать детальную информацию
 function showDetail(id) {
   const item = items.find(i => i.id === id);
   if (!item) return;
@@ -2181,7 +2213,6 @@ function showDetail(id) {
   document.getElementById('detail-duration').textContent = item.duration;
   document.getElementById('detail-review').textContent = item.review;
 
-  // Тип
   const typeBadge = document.getElementById('detail-type-badge');
   typeBadge.textContent = `${type.emoji} ${type.label}`;
   typeBadge.style.backgroundColor = type.color + '20';
@@ -2191,7 +2222,6 @@ function showDetail(id) {
     detailDropBadge.classList.toggle('hidden', !item.isDrop);
   }
 
-  // Кнопка смотреть
   const watchBtn = document.getElementById('detail-watch-link');
   watchBtn.href = item.watchUrl;
   const svcTheme = getServiceTheme(item.service);
@@ -2215,15 +2245,12 @@ function showDetail(id) {
   document.getElementById('home-view').classList.add('hidden');
   document.getElementById('detail-view').classList.remove('hidden');
 
-  // прокрутка так, чтобы кнопка "Вернуться к списку" была сразу видна
   if (window.innerWidth >= 768) {
-    // десктоп — просто к началу страницы
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
   } else {
-    // мобильная версия — прокручиваем к кнопке с учётом sticky-header
     const backBtn = document.querySelector('.back-btn');
     if (backBtn) {
       const header = document.querySelector('.header');
@@ -2254,17 +2281,14 @@ function resetFilters() {
   renderCards();
 }
 
-// Инициализация
 function init() {
   createRatingButtons();
 
-  // Поиск в реальном времени
   document.getElementById('search-input').addEventListener('input', (e) => {
     searchTerm = e.target.value;
     renderCards();
   });
 
-  // Чекбоксы
   document.querySelectorAll('.type-check').forEach(cb => {
     cb.addEventListener('change', renderCards);
   });
@@ -2281,10 +2305,8 @@ function init() {
     window.requestAnimationFrame(() => {
       updateSidebarRounded();
 
-      // Header shadow
       if (header) header.classList.toggle('scrolled', window.scrollY > 10);
 
-      // Scroll-to-top button
       if (scrollTopBtn) scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
 
       ticking = false;
@@ -2297,5 +2319,4 @@ function init() {
   renderCards();
 }
 
-// Запуск
 window.onload = init;
