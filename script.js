@@ -4,7 +4,7 @@ let items = [
     type: "movie",
     rating: 3,
     duration: "1ч 57м",
-    image: "https://static.okko.tv/images/v4/10df492e-d5cd-4c20-8029-7e656dcbf056?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/10df492e-d5cd-4c20-8029-7e656dcbf056?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/b09bbe2b-fbbf-4b28-af3c-1a0f8ca22c21",
     service: "Boosty",
@@ -34,7 +34,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 22м",
-    image: "https://static.okko.tv/images/v4/0a7c40da-0825-484b-84d0-bbbad2627d89?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/0a7c40da-0825-484b-84d0-bbbad2627d89?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/508702f0-4f38-4a3c-9b47-8d04fa83bcbe",
     service: "Boosty"
@@ -64,7 +64,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 33м",
-    image: "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/cba1d85a-5ef4-4ba3-b537-1d24554fe85c/862244ed-3e29-43eb-96f5-d323f9a73651?host=wbd-images.prod-vod.h264.io&amp;partner=beamcom&amp;w=500",
+    image: "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/cba1d85a-5ef4-4ba3-b537-1d24554fe85c/862244ed-3e29-43eb-96f5-d323f9a73651?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/3afede5f-df40-4c61-b13f-f7dd41c3cf45",
     service: "Boosty"
@@ -74,7 +74,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 26м",
-    image: "https://static.okko.tv/images/v4/a0eccb05-2209-4782-bded-b62ef70e9a23?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/a0eccb05-2209-4782-bded-b62ef70e9a23?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/791b4d65-599d-435d-9c1f-82dc8145e8f0",
     service: "Boosty"
@@ -104,7 +104,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 49м",
-    image: "https://static.okko.tv/images/v4/15a51442-c7c6-407b-bb4e-acd3896ce7f5?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/15a51442-c7c6-407b-bb4e-acd3896ce7f5?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/3092f965-9fba-46b6-8ccf-9b561b1af32c",
     service: "Boosty"
@@ -124,7 +124,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 24м",
-    image: "https://static.okko.tv/images/v4/8d32c036-de54-4188-9d43-30322bf7fdd2?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/8d32c036-de54-4188-9d43-30322bf7fdd2?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/31f97213-c34c-4189-97af-54d56c61d779",
     service: "Boosty"
@@ -134,7 +134,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 58м",
-    image: "https://static.okko.tv/images/v4/9395dcaa-9b4b-4d32-9fa0-c7a3ff2ef830?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/9395dcaa-9b4b-4d32-9fa0-c7a3ff2ef830?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/19530629-61f1-433b-95ad-6dc67dfbea4c",
     service: "Boosty"
@@ -154,7 +154,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 59м",
-    image: "https://static.okko.tv/images/v4/3860ce3d-2aac-48bd-8079-9159a7c92bba?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/3860ce3d-2aac-48bd-8079-9159a7c92bba?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/a08a4de3-9a9b-4338-9cbc-3d42ee7511bd",
     service: "Boosty"
@@ -174,7 +174,7 @@ let items = [
     type: "movie",
     rating: 3,
     duration: "2ч 22м",
-    image: "https://static.okko.tv/images/v4/afcfb359-5e92-49af-bd90-abd6feb63f4e?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/afcfb359-5e92-49af-bd90-abd6feb63f4e?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/6bc534d2-1c66-412d-b8ed-c1362c4c91cc",
     service: "Boosty"
@@ -184,7 +184,7 @@ let items = [
     type: "movie",
     rating: 3,
     duration: "2ч 20м",
-    image: "https://static.okko.tv/images/v4/51852498-fd96-486a-b562-df1ec596dda6?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/51852498-fd96-486a-b562-df1ec596dda6?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/6a468516-18ed-4b07-b135-56e504235d17",
     service: "Boosty"
@@ -194,7 +194,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "1ч 51м",
-    image: "https://static.okko.tv/images/v4/fd202d46-26ce-4a4a-9120-c97a0e92e801?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/fd202d46-26ce-4a4a-9120-c97a0e92e801?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/5cd17b4a-1a92-44d6-8d9d-005cc23abf61",
     service: "Boosty"
@@ -224,7 +224,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 1м",
-    image: "https://static.okko.tv/images/v4/207ee851-bc57-4bc5-9816-07f6ba41da94?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/207ee851-bc57-4bc5-9816-07f6ba41da94?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/b742ca30-b731-409b-ac0d-c3a4cff39bfe",
     service: "Boosty"
@@ -234,7 +234,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 13м",
-    image: "https://static.okko.tv/images/v4/64702f76-879e-4afb-b66e-4019f436bf1c?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/64702f76-879e-4afb-b66e-4019f436bf1c?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/29857ad8-972d-44fb-9489-e73702a4bfae",
     service: "Boosty"
@@ -244,7 +244,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 31м",
-    image: "https://static.okko.tv/images/v4/1a3dd169-0fa7-4227-bc60-64b2069b469d?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/1a3dd169-0fa7-4227-bc60-64b2069b469d?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/ca66a739-efbf-486d-a3dc-e7c04be4abf8",
     service: "Boosty"
@@ -254,7 +254,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 49м",
-    image: "https://static.okko.tv/images/v4/b6c0d02b-b059-497f-ab2f-c2fa92ad30d8?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/b6c0d02b-b059-497f-ab2f-c2fa92ad30d8?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/6235103a-7bbe-432f-b905-3c3456558f41",
     service: "Boosty"
@@ -264,7 +264,7 @@ let items = [
     type: "movie",
     rating: 3,
     duration: "2ч 16м",
-    image: "https://static.okko.tv/images/v4/cb90bff6-b22e-45d9-ad05-1b32c8fe58b0?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/cb90bff6-b22e-45d9-ad05-1b32c8fe58b0?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/0d3756b6-e227-499b-b50e-41ed76f7c41e",
     service: "Boosty"
@@ -274,7 +274,7 @@ let items = [
     type: "movie",
     rating: 3,
     duration: "2ч 9м",
-    image: "https://static.okko.tv/images/v4/0b397beb-1817-43e9-8254-56b3976120cc?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/0b397beb-1817-43e9-8254-56b3976120cc?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/34ccf910-8add-4426-9be2-8bb246b5e700",
     service: "Boosty"
@@ -304,7 +304,7 @@ let items = [
     type: "movie",
     rating: 3,
     duration: "2ч 12м",
-    image: "https://static.okko.tv/images/v4/87d592f8-6b93-4a13-be2c-56dd1dc34899?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/87d592f8-6b93-4a13-be2c-56dd1dc34899?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/2bc86285-2cd8-4eea-9f44-5e8213be1f29",
     service: "Boosty"
@@ -324,7 +324,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "1ч 25м",
-    image: "https://static.okko.tv/images/v4/54156cd8-499d-45be-aaa7-fafe805fd887?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/54156cd8-499d-45be-aaa7-fafe805fd887?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/80ee161f-103f-46eb-9677-339216ee29c0",
     service: "Boosty"
@@ -354,7 +354,7 @@ let items = [
     type: "movie",
     rating: 2,
     duration: "1ч 40м",
-    image: "https://static.okko.tv/images/v4/00ac2807-49d1-4ef1-84c8-34b283648b01?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/00ac2807-49d1-4ef1-84c8-34b283648b01?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Данная картина является примером того, что рейтинг обманчив, её рейтинг составляет 6.8, но это все лишь иллюзия!  Посмотрев сие, могу сказать одно, восторга у меня это не вызвало, странные диалоги, плохая операторская работа излишний пафос.  Диалоги являются важной частью любого кино, так как от них зависит передача эмоций персонажа, развитие сюжета, здесь же диалоги оставляют желать лучшего, они не естественные, плохо поставленные.  Качество съемки и композиция кадров -  просто пиздец, камера постоянно трясётся, для передачи экшн эффекта, но это не экшн, это кал!  Далее, чрезмерное использование эпических мотивов, элементов фентези, абсолютное отсутствие баланса между жизненностью и их величием, ГГ зверь передает привет! ПРОХОДНЯК  4/10  ",
     watchUrl: "https://boosty.to/mooniverse/posts/84c9987e-b987-4453-a33e-9de6c971b786",
     service: "Boosty"
@@ -424,7 +424,7 @@ let items = [
     type: "movie",
     rating: 4,
     duration: "1ч 43м",
-    image: "https://static.okko.tv/images/v4/cfb1ac4a-5a49-4140-a624-d670f8c4eecb?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/cfb1ac4a-5a49-4140-a624-d670f8c4eecb?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Что-то странное, что-то непонятное, что-то неприятное и что-то про психов, но весело 7 шиз из 10",
     watchUrl: "https://boosty.to/mooniverse/posts/215d1fd4-d100-42ae-a130-e91f205a846a",
     service: "Boosty"
@@ -454,7 +454,7 @@ let items = [
     type: "movie",
     rating: 4,
     duration: "2ч 1м",
-    image: "https://static.okko.tv/images/v4/30b73923-a9d9-49aa-9eb2-6bcce024910d?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/30b73923-a9d9-49aa-9eb2-6bcce024910d?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://avatars.mds.yandex.net/i?id=58f9bdf1bc4210668daa135a493c0b407b6ac93c-5300391-images-thumbs&n=13",
     service: "Boosty"
@@ -554,7 +554,7 @@ let items = [
     type: "movie",
     rating: 3,
     duration: "1ч 33м",
-    image: "https://static.okko.tv/images/v4/95ff3f57-c3e0-4054-a182-e4e5eec23266?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/95ff3f57-c3e0-4054-a182-e4e5eec23266?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/5e563eaf-b940-42be-9251-44f87baf181f?share=post_link",
     service: "Boosty"
@@ -757,7 +757,7 @@ let items = [
     type: "anime",
     rating: 4,
     duration: "1ч 58м",
-    image: "https://static.okko.tv/images/v4/60e772c6-ea31-4bfb-8c34-40121d27f05c?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/60e772c6-ea31-4bfb-8c34-40121d27f05c?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/bundle/89dc6979-8df1-412e-8565-c7431262010c?isFromShowcase=true",
     service: "Boosty"
@@ -808,7 +808,7 @@ let items = [
     type: "anime",
     rating: 5,
     duration: "2ч 13м",
-    image: "https://static.okko.tv/images/v4/193b5f8b-2638-4d3a-ac50-a5b03f2c29ed?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/193b5f8b-2638-4d3a-ac50-a5b03f2c29ed?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/bundle/2d5770d6-2888-49b2-860b-fb5209a67616?isFromShowcase=true",
     service: "Boosty"
@@ -898,7 +898,7 @@ let items = [
     type: "serial",
     rating: 3,
     duration: "36ч",
-    image: "https://static.okko.tv/images/v4/39f44555-bc17-4ed0-8e09-e8479022816c?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/39f44555-bc17-4ed0-8e09-e8479022816c?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/530f00bb-9c62-4565-81dd-a6af9dd8d077",
     service: "Boosty"
@@ -928,7 +928,7 @@ let items = [
     type: "serial",
     rating: 1,
     duration: "11ч 43м",
-    image: "https://static.okko.tv/images/v4/c14ba8ec-0501-43c2-801e-b7da12378b72?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/c14ba8ec-0501-43c2-801e-b7da12378b72?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/f70a5c72-670a-4a89-9e67-bdbd8dd26751",
     service: "Boosty",
@@ -989,7 +989,7 @@ let items = [
     type: "serial",
     rating: 4,
     duration: "21ч",
-    image: "https://static.okko.tv/images/v4/7a85fa1c-2888-46a8-a96c-636ccc4199c9?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/7a85fa1c-2888-46a8-a96c-636ccc4199c9?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/aff005a4-4f3d-4a74-b384-2bfe2deb82fd?share=post_link",
     service: "Boosty"
@@ -1385,7 +1385,7 @@ let items = [
     type: "game",
     rating: 5,
     duration: "",
-    image: "https://digiseller.mycdn.ink/imgwebp.ashx?idp=6830179&amp;dc=777905373&amp;w=576",
+    image: "https://digiseller.mycdn.ink/imgwebp.ashx?idp=6830179&dc=777905373&w=576",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://www.youtube.com/watch?v=Nhsb3ZuCY5U&list=PLQHOyNho0DjJoHIxhEeYH7RGC_s3OLGPG",
     service: "YouTube"
@@ -1588,7 +1588,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "1ч 29м",
-    image: "https://static.okko.tv/images/v4/5cc2ff32-8001-4e3d-bec5-2ec0348a7d3a?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/5cc2ff32-8001-4e3d-bec5-2ec0348a7d3a?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв утерян в настоящем...",
     watchUrl: "#",
     service: "увы"
@@ -1658,7 +1658,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 29м",
-    image: "https://static.okko.tv/images/v4/bfd1283a-d782-4f48-9c8d-02bebc960adb?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/bfd1283a-d782-4f48-9c8d-02bebc960adb?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Я в шоке, вот это кино! Я прям в восторге",
     watchUrl: "https://boosty.to/mooniverse/posts/f8ef95ff-8254-4b00-ae2e-30cf62a26e72?isFromFeed=true",
     service: "Boosty"
@@ -1678,7 +1678,7 @@ let items = [
     type: "movie",
     rating: 3,
     duration: "2ч 24м",
-    image: "https://static.okko.tv/images/v4/fbec0e44-3864-4a7b-9824-8ff61e2cb4b5?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/fbec0e44-3864-4a7b-9824-8ff61e2cb4b5?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв утерян в настоящем...",
     watchUrl: "#",
     service: "увы"
@@ -1698,7 +1698,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "2ч 33м",
-    image: "https://static.okko.tv/images/v4/3754df76-dfc1-4c59-b9c1-fdcfcdeb38d8?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/3754df76-dfc1-4c59-b9c1-fdcfcdeb38d8?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Шедевр, ну Дени Вильнев. Все, что он снял за последние 10 лет - это шедевр",
     watchUrl: "https://boosty.to/mooniverse/posts/2dd3fe8c-8416-4794-884e-2a6ed49ef36e",
     service: "Boosty"
@@ -1789,7 +1789,7 @@ let items = [
     type: "anime",
     rating: 3,
     duration: "2ч 5м",
-    image: "https://static.okko.tv/images/v4/c3e1dd01-df66-4c1e-ad65-519f804ece2b?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/c3e1dd01-df66-4c1e-ad65-519f804ece2b?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Среднячок, 5/10",
     watchUrl: "https://boosty.to/mooniverse/posts/90d08c4c-818b-4133-b213-200d2be42a45",
     service: "Boosty",
@@ -1852,7 +1852,7 @@ let items = [
     image: "https://static.okko.tv/images/v4/6336ed9d-01da-47dc-8038-1cb6f8159772",
     review: "Не люблю корейские фильмы. Задумка сюжета норм, реализация ужасна",
     watchUrl: "#",
-    service: "Увы",
+    service: "увы",
   },
     {
     title: "Обсессия",
@@ -1869,7 +1869,7 @@ let items = [
     type: "movie",
     rating: 3,
     duration: "2ч 23м",
-    image: "https://static.okko.tv/images/v4/92e951d4-abde-4ce3-b074-cd551db815ee?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/92e951d4-abde-4ce3-b074-cd551db815ee?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Культовый фильм, культовый. Но я оцениваю на 6, очень тяжело понять",
     watchUrl: "https://boosty.to/mooniverse/posts/45c05b3a-4b01-4852-82dd-b72f331a8a7a",
     service: "Boosty",
@@ -1879,7 +1879,7 @@ let items = [
     type: "movie",
     rating: 4,
     duration: "1ч 38м",
-    image: "https://static.okko.tv/images/v4/76bc67f2-ce61-4a3e-a622-15fa8871ff25?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/76bc67f2-ce61-4a3e-a622-15fa8871ff25?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Круто, прям имбулька-красотулька. Мне очень понравилось. Ваще прям кайф, супер мультфильм. Зарядка позитива",
     watchUrl: "https://boosty.to/mooniverse/posts/055bf9b6-8c00-406b-adfc-be73833ee450",
     service: "Boosty",
@@ -1910,7 +1910,7 @@ let items = [
     isDrop: true,
     rating: 3,
     duration: "",
-    image: "https://static.okko.tv/images/v4/4caf88ae-1a0b-4ca9-8a7e-dc805d1ba9be?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/4caf88ae-1a0b-4ca9-8a7e-dc805d1ba9be?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Три сезона скучной, непонятной херни, где истории второстепенных персонажей куда интереснее чем история главного героя. Давайте попробую сериал одной фразой описать: ребёнок что навсегда останется в тени своего отца. Сколько бы мы не пытались его смотреть, прибегали тру фаны этого сериала и умоляли досмотреть до конца третьего сезона, обещая невероятный движ, вот я досмотрел до конца третьего сезона,  заскучал и дропнул))) Почему я должен ждать до 4-го сезона, если шоураннеры не смогли привлечь моё внимание по истечению 30-ти эпизодов? Бредик",
     watchUrl: "https://boosty.to/mooniverse/bundle/163066f5-23ae-4293-a341-43bf46eb33df?isFromShowcasePreview=true",
     service: "Boosty",
@@ -1940,7 +1940,7 @@ let items = [
     type: "movie",
     rating: 5,
     duration: "1ч 36м",
-    image: "https://static.okko.tv/images/v4/d7bc3bab-4f17-4feb-9c2e-0368a0512653?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
+    image: "https://static.okko.tv/images/v4/d7bc3bab-4f17-4feb-9c2e-0368a0512653?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Хорошо. Хорошо, ребят. Отлично",
     watchUrl: "https://boosty.to/mooniverse/posts/9750aeb1-30f4-492b-a7f0-c3cc908b724d",
     service: "Boosty",
@@ -1998,35 +1998,12 @@ let items = [
   },
   ];
 
-// Автогенерация id по порядку
-items = items.map((item, index) => ({
-  ...item,
-  id: index + 1
-}));
+items = items.map((item, index) => ({ ...item, id: index + 1 }));
 
 const SERVICE_THEMES = {
-  YouTube: {
-    accent: "#ff0000",
-    accentHover: "#cc0000",
-    glow: "rgba(255, 0, 0, 0.35)",
-  },
-  Boosty: {
-    accent: "#f15f2c",
-    accentHover: "#c94a1a",
-    glow: "rgba(241, 95, 44, 0.35)",
-  },
+  YouTube: { accent: "#ff0000", accentHover: "#cc0000", glow: "rgba(255, 0, 0, 0.35)" },
+  Boosty: { accent: "#f15f2c", accentHover: "#c94a1a", glow: "rgba(241, 95, 44, 0.35)" },
 };
-
-function getServiceTheme(service) {
-  return SERVICE_THEMES[service];
-}
-
-function cardMarkupForService(item) {
-  const t = getServiceTheme(item.service);
-  if (!t) return { classes: "card", attrs: "" };
-  const style = `--svc-accent: ${t.accent}; --svc-accent-hover: ${t.accentHover}; --svc-glow: ${t.glow}`;
-  return { classes: "card card--service-themed", attrs: ` style="${style}"` };
-}
 
 const typeMap = {
   movie: { label: "Фильм", emoji: "🎬", color: "#f15f2c" },
@@ -2037,46 +2014,56 @@ const typeMap = {
 
 let currentMinRating = 0;
 let searchTerm = "";
+let listScroll = 0;
+let imgObserver = null;
+
+const $ = id => document.getElementById(id);
+
+function escapeHtml(s = '') {
+  return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+const normalize = s => String(s).toLowerCase().replace(/ё/g, 'е').trim();
+const hasRecord = item => item.service.toLowerCase() !== 'увы' && item.watchUrl && item.watchUrl !== '#';
+
+function getServiceTheme(service) { return SERVICE_THEMES[service]; }
+
+function cardMarkupForService(item) {
+  const t = getServiceTheme(item.service);
+  if (!t) return { classes: "card", attrs: "" };
+  const style = `--svc-accent: ${t.accent}; --svc-accent-hover: ${t.accentHover}; --svc-glow: ${t.glow}`;
+  return { classes: "card card--service-themed", attrs: ` style="${style}"` };
+}
 
 function updateSortVisibility() {
-  const sortSelect = document.getElementById('sort-select');
-  if (!sortSelect) return;
-  sortSelect.style.display = currentMinRating === 0 ? '' : 'none';
+  const el = $('sort-select');
+  if (el) el.style.display = currentMinRating === 0 ? '' : 'none';
 }
 
 function updateHeaderOffsetVar() {
   const header = document.querySelector('.header');
-  const headerHeight = header ? header.getBoundingClientRect().height : 0;
-  document.documentElement.style.setProperty('--header-offset', `${headerHeight + 16}px`);
+  const h = header ? header.getBoundingClientRect().height : 0;
+  document.documentElement.style.setProperty('--header-offset', `${h + 16}px`);
 }
 
 function updateSidebarRounded() {
   const sidebar = document.querySelector('.sidebar');
-  if (!sidebar) return;
-  sidebar.classList.toggle('sidebar--rounded', window.scrollY > 100);
+  if (sidebar) sidebar.classList.toggle('sidebar--rounded', window.scrollY > 100);
 }
 
-// Генерация звёзд
 function getStarHTML(rating) {
   let html = '';
-  for (let i = 1; i <= 5; i++) {
-    html += `<span class="${i <= rating ? 'star-filled' : 'star-empty'}">★</span>`;
-  }
+  for (let i = 1; i <= 5; i++) html += `<span class="${i <= rating ? 'star-filled' : 'star-empty'}">★</span>`;
   return html;
 }
 
 function getDropBadgeHTML(item) {
   if (!item.isDrop) return '';
-  return `
-    <div class="drop-badge">
-      <span class="drop-badge-icon">✕</span>
-      <span>Дроп</span>
-    </div>
-  `;
+  return `<div class="drop-badge"><span class="drop-badge-icon">✕</span><span>Дроп</span></div>`;
 }
 
 function createRatingButtons() {
-  const container = document.getElementById('rating-buttons');
+  const container = $('rating-buttons');
   const ratings = [
     { min: 0, text: "Все рейтинги", stars: "★★★★★" },
     { min: 5, text: "5 звёзд", stars: "★★★★★" },
@@ -2087,17 +2074,15 @@ function createRatingButtons() {
   ];
 
   container.innerHTML = ratings.map(r => `
-        <button data-min="${r.min}" class="rating-btn ${r.min === 0 ? 'active' : ''}">
-            <span>${r.text}</span>
-            <span style="color: ${r.min === 0 ? '#888' : '#f15f2c'}">${r.stars}</span>
-        </button>
-    `).join('');
+    <button type="button" data-min="${r.min}" class="rating-btn ${r.min === 0 ? 'active' : ''}" aria-pressed="${r.min === 0}">
+      <span>${r.text}</span>
+      <span class="rating-btn-stars" style="color: ${r.min === 0 ? '#888' : '#f15f2c'}">${r.stars}</span>
+    </button>`).join('');
 
   container.querySelectorAll('button').forEach(btn => {
     btn.addEventListener('click', () => {
       currentMinRating = parseInt(btn.dataset.min);
-      container.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+      setActiveRating(currentMinRating);
       updateSortVisibility();
       renderCards();
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2105,178 +2090,172 @@ function createRatingButtons() {
   });
 }
 
-// Фильтрация элементов
-function getFilteredItems() {
-  const checkedTypes = Array.from(document.querySelectorAll('.type-check:checked')).map(el => el.value);
-
-  return items.filter(item => {
-    const matchSearch = !searchTerm || item.title.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchType = checkedTypes.length === 0 || checkedTypes.includes(item.type);
-    const matchRating = currentMinRating === 0 ? true : item.rating === currentMinRating;
-    return matchSearch && matchType && matchRating;
+function setActiveRating(min) {
+  document.querySelectorAll('#rating-buttons button').forEach(btn => {
+    const on = parseInt(btn.dataset.min) === min;
+    btn.classList.toggle('active', on);
+    btn.setAttribute('aria-pressed', on);
   });
 }
 
-function renderCards() {
-  const filtered = getFilteredItems();
-  const grid = document.getElementById('cards-grid');
-  const sortMode = document.getElementById('sort-select').value;
+function matchesFilters(item, { ignoreType = false } = {}) {
+  const checked = Array.from(document.querySelectorAll('.type-check:checked')).map(el => el.value);
+  const q = normalize(searchTerm);
+  return (!q || normalize(item.title).includes(q))
+    && (ignoreType || checked.length === 0 || checked.includes(item.type))
+    && (currentMinRating === 0 || item.rating === currentMinRating);
+}
 
-  let sorted = [...filtered];
+const getFilteredItems = () => items.filter(i => matchesFilters(i));
+
+function renderCards() {
+  const grid = $('cards-grid');
+  const sortMode = $('sort-select').value;
+
+  const sorted = getFilteredItems();
   if (sortMode === 'id-desc') sorted.sort((a, b) => b.id - a.id);
   if (sortMode === 'rating-desc') sorted.sort((a, b) => b.rating - a.rating);
   if (sortMode === 'rating-asc') sorted.sort((a, b) => a.rating - b.rating);
 
-  let html = '';
-
-  if (sorted.length === 0) {
-    html = `
-      <div class="empty-state">
-        <span class="empty-icon">🔍</span>
-        <p>Ничего не найдено</p>
-      </div>`;
-  } else {
-    sorted.forEach(item => {
+  grid.innerHTML = sorted.length === 0
+    ? `<div class="empty-state"><span class="empty-icon">🔍</span><p>Ничего не найдено</p></div>`
+    : sorted.map(item => {
       const type = typeMap[item.type];
-      const cardUI = cardMarkupForService(item);
-      html += `
-        <div class="${cardUI.classes}"${cardUI.attrs} onclick="showDetail(${item.id})">
+      const ui = cardMarkupForService(item);
+      const title = escapeHtml(item.title);
+      return `
+        <div class="${ui.classes}"${ui.attrs} data-id="${item.id}" role="button" tabindex="0" aria-label="${title}">
           <div class="card-img-wrap">
-            <img data-src="${item.image}" alt="${item.title}" onload="this.classList.add('loaded'); this.closest('.card-img-wrap').classList.add('img-ready')">
+            <img data-src="${escapeHtml(item.image)}" alt="${title}" decoding="async">
           </div>
           <div class="card-body">
             <div class="badge-row">
-              <div class="type-badge" style="background-color: ${type.color}20; color: ${type.color}">
-                ${type.emoji} ${type.label}
-              </div>
+              <div class="type-badge" style="background-color: ${type.color}20; color: ${type.color}">${type.emoji} ${type.label}</div>
               ${getDropBadgeHTML(item)}
             </div>
-            <div class="card-title">${item.title}</div>
+            <div class="card-title">${title}</div>
             <div class="stars">${getStarHTML(item.rating)}</div>
-            <div class="card-duration">${item.duration}</div>
+            ${item.duration ? `<div class="card-duration">${escapeHtml(item.duration)}</div>` : ''}
           </div>
-        </div>
-      `;
-    });
-  }
+        </div>`;
+    }).join('');
 
-  grid.innerHTML = html;
-  document.getElementById('count-badge').textContent = sorted.length;
-
-  if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const img = entry.target;
-          if (img.dataset.src) {
-            img.src = img.dataset.src;
-            delete img.dataset.src;
-          }
-          observer.unobserve(img);
-        }
-      });
-    }, { rootMargin: '200px' });
-
-    grid.querySelectorAll('img[data-src]').forEach(img => observer.observe(img));
-  } else {
-    grid.querySelectorAll('img[data-src]').forEach(img => {
-      img.src = img.dataset.src;
-    });
-  }
+  $('count-badge').textContent = sorted.length;
+  observeImages(grid);
   updateTypeCounts();
 }
 
+function observeImages(grid) {
+  if (imgObserver) imgObserver.disconnect();
+  const imgs = grid.querySelectorAll('img[data-src]');
+  const load = img => { img.src = img.dataset.src; delete img.dataset.src; };
+  if (!('IntersectionObserver' in window)) return imgs.forEach(load);
+  imgObserver = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      if (e.target.dataset.src) load(e.target);
+      imgObserver.unobserve(e.target);
+    });
+  }, { rootMargin: '200px' });
+  imgs.forEach(img => imgObserver.observe(img));
+}
+
 function updateTypeCounts() {
-  const checkedTypes = Array.from(document.querySelectorAll('.type-check:checked')).map(el => el.value);
-  ['movie', 'anime', 'game', 'serial'].forEach(type => {
+  Object.keys(typeMap).forEach(type => {
     const el = document.querySelector(`.type-count[data-type="${type}"]`);
-    if (!el) return;
-    const count = items.filter(item => {
-      const matchSearch = !searchTerm || item.title.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchRating = currentMinRating === 0 ? true : item.rating === currentMinRating;
-      return item.type === type && matchSearch && matchRating;
-    }).length;
-    el.textContent = count;
+    if (el) el.textContent = items.filter(i => i.type === type && matchesFilters(i, { ignoreType: true })).length;
   });
 }
 
 function showDetail(id) {
-  const item = items.find(i => i.id === id);
-  if (!item) return;
-
-  const type = typeMap[item.type];
-
-  document.getElementById('detail-image').src = item.image;
-  document.getElementById('detail-title').textContent = item.title;
-  document.getElementById('detail-stars').innerHTML = getStarHTML(item.rating);
-  document.getElementById('detail-rating-text').innerHTML = `${item.rating} <span style="font-size:1rem; color:#888">/ 5</span>`;
-  document.getElementById('detail-duration').textContent = item.duration;
-  document.getElementById('detail-review').textContent = item.review;
-
-  const typeBadge = document.getElementById('detail-type-badge');
-  typeBadge.textContent = `${type.emoji} ${type.label}`;
-  typeBadge.style.backgroundColor = type.color + '20';
-  typeBadge.style.color = type.color;
-  const detailDropBadge = document.getElementById('detail-drop-badge');
-  if (detailDropBadge) {
-    detailDropBadge.classList.toggle('hidden', !item.isDrop);
-  }
-
-  const watchBtn = document.getElementById('detail-watch-link');
-  watchBtn.href = item.watchUrl;
-  const svcTheme = getServiceTheme(item.service);
-  watchBtn.classList.toggle('watch-btn--service-themed', !!svcTheme);
-  if (svcTheme) {
-    watchBtn.style.setProperty("--svc-accent", svcTheme.accent);
-    watchBtn.style.setProperty("--svc-accent-hover", svcTheme.accentHover);
-    watchBtn.style.setProperty("--svc-glow", svcTheme.glow);
-  } else {
-    watchBtn.style.removeProperty("--svc-accent");
-    watchBtn.style.removeProperty("--svc-accent-hover");
-    watchBtn.style.removeProperty("--svc-glow");
-  }
-
-  if (item.service === "увы") {
-    watchBtn.textContent = "Записи нет";
-  } else {
-    watchBtn.textContent = `Смотреть на ${item.service}`;
-  }
-
-  document.getElementById('home-view').classList.add('hidden');
-  document.getElementById('detail-view').classList.remove('hidden');
-
-  if (window.innerWidth >= 768) {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  } else {
-    const backBtn = document.querySelector('.back-btn');
-    if (backBtn) {
-      const header = document.querySelector('.header');
-      const headerOffset = header ? header.getBoundingClientRect().height : 0;
-      const btnTop = backBtn.getBoundingClientRect().top + window.pageYOffset;
-      const targetTop = Math.max(0, btnTop - headerOffset - 12);
-      window.scrollTo({ top: targetTop, behavior: 'smooth' });
-    }
-  }
+  listScroll = window.scrollY;
+  history.pushState({ detail: id }, '', `#item-${id}`);
+  renderDetail(id);
 }
 
 function hideDetail() {
-  document.getElementById('detail-view').classList.add('hidden');
-  document.getElementById('home-view').classList.remove('hidden');
+  if (history.state && history.state.detail) history.back();
+  else showList();
+}
+
+function showList() {
+  $('detail-view').classList.add('hidden');
+  $('home-view').classList.remove('hidden');
+  document.title = 'MooniHub';
+  window.scrollTo(0, listScroll);
+}
+
+function renderDetail(id) {
+  const item = items.find(i => i.id === id);
+  if (!item) return showList();
+  const type = typeMap[item.type];
+
+  const img = $('detail-image');
+  img.src = item.image;
+  img.alt = item.title;
+  $('detail-title').textContent = item.title;
+  $('detail-stars').innerHTML = getStarHTML(item.rating);
+  $('detail-rating-text').innerHTML = `${item.rating} <span style="font-size:1rem; color:#888">/ 5</span>`;
+
+  const dur = $('detail-duration');
+  dur.textContent = item.duration;
+  dur.classList.toggle('hidden', !item.duration);
+
+  $('detail-review').textContent = item.review || 'Отзыва пока нет';
+
+  const typeBadge = $('detail-type-badge');
+  typeBadge.textContent = `${type.emoji} ${type.label}`;
+  typeBadge.style.backgroundColor = type.color + '20';
+  typeBadge.style.color = type.color;
+  $('detail-drop-badge').classList.toggle('hidden', !item.isDrop);
+
+  const watchBtn = $('detail-watch-link');
+  const svcTheme = getServiceTheme(item.service);
+  watchBtn.classList.toggle('watch-btn--service-themed', !!svcTheme);
+  ['--svc-accent', '--svc-accent-hover', '--svc-glow'].forEach((p, i) => {
+    const v = svcTheme && [svcTheme.accent, svcTheme.accentHover, svcTheme.glow][i];
+    v ? watchBtn.style.setProperty(p, v) : watchBtn.style.removeProperty(p);
+  });
+
+  const ok = hasRecord(item);
+  watchBtn.classList.toggle('watch-btn--disabled', !ok);
+  if (ok) {
+    watchBtn.href = item.watchUrl;
+    watchBtn.rel = 'noopener noreferrer';
+    watchBtn.removeAttribute('aria-disabled');
+    watchBtn.textContent = `Смотреть на ${item.service}`;
+  } else {
+    watchBtn.removeAttribute('href');
+    watchBtn.setAttribute('aria-disabled', 'true');
+    watchBtn.textContent = 'Записи нет';
+  }
+
+  document.title = `${item.title} — MooniHub`;
+  $('home-view').classList.add('hidden');
+  $('detail-view').classList.remove('hidden');
+
+  if (window.innerWidth >= 768) {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  } else {
+    const backBtn = document.querySelector('.back-btn');
+    const header = document.querySelector('.header');
+    const offset = header ? header.getBoundingClientRect().height : 0;
+    const top = backBtn.getBoundingClientRect().top + window.pageYOffset;
+    window.scrollTo({ top: Math.max(0, top - offset - 12), behavior: 'smooth' });
+  }
+}
+
+function routeFromHash() {
+  const m = location.hash.match(/^#item-(\d+)$/);
+  if (m) renderDetail(parseInt(m[1])); else showList();
 }
 
 function resetFilters() {
   currentMinRating = 0;
   searchTerm = '';
-  document.getElementById('search-input').value = '';
+  $('search-input').value = '';
   document.querySelectorAll('.type-check').forEach(cb => cb.checked = false);
-
-  document.querySelectorAll('#rating-buttons button').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.min === '0');
-  });
-
+  setActiveRating(0);
   updateSortVisibility();
   renderCards();
 }
@@ -2284,31 +2263,50 @@ function resetFilters() {
 function init() {
   createRatingButtons();
 
-  document.getElementById('search-input').addEventListener('input', (e) => {
-    searchTerm = e.target.value;
-    renderCards();
+  let searchTimer;
+  $('search-input').addEventListener('input', e => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => { searchTerm = e.target.value; renderCards(); }, 150);
   });
 
-  document.querySelectorAll('.type-check').forEach(cb => {
-    cb.addEventListener('change', renderCards);
+  document.querySelectorAll('.type-check').forEach(cb => cb.addEventListener('change', renderCards));
+
+  const grid = $('cards-grid');
+  const openCard = e => {
+    const card = e.target.closest('.card');
+    if (card) showDetail(parseInt(card.dataset.id));
+  };
+  grid.addEventListener('click', openCard);
+  grid.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openCard(e); }
   });
 
+  grid.addEventListener('load', e => {
+    if (e.target.tagName !== 'IMG') return;
+    e.target.classList.add('loaded');
+    e.target.closest('.card-img-wrap').classList.add('img-ready');
+  }, true);
+  grid.addEventListener('error', e => {
+    if (e.target.tagName !== 'IMG') return;
+    e.target.closest('.card-img-wrap').classList.add('img-ready', 'img-failed');
+  }, true);
+
+  window.addEventListener('popstate', routeFromHash);
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && !$('detail-view').classList.contains('hidden')) hideDetail();
+  });
   window.addEventListener('resize', updateHeaderOffsetVar, { passive: true });
 
-  const scrollTopBtn = document.getElementById('scroll-top-btn');
+  const scrollTopBtn = $('scroll-top-btn');
   const header = document.querySelector('.header');
-
   let ticking = false;
   window.addEventListener('scroll', () => {
     if (ticking) return;
     ticking = true;
-    window.requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
       updateSidebarRounded();
-
       if (header) header.classList.toggle('scrolled', window.scrollY > 10);
-
       if (scrollTopBtn) scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
-
       ticking = false;
     });
   }, { passive: true });
@@ -2317,6 +2315,7 @@ function init() {
   updateSortVisibility();
   updateSidebarRounded();
   renderCards();
+  if (location.hash) routeFromHash();
 }
 
-window.onload = init;
+window.addEventListener('DOMContentLoaded', init);
