@@ -708,3 +708,6 @@ body {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+.metadata-status { margin-top: 8px; font-size: 0.8rem; color: #aaa; }
+.metadata-retry { color: #f15f2c; background: none; border: 0; padding: 4px; cursor: pointer; font: inherit; text-decoration: underline; }
