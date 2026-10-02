@@ -33,7 +33,7 @@ let items = [
     title: "Гарри Поттер и узник Азкабана",
     type: "movie",
     rating: 5,
-    duration: "2ч 22м",
+    duration: "",
     image: "https://static.okko.tv/images/v4/0a7c40da-0825-484b-84d0-bbbad2627d89?presetId=4000&width=1200&height=630&scale=1&quality=80",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://boosty.to/mooniverse/posts/508702f0-4f38-4a3c-9b47-8d04fa83bcbe",
@@ -1498,7 +1498,7 @@ let items = [
     type: "game",
     rating: 5,
     duration: "",
-    image: "https://pic.rutubelist.ru/video/2025-02-08/ba/08/ba08fa563ab8146a52a053a2d69b8ebb.jpg",
+    image: "",
     review: "Отзыв был утерян в прошлом...",
     watchUrl: "https://youtube.com/playlist?list=PLQHOyNho0DjK6PE3k08WiYaK-oQAnJS2J&si=BnT7cucVdaW1OHD4",
     service: "YouTube"
@@ -1637,8 +1637,8 @@ let items = [
     title: "Гангста",
     type: "anime",
     rating: 3,
-    duration: "5ч 25м",
-    image: "https://avatars.mds.yandex.net/i?id=9041f8d6e85f009db2ec2b3675a61c9f_l-13266420-images-thumbs&n=13",
+    duration: "",
+    image: "",
     review: "Аниме нормальное, смотрибельное, прикольный лор, но такая концовка 1 сезона - это ужасно",
     watchUrl: "https://boosty.to/mooniverse/bundle/f8b2dabd-9c4a-4c26-8dd4-8a7c56e4de9e?isFromShowcase=true",
     service: "Boosty"
@@ -1987,18 +1987,359 @@ let items = [
     service: "Boosty",
   },
    {
-    title: "Need For Speed: Most Wanted",
+    title: "Need For Speed: Most Wanted (2005)",
     type: "game",
     rating: 4.5,
     duration: "",
-    image: "https://iwant.games/wp-content/uploads/need-for-speed-most-wanted-cover.webp",
+    image: "",
     review: "Копы душные пиздец",
     watchUrl: "https://www.youtube.com/watch?v=yedQjhOa_O0",
     service: "YouTube",
   },
   ];
 
-items = items.map((item, index) => ({ ...item, id: index + 1 }));
+const AUTO_METADATA = {
+  cachePrefix: 'mooniverse:metadata:v6:',
+  ttl: 7 * 24 * 60 * 60 * 1000,
+  missTtl: 60 * 60 * 1000,
+  timeout: 12000,
+};
+const AUTO_IMAGE_PLACEHOLDER = 'data:image/svg+xml,' + encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450"><rect width="100%" height="100%" fill="#20202a"/><text x="50%" y="50%" text-anchor="middle" fill="#aaa" font-size="26" font-family="sans-serif">Нет обложки</text></svg>'
+);
+const metadataPending = new Map();
+const isAutoValue = value => value == null || String(value).trim() === '' || String(value).trim().toLowerCase() === 'auto';
+const metadataTitle = value => String(value).toLowerCase().replace(/ё/g, 'е').replace(/\([^)]*\)/g, '').replace(/[^\p{L}\p{N}]/gu, '');
+
+let metadataNextRequest = 0;
+async function metadataApi(language, params, retry = true) {
+  const scheduled = Math.max(Date.now(), metadataNextRequest);
+  metadataNextRequest = scheduled + 750;
+  if (scheduled > Date.now()) await new Promise(resolve => setTimeout(resolve, scheduled - Date.now()));
+  const host = language === 'wikidata' ? 'www.wikidata.org' : `${language}.wikipedia.org`;
+  const url = new URL(`https://${host}/w/api.php`);
+  url.search = new URLSearchParams({ format: 'json', origin: '*', ...params });
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), AUTO_METADATA.timeout);
+  try {
+    const response = await fetch(url, { signal: controller.signal, credentials: 'omit' });
+    if ((response.status === 429 || response.status === 503) && retry) {
+      clearTimeout(timeout);
+      const seconds = Number(response.headers.get('Retry-After')) || 5;
+      if (seconds <= 30) {
+        await new Promise(resolve => setTimeout(resolve, Math.max(1, seconds) * 1000));
+        return metadataApi(language, params, false);
+      }
+    }
+    if (!response.ok) throw new Error(`Metadata HTTP ${response.status}`);
+    const data = await response.json();
+    if (data.error) throw new Error(data.error.info || data.error.code);
+    return data;
+  } finally { clearTimeout(timeout); }
+}
+
+function metadataPageMatches(page, item) {
+  if (page.pageprops?.disambiguation !== undefined) return false;
+  const description = `${page.title} ${page.description || ''}`.toLowerCase();
+  const types = {
+    movie: /фильм|film|movie/,
+    serial: /сериал|телесериал|television series|tv series|miniseries/,
+    anime: /аниме|anime|манга|manga|animated.*(?:series|film)|animation/,
+    game: /компьютерн.*игр|видеоигр|video game/,
+  };
+  if (!types[item.type]?.test(description)) return false;
+  if (/серия телесериала|эпизод|сезон|\bepisode\b|\bseason\b/i.test(description)) return false;
+  if (item.type === 'movie' && /серия фильмов|film series|franchise/.test(description)) return false;
+  const year = String(item.searchTitle || item.title).match(/\((\d{4})\)/)?.[1];
+  const foundYears = description.match(/\b(?:19|20)\d{2}\b/g) || [];
+  if (year && foundYears.length && !foundYears.includes(year)) return false;
+  return metadataTitle(page.title) === metadataTitle(item.searchTitle || item.title);
+}
+
+async function findMetadataPage(item) {
+  const hints = { ru: { movie: 'фильм', serial: 'телесериал', anime: 'аниме', game: 'компьютерная игра' }, en: { movie: 'film', serial: 'television series', anime: 'anime', game: 'video game' } };
+  for (const language of ['ru', 'en']) {
+    const explicit = item.wikipedia?.match(/^(ru|en):(.+)$/);
+    if (explicit && explicit[1] !== language) continue;
+    const params = explicit
+      ? { titles: explicit[2], redirects: '1' }
+      : { generator: 'search', gsrsearch: `${item.searchTitle || item.title} ${hints[language][item.type]}`, gsrlimit: '5', gsrnamespace: '0' };
+    const data = await metadataApi(language, { action: 'query', ...params, prop: 'pageimages|pageprops|description', piprop: 'thumbnail', pithumbsize: '1920', pilicense: 'any' });
+    const pages = Object.values(data.query?.pages || {}).filter(p => !('missing' in p));
+    let matches = pages.filter(page => explicit || metadataPageMatches(page, item));
+    if (!explicit && item.type === 'anime') {
+      const adaptations = matches.filter(page => /аниме|anime|animated/i.test(page.description || ''));
+      if (adaptations.length) {
+        const cover = matches.find(page => page.thumbnail)?.thumbnail;
+        matches = adaptations.map(page => ({ ...page, thumbnail: page.thumbnail || cover }));
+      }
+    }
+    if (matches.length > 1) {
+      const exactTitle = value => String(value).toLowerCase().replace(/ё/g, 'е').replace(/[^\p{L}\p{N}]/gu, '');
+      const exact = matches.filter(page => exactTitle(page.title) === exactTitle(item.searchTitle || item.title));
+      if (exact.length === 1) matches = exact;
+    }
+    if (matches.length === 1) return { ...matches[0], language };
+  }
+  return null;
+}
+
+function formatMetadataMinutes(minutes) {
+  const total = Math.round(minutes);
+  if (!Number.isFinite(total) || total <= 0) return '';
+  return [Math.floor(total / 60) ? `${Math.floor(total / 60)}ч` : '', total % 60 ? `${total % 60}м` : ''].filter(Boolean).join(' ');
+}
+
+function metadataEpisodeCount(doc) {
+  for (const row of doc.querySelectorAll('.infobox tr')) {
+    const cells = [...row.children];
+    const label = cells[0]?.textContent.replace(/\s+/g, ' ').trim().toLowerCase();
+    if (!/^(число серий|количество серий|серий|эпизоды|эпизодов|no\. of episodes|episodes)$/.test(label || '')) continue;
+    const cell = cells[1]?.cloneNode(true);
+    if (!cell) continue;
+    cell.querySelectorAll('sup').forEach(el => el.remove());
+    const match = cell.textContent.trim().match(/^(\d+)\s*(?:\(список серий\)|\(list of episodes\))?$/i);
+    if (match) return Number(match[1]);
+  }
+  return 0;
+}
+
+function metadataRuntimeFromHtml(html, episodic, episodeCount) {
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  for (const row of doc.querySelectorAll('.infobox tr')) {
+    const cells = [...row.children];
+    const label = cells[0]?.textContent.trim().toLowerCase();
+    if (!/^(время|длительность|продолжительность|длительность серии|длина серии|running time|runtime)$/.test(label || '')) continue;
+    const cell = cells[1]?.cloneNode(true);
+    if (!cell) continue;
+    cell.querySelectorAll('sup').forEach(el => el.remove());
+    cell.querySelectorAll('br').forEach(el => el.replaceWith('\n'));
+    cell.querySelectorAll('li').forEach(el => el.append('\n'));
+    const lines = cell.textContent.split('\n').map(line => line.replace(/\s+/g, ' ').trim()).filter(Boolean);
+    const runtimes = [...new Set(lines.filter(line => /^\d{1,3}(?:\s*[–—−-]\s*\d{1,3})?\s*(?:мин(?:ут[аы]?)?\.?|minutes?|mins?\.?)\s*$/i.test(line)))];
+    if (runtimes.length > 1) continue;
+    const value = runtimes[0] || cell.textContent.replace(/\s+/g, ' ').trim();
+    const match = value.match(/^(\d{1,3})(?:\s*[–—−-]\s*(\d{1,3}))?\s*(?:мин(?:ут[аы]?)?\.?|minutes?|mins?\.?)\s*$/i);
+    if (!match) continue;
+    const duration = match[2] ? `${match[1]}–${match[2]} мин` : formatMetadataMinutes(Number(match[1]));
+    if (!episodic) return duration;
+    const count = Number(episodeCount) || metadataEpisodeCount(doc);
+    if (!Number.isInteger(count) || count <= 0) return '';
+    const lower = formatMetadataMinutes(Number(match[1]) * count);
+    const upper = match[2] && formatMetadataMinutes(Number(match[2]) * count);
+    return upper ? lower + ' – ' + upper + ' (всего)' : '≈ ' + lower + ' (всего)';
+  }
+  return '';
+}
+
+let animeRequestQueue = Promise.resolve();
+function animeApi(path) {
+  const request = animeRequestQueue.then(async () => {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), AUTO_METADATA.timeout);
+    try {
+      const response = await fetch('https://shikimori.io/api/animes' + path, { signal: controller.signal, credentials: 'omit' });
+      if (!response.ok) throw new Error('Anime metadata HTTP ' + response.status);
+      return await response.json();
+    } finally { clearTimeout(timeout); }
+  });
+  animeRequestQueue = request.catch(() => {}).then(() => new Promise(resolve => setTimeout(resolve, 1000)));
+  return request;
+}
+
+async function fetchAnimeMetadata(item) {
+  const query = item.searchTitle || item.title;
+  const year = String(query).match(/\((\d{4})\)/)?.[1];
+  const results = await animeApi('?' + new URLSearchParams({ search: String(query).replace(/\(\d{4}\)/g, '').trim(), limit: '10' }));
+  if (!Array.isArray(results)) throw new Error('Invalid anime search response');
+  const matches = results.filter(result =>
+    [result.russian, result.name].some(name => name && metadataTitle(name) === metadataTitle(query))
+    && (!year || result.aired_on?.startsWith(year))
+  );
+  if (matches.length !== 1) return {};
+  const match = matches[0];
+  const result = { source: 'https://shikimori.io' + match.url };
+  if (match.image?.original && !/missing|no_image/.test(match.image.original)) {
+    const image = new URL(match.image.original, 'https://shikimori.io');
+    if (image.protocol === 'https:') result.image = image.href;
+  }
+  if (isAutoValue(item.duration)) {
+    try {
+      const details = await animeApi('/' + encodeURIComponent(match.id));
+      const count = details.kind === 'movie' ? 1 : Number(item.episodeCount) || Number(details.status === 'released' ? details.episodes : details.episodes_aired);
+      const duration = formatMetadataMinutes(Number(details.duration) * count);
+      if (duration && count > 0) result.duration = duration + (details.kind === 'movie' ? '' : ' (всего)');
+    } catch (error) {
+      result.partial = true;
+      console.warn('Не удалось получить длительность аниме: ' + item.title, error);
+    }
+  }
+  return result;
+}
+
+async function fetchItemMetadata(item) {
+  let anime = {};
+  if (item.type === 'anime' && !item.wikipedia) {
+    try {
+      anime = await fetchAnimeMetadata(item);
+      if (anime.image && (!isAutoValue(item.duration) || anime.duration)) return anime;
+    } catch (error) {
+      anime.partial = true;
+      console.warn('Каталог аниме недоступен: ' + item.title, error);
+    }
+  }
+  try {
+    const wiki = await fetchWikipediaMetadata(item);
+    return { ...wiki, ...anime, image: anime.image || wiki.image || '', duration: anime.duration || wiki.duration || '' };
+  } catch (error) {
+    if (anime.image || anime.duration) return { ...anime, partial: true };
+    throw error;
+  }
+}
+
+async function fetchWikipediaMetadata(item) {
+  const page = await findMetadataPage(item);
+  if (!page) return {};
+  const result = { image: page.thumbnail?.source || '', source: `https://${page.language}.wikipedia.org/?curid=${page.pageid}` };
+  if (item.type === 'game' || !isAutoValue(item.duration)) return result;
+  const isFilm = item.type === 'movie' || /фильм|\bfilm\b|\bmovie\b/i.test(page.description || '');
+  try {
+    const parsed = await metadataApi(page.language, { action: 'parse', pageid: String(page.pageid), prop: 'text', section: '0', disableeditsection: '1' });
+    result.duration = metadataRuntimeFromHtml(parsed.parse?.text?.['*'] || '', !isFilm, item.episodeCount);
+    if (!result.duration && isFilm && page.pageprops?.wikibase_item) {
+      const id = page.pageprops.wikibase_item;
+      const data = await metadataApi('wikidata', { action: 'wbgetentities', ids: id, props: 'claims' });
+      const claims = (data.entities?.[id]?.claims?.P2047 || []).filter(c => c.rank !== 'deprecated' && !c.qualifiers);
+      const preferred = claims.filter(c => c.rank === 'preferred');
+      const values = [...new Set((preferred.length ? preferred : claims).map(c => {
+        const value = c.mainsnak?.datavalue?.value;
+        const factors = { Q7727: 1, Q11574: 1 / 60, Q25235: 60 };
+        return Number(value?.amount) * factors[value?.unit?.split('/').pop()];
+      }).filter(n => Number.isFinite(n) && n > 0))];
+      if (values.length === 1) result.duration = formatMetadataMinutes(values[0]);
+    }
+  } catch (error) {
+    result.partial = true;
+    console.warn(`Не удалось получить длительность: ${item.title}`, error);
+  }
+  return result;
+}
+
+function metadataPreview1080(source) {
+  const original = new URL(source);
+  if (original.protocol !== 'https:') return '';
+  const url = new URL('https://wsrv.nl/');
+  url.search = new URLSearchParams({ url: original.href, w: '1920', h: '1080', fit: 'cover', a: 'center', output: 'jpg', q: '90' });
+  return url.href;
+}
+
+function getItemMetadata(item) {
+  const key = AUTO_METADATA.cachePrefix + JSON.stringify([item.type, item.title, item.searchTitle, item.wikipedia, item.episodeCount, isAutoValue(item.duration)]);
+  if (metadataPending.has(key)) return metadataPending.get(key);
+  const pending = (async () => {
+    try {
+      const saved = JSON.parse(localStorage.getItem(key));
+      if (saved?.expires > Date.now() && saved.data && typeof saved.data === 'object') return saved.data;
+    } catch {  }
+    const data = await fetchItemMetadata(item);
+    if (item._autoImage !== false && /^https:\/\//.test(data.image || '')) {
+      data.originalImage = data.image;
+      data.image = metadataPreview1080(data.image);
+    }
+    if (!data.partial && data.image && (item.type === 'game' || !isAutoValue(item.duration) || data.duration)) {
+      try {
+        const complete = data.image && (item.type === 'game' || !isAutoValue(item.duration) || data.duration);
+        localStorage.setItem(key, JSON.stringify({ expires: Date.now() + (complete ? AUTO_METADATA.ttl : AUTO_METADATA.missTtl), data }));
+      } catch {  }
+    }
+    return data;
+  })();
+  metadataPending.set(key, pending);
+  pending.finally(() => metadataPending.delete(key)).catch(() => {});
+  return pending;
+}
+
+function updateMetadataElements(item) {
+  const card = document.querySelector(`.card[data-id="${item.id}"]`);
+  if (card) {
+    const img = card.querySelector('img');
+    if (img) {
+      img.closest('.card-img-wrap').classList.remove('img-failed');
+      if (img.dataset.src !== undefined) img.dataset.src = item.image || AUTO_IMAGE_PLACEHOLDER;
+      else img.src = item.image || AUTO_IMAGE_PLACEHOLDER;
+    }
+    let duration = card.querySelector('.card-duration');
+    if (item.duration && !duration) {
+      duration = document.createElement('div');
+      duration.className = 'card-duration';
+      card.querySelector('.card-body').append(duration);
+    }
+    if (duration) duration.textContent = item.duration || '';
+  }
+  if (location.hash === `#item-${item.id}`) {
+    $('detail-image').src = item.image || AUTO_IMAGE_PLACEHOLDER;
+    $('detail-duration').textContent = item.duration || '';
+    $('detail-duration').classList.toggle('hidden', !item.duration);
+  }
+}
+
+function metadataStatusMarkup(item) {
+  if (item._metadataState === 'loading') return '<div class="metadata-status" role="status">Загружаем данные…</div>';
+  if (item._metadataState === 'error' || item._metadataState === 'missing') {
+    const label = item._metadataState === 'error' ? 'Не удалось загрузить данные' : 'Не все данные найдены';
+    return '<div class="metadata-status">' + label + ' <button type="button" class="metadata-retry" data-id="' + item.id + '">Повторить</button></div>';
+  }
+  return '';
+}
+
+function updateMetadataStatus(item) {
+  const card = document.querySelector('.card[data-id="' + item.id + '"]');
+  if (card) {
+    card.querySelector('.metadata-status')?.remove();
+    card.querySelector('.card-body')?.insertAdjacentHTML('beforeend', metadataStatusMarkup(item));
+  }
+}
+
+const itemMetadataRequests = new Map();
+function hydrateItemMetadata(item) {
+  if (itemMetadataRequests.has(item.id)) return itemMetadataRequests.get(item.id);
+  item._metadataState = 'loading';
+  updateMetadataStatus(item);
+  const request = (async () => {
+    try {
+      const data = await getItemMetadata(item);
+      if (item._autoImage && /^https:\/\//.test(data.image || '')) item.image = data.image;
+      if (item._autoDuration && typeof data.duration === 'string') item.duration = data.duration;
+      item._metadataState = (item._autoImage && !item.image) || (item._autoDuration && !item.duration) ? (data.partial ? 'error' : 'missing') : 'done';
+      updateMetadataElements(item);
+    } catch (error) {
+      item._metadataState = 'error';
+      console.warn('Автопоиск недоступен: ' + item.title, error);
+    } finally {
+      updateMetadataStatus(item);
+      itemMetadataRequests.delete(item.id);
+    }
+  })();
+  itemMetadataRequests.set(item.id, request);
+  return request;
+}
+
+async function hydrateMetadata() {
+  const queue = items.filter(item => (item._autoImage && !item.image) || (item._autoDuration && !item.duration));
+  queue.sort((a, b) => Number(!b.image) - Number(!a.image));
+  await Promise.all([0, 1].map(async () => {
+    while (queue.length) await hydrateItemMetadata(queue.shift());
+  }));
+}
+
+items = items.map((item, index) => ({
+  ...item,
+  id: index + 1,
+  _autoImage: isAutoValue(item.image),
+  _autoDuration: item.type !== 'game' && isAutoValue(item.duration),
+  image: isAutoValue(item.image) ? '' : item.image,
+  duration: isAutoValue(item.duration) ? '' : item.duration,
+}));
 
 const SERVICE_THEMES = {
   YouTube: { accent: "#ff0000", accentHover: "#cc0000", glow: "rgba(255, 0, 0, 0.35)" },
@@ -2129,7 +2470,7 @@ function renderCards() {
       return `
         <div class="${ui.classes}"${ui.attrs} data-id="${item.id}" role="button" tabindex="0" aria-label="${title}">
           <div class="card-img-wrap">
-            <img data-src="${escapeHtml(item.image)}" alt="${title}" decoding="async">
+            <img data-src="${escapeHtml(item.image || AUTO_IMAGE_PLACEHOLDER)}" alt="${title}" decoding="async">
           </div>
           <div class="card-body">
             <div class="badge-row">
@@ -2139,6 +2480,7 @@ function renderCards() {
             <div class="card-title">${title}</div>
             <div class="stars">${getStarHTML(item.rating)}</div>
             ${item.duration ? `<div class="card-duration">${escapeHtml(item.duration)}</div>` : ''}
+            ${metadataStatusMarkup(item)}
           </div>
         </div>`;
     }).join('');
@@ -2194,7 +2536,7 @@ function renderDetail(id) {
   const type = typeMap[item.type];
 
   const img = $('detail-image');
-  img.src = item.image;
+  img.src = item.image || AUTO_IMAGE_PLACEHOLDER;
   img.alt = item.title;
   $('detail-title').textContent = item.title;
   $('detail-stars').innerHTML = getStarHTML(item.rating);
@@ -2276,6 +2618,13 @@ function init() {
 
   const grid = $('cards-grid');
   const openCard = e => {
+    const retry = e.target.closest('.metadata-retry');
+    if (retry) {
+      e.stopPropagation();
+      const item = items.find(item => item.id === Number(retry.dataset.id));
+      if (item) void hydrateItemMetadata(item);
+      return;
+    }
     const card = e.target.closest('.card');
     if (card) showDetail(parseInt(card.dataset.id));
   };
@@ -2319,6 +2668,7 @@ function init() {
   updateSidebarRounded();
   renderCards();
   if (location.hash) routeFromHash();
+  void hydrateMetadata();
 }
 
 window.addEventListener('DOMContentLoaded', init);
