@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MooniHub</title>
+  <meta name="description" content="MooniHub — каталог фильмов, аниме, игр и сериалов с оценками и отзывами.">
+  <meta name="theme-color" content="#080808">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="icon"
     href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⭐%3C/text%3E%3C/svg%3E"
     type="image/svg+xml">
@@ -16,7 +21,7 @@
     <div class="container">
       <a href="https://uwwwaga.github.io/Mooniverse/">
         <div class="logo">
-          <img src="img/art6.png" alt="MooniHub" class="logo-icon">
+          <img src="img/art6.png" alt="MooniHub" class="logo-icon" width="74" height="74">
           <div>
             <h1>Mooni<span>Hub</span></h1>
             <p>Фильмы • Аниме • Игры • Сериалы</p>
@@ -26,7 +31,7 @@
 
       <div class="search-container">
         <span class="search-icon">🔍</span>
-        <input type="text" id="search-input" placeholder="Поиск по названию...">
+        <input type="search" id="search-input" placeholder="Поиск по названию..." aria-label="Поиск по названию" autocomplete="off">
       </div>
     </div>
   </header>
@@ -65,18 +70,18 @@
         </label>
       </div>
 
-      <h2>Минимальный рейтинг</h2>
+      <h2>Рейтинг</h2>
       <div id="rating-buttons" class="rating-buttons">
       </div>
 
-      <button class="reset-btn" onclick="resetFilters()">↺ Сбросить фильтры</button>
+      <button type="button" class="reset-btn" onclick="resetFilters()">↺ Сбросить фильтры</button>
     </aside>
 
     <main class="content">
       <div id="home-view">
         <div class="view-header">
           <h2>Все медиа <span id="count-badge" class="count">0</span></h2>
-          <select id="sort-select" onchange="renderCards()">
+          <select id="sort-select" aria-label="Сортировка" onchange="renderCards()">
             <option value="default">По умолчанию</option>
             <option value="id-desc">Недавние</option>
             <option value="rating-desc">По рейтингу ↓</option>
@@ -89,12 +94,12 @@
       </div>
 
       <div id="detail-view" class="detail-view hidden">
-        <button onclick="hideDetail()" class="back-btn">← Вернуться к списку</button>
+        <button type="button" onclick="hideDetail()" class="back-btn">← Вернуться к списку</button>
 
         <div class="detail-content">
           <div class="detail-image-container">
             <img id="detail-image" alt="Обложка">
-            <a id="detail-watch-link" target="_blank" class="watch-btn">
+            <a id="detail-watch-link" target="_blank" rel="noopener noreferrer" class="watch-btn">
               Смотреть на сервисе
             </a>
           </div>
@@ -125,7 +130,7 @@
     </main>
   </div>
 
-  <button class="scroll-top-btn" id="scroll-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Наверх">↑</button>
+  <button type="button" class="scroll-top-btn" aria-label="Наверх" id="scroll-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Наверх">↑</button>
 
   <script src="./script.js"></script>
 </body>
