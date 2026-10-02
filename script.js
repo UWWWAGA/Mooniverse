@@ -1989,10 +1989,10 @@ let items = [
    {
     title: "Need For Speed: Most Wanted",
     type: "game",
-    rating: 4,
+    rating: 4.5,
     duration: "",
     image: "https://iwant.games/wp-content/uploads/need-for-speed-most-wanted-cover.webp",
-    review: "",
+    review: "Копы душные пиздец",
     watchUrl: "https://www.youtube.com/watch?v=yedQjhOa_O0",
     service: "YouTube",
   },
@@ -2053,7 +2053,10 @@ function updateSidebarRounded() {
 
 function getStarHTML(rating) {
   let html = '';
-  for (let i = 1; i <= 5; i++) html += `<span class="${i <= rating ? 'star-filled' : 'star-empty'}">★</span>`;
+  for (let i = 1; i <= 5; i++) {
+    const fill = Math.round(Math.min(1, Math.max(0, rating - (i - 1))) * 100);
+    html += `<span class="star" style="--fill: ${fill}%">★</span>`;
+  }
   return html;
 }
 
@@ -2103,7 +2106,7 @@ function matchesFilters(item, { ignoreType = false } = {}) {
   const q = normalize(searchTerm);
   return (!q || normalize(item.title).includes(q))
     && (ignoreType || checked.length === 0 || checked.includes(item.type))
-    && (currentMinRating === 0 || item.rating === currentMinRating);
+    && (currentMinRating === 0 || Math.round(item.rating) === currentMinRating);
 }
 
 const getFilteredItems = () => items.filter(i => matchesFilters(i));
