@@ -443,8 +443,13 @@ body {
 }
 
 .stars { font-size: 1.2rem; margin-bottom: 5px; letter-spacing: 1px; }
-.star-filled { color: var(--accent); }
-.star-empty { color: #2a2a2a; }
+.star {
+  display: inline-block;
+  color: transparent;
+  background: linear-gradient(90deg, var(--accent) var(--fill, 0%), #2a2a2a var(--fill, 0%));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
 .card-duration { color: var(--text-muted); font-size: 0.83rem; margin-top: 3px; }
 
