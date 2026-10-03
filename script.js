@@ -1794,7 +1794,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/90d08c4c-818b-4133-b213-200d2be42a45",
     service: "Boosty",
   },
-    {
+  {
     title: "BOOK OF HOURS",
     type: "game",
     rating: 4,
@@ -1804,7 +1804,7 @@ let items = [
     watchUrl: "https://www.youtube.com/watch?v=D6O8uSeTZTA",
     service: "YouTube",
   },
-    {
+  {
     title: "Metal Gear Rising: Revengeance",
     type: "game",
     rating: 4,
@@ -1814,7 +1814,7 @@ let items = [
     watchUrl: "#",
     service: "увы",
   },
-    {
+  {
     title: "Dragon Age 2",
     type: "game",
     rating: 4,
@@ -1824,7 +1824,7 @@ let items = [
     watchUrl: "https://www.youtube.com/watch?v=hQBmsW2rsTA",
     service: "YouTube",
   },
-    {
+  {
     title: "Космическая Одиссея",
     type: "movie",
     rating: 3,
@@ -1834,7 +1834,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/e3d6f56c-b2e2-4da0-b05e-ec19c9a4dcc8",
     service: "Boosty",
   },
-    {
+  {
     title: "Вскрытие Демона",
     type: "movie",
     rating: 2,
@@ -1844,7 +1844,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/e3d6f56c-b2e2-4da0-b05e-ec19c9a4dcc8",
     service: "Boosty",
   },
-    {
+  {
     title: "Олдбой 2003",
     type: "movie",
     rating: 2,
@@ -1854,7 +1854,7 @@ let items = [
     watchUrl: "#",
     service: "увы",
   },
-    {
+  {
     title: "Обсессия",
     type: "movie",
     rating: 4,
@@ -1864,7 +1864,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/81e5430a-9956-460e-9024-ca55a7e32ce5",
     service: "Boosty",
   },
-    {
+  {
     title: "Сияние",
     type: "movie",
     rating: 3,
@@ -1874,7 +1874,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/45c05b3a-4b01-4852-82dd-b72f331a8a7a",
     service: "Boosty",
   },
-    {
+  {
     title: "Семейка Крудс",
     type: "movie",
     rating: 4,
@@ -1884,7 +1884,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/055bf9b6-8c00-406b-adfc-be73833ee450",
     service: "Boosty",
   },
-    {
+  {
     title: "Груз 200",
     type: "movie",
     rating: 2,
@@ -1894,7 +1894,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/fc9cd27e-32d5-4d53-afe8-be8a9109ef5d",
     service: "Boosty",
   },
-    {
+  {
     title: "Warhammer 40000: Rogue Trader",
     type: "game",
     rating: 4,
@@ -1965,7 +1965,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/a60f37cd-2204-4228-bcef-ea2277c893fa",
     service: "Boosty",
   },
-   {
+  {
     title: "Пятый Элемент",
     type: "movie",
     rating: 5,
@@ -1975,7 +1975,7 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/8e94659c-31a1-4fdd-8b57-4ad6841e5f12",
     service: "Boosty",
   },
-   {
+  {
     title: "Ёрмунганд",
     type: "anime",
     isDrop: true,
@@ -1986,17 +1986,18 @@ let items = [
     watchUrl: "https://boosty.to/mooniverse/posts/f596e6eb-0696-492b-8679-8491b7171427",
     service: "Boosty",
   },
-   {
+  {
     title: "Need For Speed: Most Wanted (2005)",
     type: "game",
-    rating: 4.5,
+    rating: 4.6,
     duration: "",
     image: "",
     review: "Копы душные пиздец",
     watchUrl: "https://www.youtube.com/watch?v=yedQjhOa_O0",
     service: "YouTube",
+    isDrop: false,
   },
-  ];
+];
 
 const AUTO_METADATA = {
   cachePrefix: 'mooniverse:metadata:v6:',
