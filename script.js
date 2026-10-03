@@ -1989,7 +1989,7 @@ let items = [
   {
     title: "Need For Speed: Most Wanted (2005)",
     type: "game",
-    rating: 4.6,
+    rating: 4.5,
     duration: "",
     image: "",
     review: "Копы душные пиздец",
