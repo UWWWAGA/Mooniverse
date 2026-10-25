@@ -2014,7 +2014,7 @@ let items = [
     rating: 1,
     duration: "",
     image: "",
-    review: "Ужасная гонка в серии, после NFS MW",
+    review: "Ужасная гонка в серии, особенно после NFS MW",
     watchUrl: "",
     service: "Увы",
     isDrop: true,
