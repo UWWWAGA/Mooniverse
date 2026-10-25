@@ -1997,6 +1997,28 @@ let items = [
     service: "YouTube",
     isDrop: false,
   },
+  {
+    title: "Хеллсинг Ультимейт",
+    type: "anime",
+    rating: 4,
+    duration: "",
+    image: "",
+    review: "",
+    watchUrl: "https://boosty.to/mooniverse/posts/97aee0a4-bef2-42d5-b079-522aa41865fd",
+    service: "Boosty",
+    isDrop: false,
+  },
+  {
+    title: "Need for Speed: The Run",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "",
+    review: "Ужасная гонка в серии, после NFS MW",
+    watchUrl: "",
+    service: "Увы",
+    isDrop: true,
+  },
 ];
 
 const AUTO_METADATA = {
