@@ -1998,7 +1998,7 @@ let items = [
     isDrop: false,
   },
   {
-    title: "Хеллсинг Ультимейт",
+    title: "Хеллсинг Ultimate",
     type: "anime",
     rating: 4,
     duration: "",
