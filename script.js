@@ -2002,7 +2002,7 @@ let items = [
     type: "anime",
     rating: 4,
     duration: "",
-    image: "",
+    image: "https://static.okko.tv/images/v4/90d836e5-67c0-42cd-b45d-a330894fbb57?presetId=4000&amp;width=1200&amp;height=630&amp;scale=1&amp;quality=80",
     review: "",
     watchUrl: "https://boosty.to/mooniverse/posts/97aee0a4-bef2-42d5-b079-522aa41865fd",
     service: "Boosty",
