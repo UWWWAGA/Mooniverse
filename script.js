@@ -2019,6 +2019,17 @@ let items = [
     service: "Увы",
     isDrop: true,
   },
+  {
+    title: "Need For Speed: Carbon",
+    type: "game",
+    rating: 5,
+    duration: "",
+    image: "",
+    review: "Путешествие было недолгим, но очень ярким, ибо наверное это мой самый любимый нфс",
+    watchUrl: "https://www.youtube.com/watch?v=c6qHcnKxYQc",
+    service: "YouTube",
+    isDrop: false,
+  },
 ];
 
 const AUTO_METADATA = {
