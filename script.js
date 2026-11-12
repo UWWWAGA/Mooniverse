@@ -2041,6 +2041,17 @@ let items = [
     service: "Boosty",
     isDrop: false,
   },
+  {
+    title: "The first descendant",
+    type: "game",
+    rating: 1,
+    duration: "",
+    image: "",
+    review: "",
+    watchUrl: "",
+    service: "Увы",
+    isDrop: true,
+  },
 ];
 
 const AUTO_METADATA = {
