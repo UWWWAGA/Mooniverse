@@ -2030,6 +2030,17 @@ let items = [
     service: "YouTube",
     isDrop: false,
   },
+  {
+    title: "Властелин колец: Кольца власти",
+    type: "serial",
+    rating: 2,
+    duration: "",
+    image: "",
+    review: "",
+    watchUrl: "https://boosty.to/mooniverse/bundle/6703a3a9-9e8c-46af-8d95-5140f1b819ac?isFromShowcase=true",
+    service: "Boosty",
+    isDrop: false,
+  },
 ];
 
 const AUTO_METADATA = {
