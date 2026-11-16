@@ -2052,6 +2052,17 @@ let items = [
     service: "Увы",
     isDrop: true,
   },
+  {
+    title: "Адский Рай",
+    type: "anime",
+    rating: 1,
+    duration: "",
+    image: "",
+    review: "",
+    watchUrl: "https://boosty.to/mooniverse/posts/77859339-8fd8-483a-b35b-7441047a2f31",
+    service: "Boosty",
+    isDrop: true,
+  },
 ];
 
 const AUTO_METADATA = {
